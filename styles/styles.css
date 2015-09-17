@@ -20,11 +20,6 @@ body
 	padding-left: 10px;
 }
 
-#main-content-clear
-{
-	clear: both;
-}
-
 #topic-title
 {
 	margin-top: 0px;
@@ -55,46 +50,6 @@ body
 	float: left;
 	height: 18px;
 	font-size: 14px;
-}
-
-.sub-menu-link:hover
-{
-	color: yellow;
-}
-	
-.sub-menu-link
-{
-	padding: 0px 10px;
-	font-weight: bold;
-	text-decoration: none;
-	font-family: Arial;
-	font-size: 14px;
-	color: black;
-}
-
-.menu-link-inactive
-{
-	padding: 0px 10px;
-	font-weight: bold;
-	text-decoration: none;
-	font-family: Arial;
-	font-size: 14px;
-	color: black;
-}
-
-.menu-link
-{
-	padding: 0px 10px;
-	font-weight: bold;
-	text-decoration: none;
-	font-family: Arial;
-	font-size: 14px;
-	color: white;
-}
-
-.menu-link:hover
-{
-	color: yellow;
 }
 
 #aside-title-audio
