@@ -49,10 +49,9 @@ function initializeSCORM()
 	// if course_started has a value of 1
 	if( lmsConnected && getStarted == "1" )
 	{
+		// SCORM 1.2
         // always set the status to incomplete
-		oScorm.set( "cmi.success_status", "unknown" );
-		oScorm.set( "cmi.lesson_status", "incomplete" );
-		oScorm.set( "cmi.completion_status", "incomplete" );
+		oScorm.set( "cmi.core.lesson_status", "incomplete" );
 		
 		// change course_started to another value so that this initializeSCORM
 		// does not run the initialization code again; otherwise, this OLM
@@ -62,6 +61,7 @@ function initializeSCORM()
     		
 		// retrieve the LMS values (like user name) here and 
 		// integrate them into your course
+		alert( "Welcome, " + oScorm.get( "cmi.core.student_name" ) + "!" );
 	}
 }
 
