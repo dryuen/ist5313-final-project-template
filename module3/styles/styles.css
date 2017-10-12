@@ -74,3 +74,19 @@ audio
 {
 	width: 230px;
 }
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+li 
+{
+    display: inline;
+    border: ridge;
+    border-color: #808080;
+    background: #c0c0c0;
+}
