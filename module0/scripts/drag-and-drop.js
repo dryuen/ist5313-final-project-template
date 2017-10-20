@@ -1,6 +1,7 @@
 // this holds the current dragger HTML element
 var oCurrentDragger = null;		
 
+
 // this array corresponds to the dragger bays
 // if you create more draggers and dragger bays, increase the argument 
 // the default is 4.
