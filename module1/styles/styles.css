@@ -134,3 +134,30 @@ li a:hover:not(.active)
     background-color: #555;
     color: white;
 }
+
+.previous
+{
+	float: left;
+	width: 100px;
+	vertial-align: top;
+	padding-left: 10px;
+}
+
+.next
+{
+	float: right;
+	width: 600px;
+	vertical-align: top;
+	padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
