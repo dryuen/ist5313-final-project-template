@@ -4,6 +4,8 @@
 		<meta charset="utf-8"/>
 		<title>Let's Practice!</title>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+		<link href="styles/drag-and-drop-styles.css" rel="stylesheet" type="text/css"/>
+		<script language="javascript" src="scripts/drag-and-drop.js"></script>
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
@@ -40,10 +42,49 @@
 					<header>
 						<h1>Let's Practice Using Tables to Solve Systems of Equations!</h1>
 					</header>
-					One problem will follow that allows the student to practice.
-				<img src="images/table_review.jpg" alt="review: using tables to solve systems of equations" 
-					title="review: using tables to solve systems of equations"/>
+	
 				</article>
+				 	<article>
+        	<header>
+            	<h1>Drag and Drop Activity</h1>
+            </header>
+            
+            <section>
+         		<form name="dd1" onsubmit="javascript:processForm(); return false;">  
+				<p>Match each table with its corresponding equation.</p>
+				
+				<div class="column">
+						<h3>Equations</h3>
+					 	<div id="d1" value="0" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>y = x - 5</p></div><br/>  
+				     	<div id="d2" value="1" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>y = -2x + 1</p></div><br/>                        
+				 		 
+				</div>
+				
+				
+				<div class="column">
+						<h3>Tables</h3>
+				     	<div id="db1" value="0" class="draggerbay" 
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"><p>Table Image 1</p></div><br/>                        
+				 		<div id="db2" value="1" class="draggerbay"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"><p>Table Image 2</p></div><br/>  
+					 	  
+				</div>
+				
+				
+				<p id="response">&nbsp;</p>
+				<input type="submit" name="button" value="Submit Your Answer"/><br/>
+				</form>
+            </section>
+
+        </article>
 			</div>
 			<div id="aside-info">
 				<aside>
