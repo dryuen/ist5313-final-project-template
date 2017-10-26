@@ -134,3 +134,30 @@ li a:hover:not(.active)
     background-color: #555;
     color: white;
 }
+
+a
+{
+	text-decoration: none;
+	display: inline-block;
+	padding: 8x 16px;
+}
+
+a:hover
+{
+	background-color: #2649d5;
+	color: white;
+}
+
+.previous
+{
+	background-color: #ddd;
+	color: black;
+	float: left;
+}
+
+.next
+{
+	background-color: #ddd;
+	color: black;
+	float: right;
+}
