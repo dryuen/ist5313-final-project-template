@@ -31,10 +31,9 @@ body
 #navigation
 {
 	background: #666666;	
-	padding: 5px;
-	width: 886px;
-	float: left;
-	height: 18px;
+	display: table-cell;
+	width: 150px;
+	
 }
 
 #sub-navigation
