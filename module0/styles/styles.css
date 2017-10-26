@@ -27,7 +27,17 @@ body
 	padding: 10px;
 	margin: 10px;
 }
+#main-panel
+{
+	background: white;
+	display: table-cell;
+}
 
+#main-layout
+{
+	background: #cccccc;
+	display: table;
+}
 #navigation
 {
 	background: #666666;	
