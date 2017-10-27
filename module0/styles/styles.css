@@ -59,7 +59,7 @@ body
 #aside-title-audio
 {
 	background: #666666;
-	width: 233px;
+	width: 300px;
 	font-size: 14px;
 	font-weight: bold;
 	color: white;
@@ -82,5 +82,5 @@ body
 
 audio
 {
-	width: 230px;
+	width: 250px;
 }
