@@ -58,9 +58,10 @@ body
 
 #aside-title-audio
 {
-	background: #666666;
+	background: #0a0c0a;
 	width: 233px;
-	font-size: 14px;
+	font-size: 16px;
+	font-family:times new roman;
 	font-weight: bold;
 	color: white;
 	padding: 5px;
