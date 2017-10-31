@@ -1,62 +1,53 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <title>Page title here</title>
-    <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Page title here</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css">
+        <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
 
-    <!--- link your other script files here that are specific to this HTML page here --->
-</head>
-<body>
-<header>
-    <!--- put your course header here, it could be a graphic header or text heading --->
-</header>
-<div id="main-content">
-    <section>
-        <div id="main-info">
-            <article>
-                <header>
-                    <h1>Assessment</h1>
-                </header>
+        <!--- link your other script files here that are specific to this HTML page here --->
+    </head>
 
-                <p>Assessment here... maybe drag & drop</p>
+    <body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img alt="Brand" src="images/lotus35.png">
+                </a>
+            </div>
 
-
-            </article>
+            <ul class="nav navbar-nav pull-right">
+                <li><a href="topic-1.html">Welcome<span class="sr-only">(current)</span></a></li>
+                <li><a href="letting-go.html">The Art of Letting Go</a></li>
+                <li><a href="review.html">Review</a></li>
+                <li class="active"><a href="assessment.html">Assessment</a></li>
+                <li><a href="certificate.html">Certificate</a></li>
+            </ul>
         </div>
-        <div id="aside-info">
-            <aside>
-                <header>
-                    <p id="aside-title-audio">Audio</p>
-                </header>
-                <!--- put your audio here --->
-                <br/>
+    </nav>
 
-                <header>
-                    <p id="aside-title-audio">Captions</p>
-                </header>
-                <div id="transcript">
-                    <!--- include your transcript here --->
-                </div>
-            </aside>
+    <div class="container">
+        <div class="col-sm-3">
+            <div class="row">
+                <p>audio here</p>
+                <p>captions here</p>
+            </div>
         </div>
-    </section>
 
-    <div id="sub-navigation">
-        <nav>
-            <a href="topic-1.html">Page 1</a>
-            <a href="assessment.html">Assessment</a>
-            <a href="certificate.html">Certificate</a>
-        </nav>
+        <div class="col-sm-9">
+            <div class="row">
+                <h4>Assessment</h4>
+                <p>You will complete the following multiple choice quiz. In order to move on, you must pass the assessment</p>
+            </div>
+
+            <div class="pull-right">
+                <a href="certificate.html"><button>Next</button></a>
+            </div>
+        </div>
+
     </div>
-    <div id="navigation">
-        <nav>
-            <a href="topic-1.html">Module 0</a>
-            <a href="../module1/topic-1.html">Module 1</a>
-            <a href="../module2/topic-1.html">Module 2</a>
-            <a href="../module3/topic-1.html">Module 3</a>
-        </nav>
-    </div>
-</div>
-</body>
+    </body>
 </html>
+
