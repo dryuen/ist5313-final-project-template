@@ -2,66 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
-    <title>Page title here</title>
+    <title>additional resources</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css">
     <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
 
-    <!--- link your other script files here that are specific to this HTML page here --->
-</head>
+    <additional resources>
+        </head>
 <body>
-<header>
-    <!--- put your course header here, it could be a graphic header or text heading --->
-</header>
-<div id="main-content">
-    <section>
-        <div id="main-info">
-            <article>
-                <header>
-                    <h1> Module 3 Certificate
-                    </h1>
-                </header>
-			<body>
-				<img src="images/certmod3.jpg" alt="Orchestra" title="Orchestra" width="600" height="450"/>
-				</body>
 
-            </article>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                <img alt="Brand" src="images/lotus35.png">
+
+            </a>
+
         </div>
-        <div id="aside-info">
-            <aside>
-                <header>
-                    <p id="aside-title-audio">Audio</p>
-                </header>
-                <!--- put your audio here --->
-                <br/>
 
-                <header>
-                    <p id="aside-title-audio">Captions</p>
-                </header>
-                <div id="transcript">
-                    <!--- include your transcript here --->
-                </div>
-            </aside>
+        <ul class="nav navbar-nav pull-right">
+
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Overview <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="topic-1.html">Welcome</a></li>
+                    <li><a href="outline.html">Outline</a></li>
+                    <li><a href="objectives.html">Objectives</a></li>
+                </ul>
+            </li>
+
+            <li ><a href="holistic.html">Holistic Lifestyle</a></li>
+
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Types of Health <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="mental.html">Mental Health</a></li>
+                    <li><a href="physical.html">Physical Health</a></li>
+                    <li><a href="emotional.html">Emotional Health</a></li>
+                </ul>
+            </li>
+
+            <li><a href="additionalresources.html">Additional Resources<span class="sr-only">(current)</span></a></li>
+            <li><a href="review.html">Review</a></li>
+            <li><a href="assessment.html">Assessment</a></li>
+            <li class="active"><a href="certificate.html">Certificate</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="col-sm-3">
+        <div class="row">
+            <p>audio here</p>
+            <p>captions here</p>
         </div>
-    </section>
+    </div>
 
-    <div id="sub-navigation">
-        <nav>
-            <a href="topic-1.html">Page 1</a>
-            <a href="holistic.html">Holistic Approach</a>
-            <a href="mental.html">Mental Health</a>
-            <a href="physical.html">Physical Health</a>
-            <a href="emotional.html">Emotional Health</a>
-            <a href="assessment.html">Assessment</a>
-            <a href="certificate.html">Certificate</a>
-        </nav>
+    <div class="col-sm-9">
+        <div class="row">
+            <h4>Certificate</h4>
+        </div>
+
     </div>
-    <div id="navigation">
-        <nav>
-            <a href="../module0/topic-1.html">Module 0</a>
-            <a href="../module1/topic-1.html">Module 1</a>
-            <a href="../module2/topic-1.html">Module 2</a>
-            <a href="topic-1.html">Module 3</a>
-        </nav>
-    </div>
+
 </div>
+
+<script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </body>
+
 </html>
