@@ -5,72 +5,127 @@
     <title>additional resources</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css">
     <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
-
-    <additional resources>
-        </head>
+</head>
 <body>
 
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">
-                <img alt="Brand" src="images/lotus35.png">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img alt="Brand" src="images/lotus35.png">
+                </a>
+            </div>
 
-            </a>
+            <ul class="nav navbar-nav pull-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Overview <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="topic-1.html">Welcome</a></li>
+                        <li><a href="outline.html">Outline</a></li>
+                        <li><a href="objectives.html">Objectives</a></li>
+                    </ul>
+                </li>
 
+                <li ><a href="holistic.html">Holistic Lifestyle</a></li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Types of Health <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="mental.html">Mental Health</a></li>
+                        <li><a href="physical.html">Physical Health</a></li>
+                        <li><a href="emotional.html">Emotional Health</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="additionalresources.html">Additional Resources<span class="sr-only">(current)</span></a></li>
+                <li><a href="review.html">Review</a></li>
+                <li class="active"><a href="assessment.html">Assessment</a></li>
+                <!--<li><a href="certificate.html">Certificate</a></li>-->
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="col-sm-3">
+            <div class="row">
+                <p>audio here</p>
+                <p>captions here</p>
+            </div>
         </div>
 
-        <ul class="nav navbar-nav pull-right">
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Overview <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a href="topic-1.html">Welcome</a></li>
-                    <li><a href="outline.html">Outline</a></li>
-                    <li><a href="objectives.html">Objectives</a></li>
-                </ul>
-            </li>
+        <div class="col-sm-9">
+            <div class="row">
+                <h4>Assessment</h4>
+                <p>You will complete the following multiple choice quiz. In order to move on, you must pass the assessment</p>
+            </div>
 
-            <li ><a href="holistic.html">Holistic Lifestyle</a></li>
+            <div class="row">
+                <form id="quiz3" name="quiz3" onsubmit="javascript: processQuiz(); return false;">
 
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Types of Health <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a href="mental.html">Mental Health</a></li>
-                    <li><a href="physical.html">Physical Health</a></li>
-                    <li><a href="emotional.html">Emotional Health</a></li>
-                </ul>
-            </li>
+                    <div class="form-group"> <!-- Question 1!-->
+                        <label for="question1" class="control-label">1. What is this course about?</label>
+                        <div class="radio">
+                            <label><input type="radio" id="question1" name="question1" value="0" >Changing your life</label>
+                        </div>
 
-            <li><a href="additionalresources.html">Additional Resources<span class="sr-only">(current)</span></a></li>
-            <li><a href="review.html">Review</a></li>
-            <li class="active"><a href="assessment.html">Assessment</a></li>
-            <li><a href="certificate.html">Certificate</a></li>
-        </ul>
+                        <div class="radio">
+                            <label><input type="radio" id="question1" name="question1" value="1">Improving your math skills</label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question1"  name="question1" value="2">Learning another language</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group"> <!-- Question 2!-->
+                        <label for="question2" class="control-label">2. What topics will be covered in this course?</label>
+                        <div class="radio">
+                            <label><input type="radio" id="question2" name="question2" value="0" >
+                                Decluttering your environment, Finding a job, being a better friend
+                            </label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question2" name="question2" value="1">
+                                Fixing your resume, Becoming a runner, Adopting a pet
+                            </label>
+                        </div>
+
+                        <div class="radio">
+                            <label>
+                                <input type="radio" id="question2"  name="question2" value="2">
+                                Reducing debt, Decluttering your life, Improving your health
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group"> <!-- Question 3!-->
+                        <label for="question3" class="control-label">3. In order to move on, this quiz must be completed</label>
+                        <div class="radio">
+                            <label><input type="radio" id="3" name="question3" value="0" >True</label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question3" name="question3" value="1">False</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group"> <!-- Submit button !-->
+                        <button class="btn btn-primary " name="submit" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="row text-center">
+                <a href="certificate.html"><h5 id="certificate-link" style="display: none;">Click here for your certificate</h5></a>
+            </div>
+
+        </div>
     </div>
-</nav>
 
-<div class="container">
-    <div class="col-sm-3">
-        <div class="row">
-            <p>audio here</p>
-            <p>captions here</p>
-        </div>
-    </div>
-
-    <div class="col-sm-9">
-        <div class="row">
-            <h4>Assessment</h4>
-        </div>
-
-        <div class="pull-right">
-            <a href="certificate.html"><button>Next</button></a>
-        </div>
-    </div>
-
-</div>
-
-<script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="scripts/quiz3.js"></script>
 
 </body>
 

@@ -1,3 +1,6 @@
+sessionStorage.setItem( "somekey", "somevalue" );
+var value = sessionStorage.getItem( "somekey" );
+
 // this file holds any scripts that have to do with communicating with the learning management system (LMS)
 
 // define a SCORM object to interface with LMS
@@ -26,6 +29,18 @@ function startCourse()
     		sessionStorage.setItem( "course_started", "1" );
     			
 			// set the values you want to persist throughout the website here
+            sessionStorage.setItem("topic1Visited", "unvisited");
+            sessionStorage.setItem("topic2Visited", "unvisited");
+            sessionStorage.setItem("topic3Visited", "unvisited");
+            sessionStorage.setItem("topic4Visited", "unvisited");
+            sessionStorage.setItem("topic5Visited", "unvisited");
+            sessionStorage.setItem("topic6Visited", "unvisited");
+            sessionStorage.setItem("topic7Visited", "unvisited");
+            sessionStorage.setItem("topic8Visited", "unvisited");
+            sessionStorage.setItem("topic9Visited", "unvisited");
+
+
+
         }
 	}
 	
@@ -77,4 +92,78 @@ function finishCourse()
 {
 	oScorm.save();
 	oScorm.quit();
+}
+
+function visitTopic1()
+{
+    sessionStorage.setItem( "topic1Visited", "visited" );
+    checkAllVisited();
+}
+
+function visitTopic2()
+{
+    sessionStorage.setItem( "topic2Visited", "visited" );
+    checkAllVisited();
+}
+
+function visitTopic3()
+{
+    sessionStorage.setItem( "topic3Visited", "visited" );
+    checkAllVisited();
+}
+
+function visitTopic4()
+{
+    sessionStorage.setItem( "topic4Visited", "visited" );
+    checkAllVisited();
+}
+
+function visitTopic5()
+{
+    sessionStorage.setItem( "topic5Visited", "visited" );
+    checkAllVisited();
+}
+
+function visitTopic6()
+{
+    sessionStorage.setItem( "topic6Visited", "visited" );
+    checkAllVisited();
+}
+
+function visitTopic7()
+{
+    sessionStorage.setItem( "topic7Visited", "visited" );
+    checkAllVisited();
+}
+
+function visitTopic8()
+{
+    sessionStorage.setItem( "topic8Visited", "visited" );
+    checkAllVisited();
+}
+
+function visitTopic9()
+{
+    sessionStorage.setItem( "topic9Visited", "visited" );
+    checkAllVisited();
+}
+
+function checkAllVisited(){
+    var t1 = sessionStorage.getItem("topic1Visited");
+    var t2 = sessionStorage.getItem("topic2Visited");
+    var t3 = sessionStorage.getItem("topic3Visited");
+    var t4 = sessionStorage.getItem("topic4Visited");
+    var t5 = sessionStorage.getItem("topic5Visited");
+    var t6 = sessionStorage.getItem("topic6Visited");
+    var t7 = sessionStorage.getItem("topic7Visited");
+    var t8 = sessionStorage.getItem("topic8Visited");
+    var t9 = sessionStorage.getItem("topic9Visited");
+
+    if(t2 =="visited" && t3 == "visited" && t4 == "visited" && t5 == "visited" && t6 == "visited" && t7 == "visited" &&
+		t8 == "visited" && t9 == "visited"){
+
+        document.getElementById("content-frame").contentWindow.document.getElementById("quiz-link").style.display="block";
+        // document.getElementById("content-frame").contentWindow.document.getElementById("quiz-button").style.display="block";
+
+    }
 }
