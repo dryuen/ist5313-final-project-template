@@ -38,12 +38,13 @@ body
 {
 	background: #cccccc;
 	display: table;
+	
 }
 #navigation
 {
 	background: #666666;	
 	display: table-cell;
-	width: 150px;
+	width: 250px;
 	
 }
 
