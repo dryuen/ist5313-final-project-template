@@ -16,6 +16,7 @@ h2
 	text-align: center;
 	background: #2649d5;
 	color: white;
+	border-radius: 25px;
 }
 
 body
@@ -149,12 +150,14 @@ li a.active
 {
     background-color: #0547f5;
     color: white;
+    border-radius: 15px;
 }
 
 li a:hover:not(.active) 
 {
     background-color: #555;
     color: white;
+    border-radius: 15px;
 }
 
 a
@@ -166,8 +169,10 @@ a
 
 a:hover
 {
-	background-color: #2649d5;
+	background-color: #555;
 	color: white;
+	font-weight: bold;
+	border-radius: 10px;
 }
 
 .previous
@@ -182,7 +187,6 @@ a:hover
 	background-color: #ddd;
 	color: black;
 	float: right;
-
 }
 
 footer

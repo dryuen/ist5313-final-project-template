@@ -1,15 +1,39 @@
+header
+{
+	background: #9b9b9b;
+}
+
+h1
+{
+	font-size: 30px;
+	text-align: left;
+	border-top: double 5px #000080;
+	border-bottom: double 5px #000080;
+}
+
+h2
+{
+	text-align: center;
+	background: #2649d5;
+	color: white;
+	border-radius: 25px;
+}
+
 body
 {
 	margin: 0px;
 	padding: 0px;
-	font-size: 12px;
-	font-family: Arial;
+	font-size: 14px;
+	font-family: helvetica;
+	background: #c0c0c0;
 }
 
 #main-info
 {
-	float: left;
-	width: 627px;
+	
+	width: 700px;
+	margin: auto;
+	display: block;
 }
 
 #aside-info
@@ -22,21 +46,18 @@ body
 	
 #main-content
 {
-	height: 368px;
-	padding-left: 20px;
-	margin: 20px;
+
 	display: table-cell;
+	background: #EAEff9;
 }
 
 #navigation
 {
-	background: #666666;	
-	padding: none;
-	width: 75px;
-	float: left;
+	background: #c0c0c0;	
+	width: 110px;
 	display: table-cell;
 	text-align: left;
-	vertical-align: top;
+	vertical-align: top;	
 }
 
 .navigation-text
@@ -59,8 +80,8 @@ body
 	padding: 5px;
 	width: 886px;
 	float: left;
-	height: 18px;
-	font-size: 14px;
+	height: 20px;
+	font-size: 16px;
 }
 
 #aside-title-audio
@@ -97,9 +118,11 @@ ul
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 90px;
-    background-color: #f1f1f1;
-    border: 1px solid #555;
+    width: 110px;
+    background-color: #c0c0c0;
+    border: none;
+    height: 100%;
+    position: fixed;
 }
 
 li 
@@ -127,12 +150,14 @@ li a.active
 {
     background-color: #0547f5;
     color: white;
+    border-radius: 15px;
 }
 
 li a:hover:not(.active) 
 {
     background-color: #555;
     color: white;
+    border-radius: 15px;
 }
 
 a
@@ -144,8 +169,10 @@ a
 
 a:hover
 {
-	background-color: #2649d5;
+	background-color: #555;
 	color: white;
+	font-weight: bold;
+	border-radius: 10px;
 }
 
 .previous
@@ -160,4 +187,15 @@ a:hover
 	background-color: #ddd;
 	color: black;
 	float: right;
+}
+
+footer
+{
+	text-align: center;
+}
+
+.round 
+{
+    border: none;
+    border-radius: 10px;
 }

@@ -9,7 +9,7 @@
 {
 	border: solid thin #000000;
 	background: #999999;
-	
+	border-radius: 15px;
 	text-align: center;
 	height: 275px;
 	width: 275px;
@@ -27,6 +27,7 @@
 .draggerbay
 {
 	border: dashed thin #000000;
+	border-radius: 15px;
 	height: 275px;
 	width: 275px;
 	text-align: center;

@@ -10,11 +10,15 @@
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
 	<body>
+		<div id="top">
 		<header>
 			<!--- put your course header here, it could be a graphic header or text heading --->
-			<h1>Al-Zebra: Algebra I Systems of Equations (Graphs)</h1>
+			<h1><img src="images/corner-logo2.png" alt="Al-Zebra logo" title="Al-Zebra logo" 
+			style="float:auto"/> Module 2: Using Graphs to Solve Systems of Equations</h1>
 		</header>
+		</div>
 		
+		<div id="main-layout">
 		<div id="navigation">
 			<nav>
 				<!--- include your navigation links here --->
@@ -35,21 +39,19 @@
 			</nav>
 		</div>
 		
-		<div id="main-content">
+		<div id="main-content" class="round">
 		<section>
 			<div id="main-info">
 				<article>
-					<header>
-						<h1>Let's Practice Using Graphs to Solve Systems of Equations!</h1>
-					</header>
-			
+					
+					<h2>Practice Using Graphs to Solve Systems of Equations</h2>
+								
 				</article>
 				
-					<article>
-        	<header>
-            	<h1>Drag and Drop Activity</h1>
-            </header>
-            
+			<article>
+        	
+            	<h3>Drag and Drop Activity</h3>
+                        
             <section>
          		<form name="dd1" onsubmit="javascript:processForm(); return false;">  
 				<p>Match each graph with its corresponding equation.</p>
@@ -81,7 +83,7 @@
 				
 				
 				<p id="response">&nbsp;</p>
-				<input type="submit" name="button" value="Submit Your Answer"/><br/>
+				<input type="submit" name="button" value="Submit Your Answer"/><br/><br/>
 				</form>
             </section>
 
@@ -114,11 +116,13 @@
 		</div>
 		
 		</div>
-	<!--  
-	  <footer>
-	  			<a href="instructor-review.html">Previous</a>
-	    	  	<a href="example1.html">Next</a>
-	  </footer>
-	--> 	
+		</div>
+		
+		<div id="bottom">
+	 		<footer>
+	 		<p>Training provided by Al-Zebra, Inc.</p>
+	 		</footer>
+	 	</div>
+	
 	</body>
 </html>
