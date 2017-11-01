@@ -3,9 +3,9 @@
 // grade the quiz.
 function processQuiz()
 {
-    var answer1 = document.forms.quiz1.question1.value;
-    var answer2 = document.forms.quiz1.question2.value;
-    var answer3 = document.forms.quiz1.question3.value;
+    var answer1 = document.forms.quiz0.question1.value;
+    var answer2 = document.forms.quiz0.question2.value;
+    var answer3 = document.forms.quiz0.question3.value;
 
     var counter = 0;		// This variable keeps track of the number of correct answers
 
