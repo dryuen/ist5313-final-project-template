@@ -19,11 +19,11 @@ function startCourse()
 		// then this is the first time we are running the course
         if( !sessionStorage.getItem( "course_started" ) )
         {
-        	// clear the session storage
+        		// clear the session storage
             sessionStorage.clear();
             // set the "key" by giving it a value.  all values are strings!
             // course_started indicated that this OLM has started
-    		sessionStorage.setItem( "course_started", "1" );
+    			sessionStorage.setItem( "course_started", "1" );
     			
 			// set the values you want to persist throughout the website here
         }
