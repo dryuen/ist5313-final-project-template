@@ -1,6 +1,6 @@
 body
 {
-	background: #990000;
+	background: #800000;
 	margin: 0px;
 	padding: 0px;
 	font-size: 12px;
@@ -58,9 +58,16 @@ body
 
 #aside-title-audio
 {
+<<<<<<< HEAD
 	background: #666666;
 	width: 300px;
 	font-size: 14px;
+=======
+	background: #0a0c0a;
+	width: 233px;
+	font-size: 16px;
+	font-family:times new roman;
+>>>>>>> branch 'f17-group3' of https://github.com/dryuen/ist5313-final-project-template
 	font-weight: bold;
 	color: white;
 	padding: 5px;
