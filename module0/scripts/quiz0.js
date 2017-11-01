@@ -31,9 +31,9 @@ function processQuiz()
     var grade = percentage * 100;
 
     if(grade < 70) {
-        alert( "Your score is " + grade + "%. You must try again" );
+        alert( "Your score is " + grade + "%. You must score a 70% or higher to continue" );
     } else{
-        alert( "Your score is " + grade + "%. Congratualations!" );
+        alert( "Your score is " + grade + "%. Congratulations!" );
         $("#certificate-link").css("display", "block");
     }
 

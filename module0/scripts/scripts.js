@@ -1,3 +1,6 @@
+sessionStorage.setItem( "somekey", "somevalue" );
+var value = sessionStorage.getItem( "somekey" );
+
 // this file holds any scripts that have to do with communicating with the learning management system (LMS)
 
 // define a SCORM object to interface with LMS
@@ -26,6 +29,10 @@ function startCourse()
     		sessionStorage.setItem( "course_started", "1" );
     			
 			// set the values you want to persist throughout the website here
+            sessionStorage.setItem("topic1Visited", "unvisited");
+            sessionStorage.setItem("topic2Visited", "unvisited");
+            sessionStorage.setItem("topic3Visited", "unvisited");
+
         }
 	}
 	
@@ -78,3 +85,38 @@ function finishCourse()
 	oScorm.save();
 	oScorm.quit();
 }
+
+
+
+function visitTopic1()
+{
+    sessionStorage.setItem( "topic1Visited", "visited" );
+    checkAllVisited();
+}
+
+function visitTopic2()
+{
+    sessionStorage.setItem( "topic2Visited", "visited" );
+    checkAllVisited();
+}
+
+function visitTopic3()
+{
+    sessionStorage.setItem( "topic3Visited", "visited" );
+    checkAllVisited();
+}
+
+
+
+function checkAllVisited(){
+    var t1 = sessionStorage.getItem("topic1Visited");
+    var t2 = sessionStorage.getItem("topic2Visited");
+    var t3 = sessionStorage.getItem("topic3Visited");
+
+
+    if(t2 =="visited" && t3 == "visited"){
+        document.getElementById("content-frame").contentWindow.document.getElementById("quiz-link").style.display="block";
+
+    }
+}
+
