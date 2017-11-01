@@ -199,3 +199,8 @@ footer
     border: none;
     border-radius: 10px;
 }
+
+#quiz-link
+{
+	display: none;
+}
