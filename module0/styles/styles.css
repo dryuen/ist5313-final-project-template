@@ -7,6 +7,10 @@ body
 	font-family: Georgia;
 }
 
+h2
+{
+	font-size: 30px;
+}
 
 #main-info
 {
@@ -37,7 +41,7 @@ body
 
 #main-layout
 {
-	background: #5f102c;
+	background: #993333;
 	display: table;
 	text-align: center;
 	width: 1200px;
@@ -53,12 +57,12 @@ a
 
 a:hover
 {
-	color: green;
+	color: #5f102c;
 }
 
 #navigation
 {
-	background: #5f102c;	
+	background: #993333;	
 	color: white; 
 	display: table;
 	width: 150px;
