@@ -1,6 +1,6 @@
 body
 {
-	background: #800000;
+	background: white;
 	margin: 0px;
 	padding: 0px;
 	font-size: 12px;
@@ -9,7 +9,8 @@ body
 
 h2
 {
-	font-size: 30px;
+	font-size: 35px;
+	color: #cc8033
 }
 
 #main-info
@@ -41,7 +42,7 @@ h2
 
 #main-layout
 {
-	background: #993333;
+	background: #e4d1d1;
 	display: table;
 	text-align: center;
 	width: 1200px;
@@ -50,20 +51,19 @@ h2
 a
 {
 	text-decoration: none;
-	color: white;
+	color: #cc8033;
 	font-size: 18px;
 	text-align: center;
 }
 
 a:hover
 {
-	color: #5f102c;
+	color: #996666;
 }
 
 #navigation
 {
-	background: #993333;	
-	color: white; 
+	background: #e4d1d1;	 
 	display: table;
 	width: 150px;
 	text-align: left;
@@ -75,12 +75,11 @@ a:hover
 {
 	width: 320px;
 	font-size: 14px;
-	background: #0a0c0a;
-	font-size: 16px;
-	font-family:times new roman;
+	background: #e4d1d1;
+	font-size: 18px;
+	font-family:georgia;
 	font-weight: bold;
-	font-weight: italics;
-	color: white;
+	color: #cc8033;
 	padding: 5px;
 }
 
