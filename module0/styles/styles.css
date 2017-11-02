@@ -60,21 +60,14 @@ body
 
 #aside-title-audio
 {
-<<<<<<< HEAD
-	background: #666666;
 	width: 300px;
 	font-size: 14px;
-=======
 	background: #0a0c0a;
 	width: 250px;
 	font-size: 16px;
 	font-family:times new roman;
-<<<<<<< HEAD
->>>>>>> branch 'f17-group3' of https://github.com/dryuen/ist5313-final-project-template
 	font-weight: bold;
-=======
 	font-weight: italics;
->>>>>>> branch 'f17-group3' of https://github.com/dryuen/ist5313-final-project-template
 	color: white;
 	padding: 5px;
 }
