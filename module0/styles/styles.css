@@ -10,8 +10,11 @@ body
 h2
 {
 	font-size: 35px;
-	color: #cc8033
+	color: #cc8033;
+	text-align: left;
 }
+
+
 
 #main-info
 {
@@ -74,6 +77,7 @@ a:hover
 #aside-title-audio
 {
 	width: 320px;
+	text-align: center;
 	font-size: 14px;
 	background: #e4d1d1;
 	font-size: 18px;
