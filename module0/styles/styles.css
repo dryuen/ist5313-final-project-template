@@ -32,38 +32,46 @@ body
 {
 	background: white;
 	display: table-cell;
+	
 }
 
 #main-layout
 {
-	background: #cccccc;
+	background: #5f102c;
 	display: table;
-	
+	text-align: center;
+	width: 1200px;
 }
+
+a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+}
+
+a:hover
+{
+	color: green;
+}
+
 #navigation
 {
-	background: #666666;	
-	display: table-cell;
-	width: 250px;
+	background: #5f102c;	
+	color: white; 
+	display: table;
+	width: 150px;
+	text-align: left;
 	
 }
 
-#sub-navigation
-{
-	background: #dddddd;	
-	padding: 5px;
-	width: 886px;
-	float: left;
-	height: 18px;
-	font-size: 14px;
-}
 
 #aside-title-audio
 {
-	width: 300px;
+	width: 320px;
 	font-size: 14px;
 	background: #0a0c0a;
-	width: 250px;
 	font-size: 16px;
 	font-family:times new roman;
 	font-weight: bold;
