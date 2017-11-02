@@ -6,6 +6,7 @@
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
 		<link href="styles/drag-and-drop-styles.css" rel="stylesheet" type="text/css"/>
 		<script language="javascript" src="scripts/drag-and-drop.js"></script>
+		<script language="javascript" src="scripts/scripts.js"></script>
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
@@ -102,22 +103,34 @@
 
         </article>
 			</div>
-			<!--- <div id="aside-info"> --->
-				 <!---<aside> --->
-				 <!---	<header> --->
-					 <!---	<p id="aside-title-audio">Audio</p> --->
-				 <!---	</header>  --->
-					<!--- put your audio here --->
-				 <!---	<br/> --->
-					
-			 <!---		<header> --->
-			 <!---			<p id="aside-title-audio">Captions</p> --->
-			 <!---		</header> --->
-			 <!---	<div id="transcript"> --->
-					<!--- include your transcript here --->
-			 <!---	</div> --->
-		 <!---		</aside> --->
-		 <!---	</div> --->
+			<div id="aside-info">
+				 <aside>
+				 <div id="headerDiv">
+         			<div id="titleText">Audio</div><a id="myHeader" 
+         			href="javascript:toggle2('myContent','myHeader');" >Expand</a>
+   					</div>
+   					<div style="clear:both;"></div>
+    				<div id="contentDiv">
+         			<div id="myContent" style="display: none;">Audio media file goes here.</div>
+    				</div>
+    				
+    				<br/>
+								 		
+				 	<div id="headerDiv2">
+         			<div id="titleText2">Captions</div><a id="myHeader2" 
+         			href="javascript:toggle2('myContent2','myHeader2');" >Expand</a>
+   					</div>
+   					<div style="clear:both;"></div>
+    				<div id="contentDiv2">
+         			<div id="myContent2" style="display: none;">
+         			<p>Practice using tables to solve systems of equations.</p>
+         			<p>Drag and drop activity. Match each equation with it's corresponding table.
+         			Then check your answer to see how you did by clicking the "Submit Your Answer"
+         			button on the bottom of this page.</p>
+         			</div>
+         			</div>
+		 		  </aside>
+			</div>
 		</section>
 		
 		<div id="sub-navigation">

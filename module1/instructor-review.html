@@ -4,6 +4,7 @@
 		<meta charset="utf-8"/>
 		<title>Let's Review Tables!</title>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+		<script language="javascript" src="scripts/scripts.js"></script>
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
@@ -44,32 +45,46 @@
 					
 					<h2>Let's Review Tables!</h2>
 					
-					<p>Short summary/recap of tables goes here.</p> 
-					
-					<p>A video will be included here that shows the
-					instructor leading the review of how to solve systems of equations using tables.</p>
-					
-				
-				<img src="images/video_image.jpg" alt="video will go here" title="video will go here"/>		
+				 <img src="images/video_image.jpg" alt="video will go here" title="video will go here"/>		
 				
 				</article>
 			</div>
-			<!--- <div id="aside-info"> --->
-				 <!---<aside> --->
-				 <!---	<header> --->
-					 <!---	<p id="aside-title-audio">Audio</p> --->
-				 <!---	</header>  --->
-					<!--- put your audio here --->
-				 <!---	<br/> --->
-					
-			 <!---		<header> --->
-			 <!---			<p id="aside-title-audio">Captions</p> --->
-			 <!---		</header> --->
-			 <!---	<div id="transcript"> --->
-					<!--- include your transcript here --->
-			 <!---	</div> --->
-		 <!---		</aside> --->
-		 <!---	</div> --->
+			<div id="aside-info">
+				 <aside>
+				 <div id="headerDiv">
+         			<div id="titleText">Audio</div><a id="myHeader" 
+         			href="javascript:toggle2('myContent','myHeader');" >Expand</a>
+   					</div>
+   					<div style="clear:both;"></div>
+    				<div id="contentDiv">
+         			<div id="myContent" style="display: none;">Audio media file goes here.</div>
+    				</div>
+    				
+    				<br/>
+								 		
+				 	<div id="headerDiv2">
+         			<div id="titleText2">Captions</div><a id="myHeader2" 
+         			href="javascript:toggle2('myContent2','myHeader2');" >Expand</a>
+   					</div>
+   					<div style="clear:both;"></div>
+    				<div id="contentDiv2">
+         			<div id="myContent2" style="display: none;">
+         			<p>Let's review tables!</p>
+         			<p>We'll start by reviewing how to create a table from an equation. Given 
+         			the equation y=-2x+4 the first thing we should do is replace the x in the 
+         			equation with the first value from the table. We write y=-2(-2)+4. Our order 
+         			of operations says that we have to multiply before we add, so if we multiply 
+         			-2 times -2 we get positive 4. Our new equation reads y=4+4. So, y=8. Now we 
+         			can fill this in to the table. Let’s continue this process for the rest of 
+         			the x-values in the table. If we substitute -1  for x we get y=-2(-1)+4. We 
+         			multiply -2 and -1 to get positive 2. So now we have y=2+4 which gives us 6. 
+         			We fill that in to the table and keep going. y=-2(0)+4. Multiply to get y=0+4, 
+         			so y=4. y=-2(1)+4. Multiply to get y=-2+4, so y=2. Last one, y=-2(2)+4. We 
+         			multiply and get y=-4+4, so y=0. And now our table is complete.</p>
+         			</div>
+         			</div>
+		 </aside>
+		 </div>
 		</section>
 		
 		<div id="sub-navigation">
