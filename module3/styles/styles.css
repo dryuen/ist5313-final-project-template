@@ -14,7 +14,7 @@ h1
 h2
 {
 	text-align: center;
-	background: #2649d5;
+	background: #6a84bf;
 	color: white;
 	border-radius: 25px;
 }
@@ -71,7 +71,7 @@ body
 
 .active
 {
-	background-color: #2649d5;
+	background-color: #6a84bf;
     color: white;
 }
 
@@ -157,7 +157,7 @@ li:last-child
 
 li a.active 
 {
-    background-color: #0547f5;
+    background-color: #6a84bf;
     color: white;
     border-radius: 15px;
 }
