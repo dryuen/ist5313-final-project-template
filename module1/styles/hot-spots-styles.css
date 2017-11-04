@@ -32,3 +32,113 @@
 	
 	display: none;
 }
+body
+{
+	background: white;
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: Georgia;
+}
+
+h1
+{
+	font-size: 35px;
+	color: #cc8033;
+	text-align: left;
+}
+
+h2
+{
+	text-align: left;
+}
+
+#main-info
+{
+	float: left;
+	width: 627px;
+}
+
+#aside-info
+{
+	float: left;
+	width: 300px;
+	vertical-align: top;
+	padding-left: 10px;
+}
+	
+#main-content
+{
+	height: 368px;
+	padding: 10px;
+	margin: 10px;
+}
+#main-panel
+{
+	background: white;
+	display: table-cell;
+	
+}
+
+#main-layout
+{
+	background: #e4d1d1;
+	display: table;
+	text-align: center;
+	width: 1200px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #cc8033;
+	font-size: 18px;
+	text-align: center;
+}
+
+a:hover
+{
+	color: #996666;
+}
+
+#navigation
+{
+	background: #e4d1d1;	 
+	display: table;
+	width: 150px;
+	text-align: left;
+	
+}
+
+
+#aside-title-audio
+{
+	width: 320px;
+	text-align: center;
+	font-size: 14px;
+	background: #e4d1d1;
+	font-size: 18px;
+	font-family:georgia;
+	font-weight: bold;
+	color: #cc8033;
+	padding: 5px;
+}
+
+#content-frame
+{
+	border: none;
+}
+	
+#transcript
+{
+	color: green;
+	font-size: 12px;
+	overflow: auto;
+	height: 321px;
+	width: 233px;
+}
+
+audio
+{
+	width: 250px;
+}
