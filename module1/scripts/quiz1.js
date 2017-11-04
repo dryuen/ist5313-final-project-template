@@ -19,12 +19,12 @@ function processQuiz()
 		counter = counter + 1;
 		}
 	
-	if( answer2 ==1)
+	if( answer3 == 1)
 		{
 		counter = counter + 1;
 		}
 	
-	if( answer2 ==0)
+	if( answer4 == 0)
 		{
 		counter = counter + 1;
 		}
