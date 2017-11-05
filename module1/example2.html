@@ -5,6 +5,8 @@
 		<title>Example 2</title>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
 		<script language="javascript" src="scripts/scripts.js"></script>
+		<link href="styles/hot-spots-styles.css" rel="stylesheet" type="text/css"/>
+		<script language="javascript" src="scripts/hot-spots.js"></script>
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
@@ -49,6 +51,72 @@
 					do to solve this problem.</p>
 					
 					<img src="images/table_example2.jpg" alt="example 2 using a table" title="example 2 using a table"/>
+				<table>
+				<tr>
+				<th>X</th>
+				<th>Y<sub>1</sub></th>
+				<th>Y<sub>2</sub></th>
+				</tr>
+				
+				<tr>
+					<td><div id="hotspots">
+					<div class="column">
+					 	<div id="hs1" class="hotspot" 
+				     		onmouseover="javascript:showText( 1 )"
+				     		onmouseout="javascript:hideOutput()"><p>0</p></div></td>
+					<td><input type="text"></td>
+					<td><input type="text"></td>
+				</tr>
+				
+				<tr>
+					<td><div id="hotspots">
+					<div class="column">
+					 	<div id="hs2" class="hotspot" 
+				     		onmouseover="javascript:showText( 2 )"
+				     		onmouseout="javascript:hideOutput()"><p>1</p></div></td>
+					<td><input type="text"></td>
+					<td><input type="text"></td>
+				</tr>
+				
+				<tr>
+					<td><div id="hotspots">
+					<div class="column">
+					 	<div id="hs3" class="hotspot" 
+				     		onmouseover="javascript:showText( 3 )"
+				     		onmouseout="javascript:hideOutput()"><p>2</p></div></td>
+					<td><input type="text"></td>
+					<td><input type="text"></td>
+				</tr>
+				
+				<tr>
+					<td><div id="hotspots">
+					<div class="column">
+					 	<div id="hs4" class="hotspot" 
+				     		onmouseover="javascript:showText( 4 )"
+				     		onmouseout="javascript:hideOutput()"><p>3</p></div></td>
+					<td><input type="text"></td>
+					<td><input type="text"></td>
+				</tr>
+				
+				<tr>
+					<td><div id="hotspots">
+					<div class="column">
+					 	<div id="hs5" class="hotspot" 
+				     		onmouseover="javascript:showText( 5 )"
+				     		onmouseout="javascript:hideOutput()"><p>4</p></div></td>
+					<td><input type="text"></td>
+					<td><input type="text"></td>
+				</tr>
+				
+				</table>
+				
+				<section>
+				<div id="output">
+					<div id="output-box">
+						<p id="output-text">asdf</p>
+					</div>
+				</div>
+            </section>
 				
 				</article>
 			</div>

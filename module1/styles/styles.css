@@ -309,3 +309,16 @@ footer
 {
 	color: #FFFFFF;
 }
+
+table,  td
+{
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	text-align: center;
+	width: 200px;
+}
+
+input[type=text]
+{
+	width: 50%;
+}
