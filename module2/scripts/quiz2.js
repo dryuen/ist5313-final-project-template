@@ -14,7 +14,7 @@ function processQuiz()
 		counter = counter + 1;
 		}
 	
-	if( answer2 == 3)
+	if( answer2 == 1)
 		{
 		counter = counter + 1;
 		}
@@ -24,7 +24,7 @@ function processQuiz()
 		counter = counter + 1;
 		}
 	
-	if( answer4 == 0)
+	if( answer4 == 3)
 		{
 		counter = counter + 1;
 		}
