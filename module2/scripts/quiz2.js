@@ -9,7 +9,7 @@ function processQuiz()
 	
 	var counter = 0;
 	
-	if( answer1 == 2)
+	if( answer1 == 3)
 		{
 		counter = counter + 1;
 		}
