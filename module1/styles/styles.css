@@ -310,12 +310,26 @@ footer
 	color: #FFFFFF;
 }
 
-table,  td
+td  
 {
 	border: 1px solid #000000;
 	border-collapse: collapse;
 	text-align: center;
-	width: 200px;
+	width: 100px;
+}
+
+table
+{
+	position: relative;
+	left: 30px;
+	border-collapse: collapse;
+}
+
+.example2-container
+{
+	float:left;
+	padding-top: 20px;
+	font-weight: bold;
 }
 
 input[type=text]
