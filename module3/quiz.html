@@ -4,6 +4,8 @@
 		<meta charset="utf-8"/>
 		<title>Quiz 3</title>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+		<script language="javascript" src="scripts/scripts.js"></script>
+		<script src="scripts/quiz1.js"></script>
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
@@ -12,7 +14,7 @@
 		<header>
 			<!--- put your course header here, it could be a graphic header or text heading --->
 			<h1><img src="images/corner-logo3.png" alt="Al-Zebra logo" title="Al-Zebra logo" 
-			style="float:auto"/> Module 3: Using Substitution to Solve Systems of Equations</h1>
+			style="float:auto"/> Module 3: Using Elimination to Solve Systems of Equations</h1>
 		</header>
 		</div>
 		
@@ -42,13 +44,53 @@
 			<div id="main-info">
 				<article>
 					
-					<h2>Quiz: Using Elimination to Solve Systems of Equations</h2>
+					<h2>Module 3 Quiz</h2>
 					
 					<p>Read each question carefully and choose the best answer.  
 					Remember, you must score at least a 70% to pass the quiz. 
 					<em><strong>Use your Al-zebra Genius to show what you know!</strong></em></p>
-					
-					<img src="images/quiz_image.jpg" alt="quiz will go here" title="quiz will go here"/>
+	
+		<form id="quiz3"  name="quiz3" action="javascript:processQuiz()">
+				<label for="question1">1. Pick the right answer.</label>
+				<br>
+				<input type="radio" id="question1" name="question1" value="0"/> answer 1<br>
+				<input type="radio" id="question1" name="question1" value="1"/> answer 2<br>
+				<input type="radio" id="question1" name="question1" value="2"/> answer 3<br>
+				<input type="radio" id="question1" name="question1" value="3"/> answer 4<br>
+				<br>
+				<br>
+				<label for="question2">2. Don't mess this one up.</label>
+				<br>
+				<input type="radio" id="question2" name="question2" value="0"/> answer 1<br>
+				<input type="radio" id="question2" name="question2" value="1"/> answer 2<br>
+				<input type="radio" id="question2" name="question2" value="2"/> answer 3<br>
+				<input type="radio" id="question2" name="question2" value="3"/> answer 4<br>
+				<br>
+				<br>
+				<label for="question3">3. Yep, still more questions to answer.</label>
+				<br>
+				<input type="radio" id="question3" name="question3" value="0"/> answer 1<br>
+				<input type="radio" id="question3" name="question3" value="1"/> answer 2<br>
+				<input type="radio" id="question3" name="question3" value="2"/> answer 3<br>
+				<input type="radio" id="question3" name="question3" value="3"/> answer 4<br>
+				<br>
+				<br>
+				<label for="question4">4. Don't worry, you're almost done.</label>
+				<br>
+				<input type="radio" id="question4" name="question4" value="0"/> answer 1<br>
+				<input type="radio" id="question4" name="question4" value="1"/> answer 2<br>
+				<input type="radio" id="question4" name="question4" value="2"/> answer 3<br>
+				<input type="radio" id="question4" name="question4" value="3"/> answer 4<br>
+				<br>
+				<br>
+				<label for="question5">5. Hang in there champ, last question.</label>
+				<br>
+				<input type="radio" id="question5" name="question5" value="0"/> answer 1<br>
+				<input type="radio" id="question5" name="question5" value="1"/> answer 2<br>
+				<input type="radio" id="question5" name="question5" value="2"/> answer 3<br>
+				<input type="radio" id="question5" name="question5" value="3"/> answer 4<br>
+			</form>			
+			<!-- 		<img src="images/quiz_image.jpg" alt="quiz will go here" title="quiz will go here"/>	-->
 						
 				</article>
 			</div>

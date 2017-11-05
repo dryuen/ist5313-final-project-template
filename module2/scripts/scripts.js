@@ -114,6 +114,22 @@ function checkAllVisited()
 	}
 }
 
+function toggle2(hideShowDiv, switchTextDiv) 
+{
+	var ele = document.getElementById(hideShowDiv);
+	var text = document.getElementById(switchTextDiv);
+
+	if(ele.style.display == "block") 
+	{
+   		ele.style.display = "none";
+		text.innerHTML = "Expand";
+  	}
+	else 
+	{
+		ele.style.display = "block";
+		text.innerHTML = "Collapse";
+	}
+}
 
 function visitPage2()
 {

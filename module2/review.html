@@ -4,6 +4,7 @@
 		<meta charset="utf-8"/>
 		<title>Final Review</title>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+		<script language="javascript" src="scripts/scripts.js"></script>
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
@@ -51,22 +52,40 @@
 										
 					</article>
 			</div>
-			<!--- <div id="aside-info"> --->
-				 <!---<aside> --->
-				 <!---	<header> --->
-					 <!---	<p id="aside-title-audio">Audio</p> --->
-				 <!---	</header>  --->
-					<!--- put your audio here --->
-				 <!---	<br/> --->
-					
-			 <!---		<header> --->
-			 <!---			<p id="aside-title-audio">Captions</p> --->
-			 <!---		</header> --->
-			 <!---	<div id="transcript"> --->
-					<!--- include your transcript here --->
-			 <!---	</div> --->
-		 <!---		</aside> --->
-		 <!---	</div> --->
+			<div id="aside-info">
+				 <aside>
+				 	<div id="headerDiv">
+         			<div id="titleText">Audio</div><a id="myHeader" 
+         			href="javascript:toggle2('myContent','myHeader');" >Expand</a>
+   					</div>
+   					<div style="clear:both;"></div>
+    				<div id="contentDiv">
+         			<div id="myContent" style="display: none;">Audio media file goes here.</div>
+    				</div>
+    				
+    				<br/>
+								 		
+				 	<div id="headerDiv2">
+         			<div id="titleText2">Captions</div><a id="myHeader2" 
+         			href="javascript:toggle2('myContent2','myHeader2');" >Expand</a>
+   					</div>
+   					<div style="clear:both;"></div>
+    				<div id="contentDiv2">
+         			<div id="myContent2" style="display: none;">
+         			<p>Final Review. Let's review what we've learned about using
+         			graphs to solve systems of equations.</p>
+         			<p>Let’s find out who won that race. If Jennifer has a head start of 15 yards 
+         			and runs 3 yards per second her equation would be y=3x+15. If Lee begins at 
+         			the endzone and runs 4 yards per second his equation would be y=4x+0 or just 
+         			y=4x. Let’s graph each equation to find out if Lee catches up to Jennifer. 
+         			(Graph the equations). The two lines intersect at (15,60). This means that 
+         			Lee and Jennifer will both be at the 60 yard line after 15 seconds. And since 
+         			Lee is running faster he will win the race.</p>
+         			
+         			</div>
+         			</div>
+		 		  	</aside>
+			</div>
 		</section>
 		
 		<div id="sub-navigation">

@@ -4,6 +4,7 @@
 		<meta charset="utf-8"/>
 		<title>Intro to Tables</title>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+		<script language="javascript" src="scripts/scripts.js"></script>
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
@@ -58,22 +59,44 @@
 					<img src="images/video_image.jpg" alt="video will go here" title="video will go here"/>	
 				</article>
 			</div>
-			<!--- <div id="aside-info"> --->
-				 <!---<aside> --->
-				 <!---	<header> --->
-					 <!---	<p id="aside-title-audio">Audio</p> --->
-				 <!---	</header>  --->
-					<!--- put your audio here --->
-				 <!---	<br/> --->
-					
-			 <!---		<header> --->
-			 <!---			<p id="aside-title-audio">Captions</p> --->
-			 <!---		</header> --->
-			 <!---	<div id="transcript"> --->
-					<!--- include your transcript here --->
-			 <!---	</div> --->
-		 <!---		</aside> --->
-		 <!---	</div> --->
+			<div id="aside-info">
+				 <aside>
+				 	<div id="headerDiv">
+         			<div id="titleText">Audio</div><a id="myHeader" 
+         			href="javascript:toggle2('myContent','myHeader');" >Expand</a>
+   					</div>
+   					<div style="clear:both;"></div>
+    				<div id="contentDiv">
+         			<div id="myContent" style="display: none;">Audio media file goes here.</div>
+    				</div>
+    				
+    				<br/>
+								 		
+				 	<div id="headerDiv2">
+         			<div id="titleText2">Captions</div><a id="myHeader2" 
+         			href="javascript:toggle2('myContent2','myHeader2');" >Expand</a>
+   					</div>
+   					<div style="clear:both;"></div>
+    				<div id="contentDiv2">
+         			<div id="myContent2" style="display: none;">
+         			<p>One way to solve systems of equations is by using tables. If 
+         			you feel a bit rusty on this topic, don't worry! We are here to 
+         			guide you through a few examples, practice problems, and a final review. 
+         			At the end of this module, you will apply what you have learned by 
+         			taking a quiz. You must earn at least a 70% in order to pass this module. 
+         			Remember, don't fret! We are here to help you succeed in your path to 
+         			becoming an Al-Zebra Genius! Now let's get you reacquainted with using 
+         			tables to solve systems of equations.</p>
+         			<p>Lucy is looking for a new cell phone plan. The first company, Walk & Talk, 
+         			offers a $50 base charge and an additional $10 per GB of data. The second 
+         			company, Phonetronic, offers a $75 base charge and an additional $5 per GB of 
+         			data. Which company should Lucy choose? How many GB of data would she have to 
+         			purchase in order for both plans to cost the same?</p>
+         			
+         			</div>
+    				</div>
+		 		</aside>
+			</div>
 		</section>
 		
 		<div id="sub-navigation">

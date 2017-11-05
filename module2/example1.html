@@ -4,6 +4,7 @@
 		<meta charset="utf-8"/>
 		<title>Example 1</title>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+		<script language="javascript" src="scripts/scripts.js"></script>
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
@@ -50,22 +51,50 @@
 					<img src="images/graph_example1.jpg" alt="example 1 using a graph" title="example 1 using a graph"/>
 				</article>
 			</div>
-			<!--- <div id="aside-info"> --->
-				 <!---<aside> --->
-				 <!---	<header> --->
-					 <!---	<p id="aside-title-audio">Audio</p> --->
-				 <!---	</header>  --->
-					<!--- put your audio here --->
-				 <!---	<br/> --->
-					
-			 <!---		<header> --->
-			 <!---			<p id="aside-title-audio">Captions</p> --->
-			 <!---		</header> --->
-			 <!---	<div id="transcript"> --->
-					<!--- include your transcript here --->
-			 <!---	</div> --->
-		 <!---		</aside> --->
-		 <!---	</div> --->
+			<div id="aside-info">
+				 <aside>
+				 <div id="headerDiv">
+         			<div id="titleText">Audio</div><a id="myHeader" 
+         			href="javascript:toggle2('myContent','myHeader');" >Expand</a>
+   					</div>
+   					<div style="clear:both;"></div>
+    				<div id="contentDiv">
+         			<div id="myContent" style="display: none;">Audio media file goes here.</div>
+    				</div>
+    				
+    				<br/>
+								 		
+				 	<div id="headerDiv2">
+         			<div id="titleText2">Captions</div><a id="myHeader2" 
+         			href="javascript:toggle2('myContent2','myHeader2');" >Expand</a>
+   					</div>
+   					<div style="clear:both;"></div>
+    				<div id="contentDiv2">
+         			<div id="myContent2" style="display: none;">
+         			<p>Example 1: Guided Practice</p>
+         			<p>In this first example, we will show you step-by-step how to 
+         			use a graph to solve a system of equations.</p>
+         			<p>In order to solve a system of equations using a graph, we have to plot both 
+         			lines and find their intersection. Let’s start by graphing the equation 
+         			y sub1=x+2. We begin by plotting the y-intercept at 2. Remember that the 
+         			understood coefficient of any variable is 1. So our slope is 1, or as a fraction 
+         			1 over 1. This means we need to rise 1 and run 1. We start at the y-intercept 
+         			and rise 1, run 1, and plot a point. Let’s go again, rise one, run one, plot a 
+         			point. We can also go in the opposite direction, down 1 and left 1, plot a 
+         			point. One more time down 1, left one. Now we can draw our line.</p>
+         			<p>Next, we can graph the line of the second equation. The y-intercept is 
+         			positive 5. Let’s plot our point on the y-axis at positive 5. The slope of 
+         			this equation is -2 or in other words -2 over 1. Since our slope is negative 
+         			we need to go down 2 and right 1, plot a point. Again, down 2 and right 1, one 
+         			more time down 2, right one. Now let’s draw our line. The solution to our system 
+         			of equation is where the two lines intersect. We can see that the intersect at 
+         			this point. The x-coordinate is 1 and the y-coordinate is 3. So our solution is 
+         			the coordinate point (1,3).</p>
+         			
+         			</div>
+         			</div>
+		 		  </aside>
+			</div>
 		</section>
 		
 		<div id="sub-navigation">

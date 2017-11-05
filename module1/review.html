@@ -4,6 +4,7 @@
 		<meta charset="utf-8"/>
 		<title>Final Review</title>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+		<script language="javascript" src="scripts/scripts.js"></script>
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
@@ -51,22 +52,44 @@
 
 				</article>
 			</div>
-			<!--- <div id="aside-info"> --->
-				 <!---<aside> --->
-				 <!---	<header> --->
-					 <!---	<p id="aside-title-audio">Audio</p> --->
-				 <!---	</header>  --->
-					<!--- put your audio here --->
-				 <!---	<br/> --->
-					
-			 <!---		<header> --->
-			 <!---			<p id="aside-title-audio">Captions</p> --->
-			 <!---		</header> --->
-			 <!---	<div id="transcript"> --->
-					<!--- include your transcript here --->
-			 <!---	</div> --->
-		 <!---		</aside> --->
-		 <!---	</div> --->
+			<div id="aside-info">
+				 <aside>
+				 	<div id="headerDiv">
+         			<div id="titleText">Audio</div><a id="myHeader" 
+         			href="javascript:toggle2('myContent','myHeader');" >Expand</a>
+   					</div>
+   					<div style="clear:both;"></div>
+    				<div id="contentDiv">
+         			<div id="myContent" style="display: none;">Audio media file goes here.</div>
+    				</div>
+    				
+    				<br/>
+								 		
+				 	<div id="headerDiv2">
+         			<div id="titleText2">Captions</div><a id="myHeader2" 
+         			href="javascript:toggle2('myContent2','myHeader2');" >Expand</a>
+   					</div>
+   					<div style="clear:both;"></div>
+    				<div id="contentDiv2">
+         			<div id="myContent2" style="display: none;">
+         			<p>Final Review. Let's review what we've learned about using
+         			tables to solve systems of equations.</p>
+         			<p>Remember Lucy? Let’s re-examine her situation to see if we can help. Let’s 
+         			start by writing equations for each of the phone plans. Since the Walk & Talk 
+         			company offers a $50 base charge and $10 per GB of data their equation would be 
+         			y=10x+50. Phonetronic offers a $75 base charge and $5 per GB of data, so their 
+         			equation would be y=5x+75. Let’s fill up the table using this information. 
+         			(Tables fills in.) From the table we can see that the cost of each plan would be 
+         			the same with 5 GB of data. So which company should Lucy choose? If she wants 
+         			less than 5 GB of data she should go with the plan from Walk & Talk, if she wants 
+         			more than 5 GB of data then she should choose the plan from Phonetronic, and if 
+         			she wants exactly 5 GB of data then she can choose either plan and spend the same 
+         			amount of money.</p>
+         			
+         			</div>
+         			</div>
+		 		  	</aside>
+		 </div>
 		</section>
 		
 		<div id="sub-navigation">
