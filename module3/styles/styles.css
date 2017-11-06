@@ -1,11 +1,22 @@
 body
 {
-	background: #B2004C;
+	background: white;
 	margin: 0px;
 	padding: 0px;
 	font-size: 12px;
-	font-family: Arial;
-	
+	font-family: Georgia;
+}
+
+h1
+{
+	font-size: 35px;
+	color: #cc8033;
+	text-align: left;
+}
+
+h2
+{
+	text-align: left;
 }
 
 #main-info
@@ -17,7 +28,7 @@ body
 #aside-info
 {
 	float: left;
-	width: 200px;
+	width: 300px;
 	vertical-align: top;
 	padding-left: 10px;
 }
@@ -28,33 +39,54 @@ body
 	padding: 10px;
 	margin: 10px;
 }
+#main-panel
+{
+	background: white;
+	display: table-cell;
+	
+}
+
+#main-layout
+{
+	background: #e4d1d1;
+	display: table;
+	text-align: left;
+	width: 1200px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #cc8033;
+	font-size: 18px;
+	text-align: center;
+}
+
+a:hover
+{
+	color: #996666;
+}
 
 #navigation
 {
-	background: #666666;	
-	padding: 5px;
-	width: 886px;
-	float: left;
-	height: 18px;
+	background: #e4d1d1;	 
+	display: table;
+	width: 150px;
+	text-align: left;
+	
 }
 
-#sub-navigation
-{
-	background: #dddddd;	
-	padding: 5px;
-	width: 886px;
-	float: left;
-	height: 18px;
-	font-size: 14px;
-}
 
 #aside-title-audio
 {
-	background: #666666;
-	width: 233px;
+	width: 320px;
+	text-align: center;
 	font-size: 14px;
+	background: #e4d1d1;
+	font-size: 18px;
+	font-family:georgia;
 	font-weight: bold;
-	color: white;
+	color: #cc8033;
 	padding: 5px;
 }
 
@@ -74,5 +106,5 @@ body
 
 audio
 {
-	width: 230px;
+	width: 250px;
 }
