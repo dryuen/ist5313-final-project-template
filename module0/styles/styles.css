@@ -6,55 +6,7 @@ body
 	font-family: Arial;
 }
 
-#main-info
-{
-	float: left;
-	width: 627px;
-}
 
-#aside-info
-{
-	float: left;
-	width: 200px;
-	vertical-align: top;
-	padding-left: 10px;
-}
-	
-#main-content
-{
-	height: 368px;
-	padding: 10px;
-	margin: 10px;
-}
-
-#navigation
-{
-	background: #666666;	
-	padding: 5px;
-	width: 886px;
-	float: left;
-	height: 18px;
-}
-
-#sub-navigation
-{
-	background: #dddddd;	
-	padding: 5px;
-	width: 886px;
-	float: left;
-	height: 18px;
-	font-size: 14px;
-}
-
-#aside-title-audio
-{
-	background: #666666;
-	width: 233px;
-	font-size: 14px;
-	font-weight: bold;
-	color: white;
-	padding: 5px;
-}
 
 #content-frame
 {
@@ -78,3 +30,8 @@ audio
 #quiz-link{
 	display: none;
 }
+
+#leo-quote{
+	padding-top: 150px;
+}
+
