@@ -32,6 +32,8 @@ function startCourse()
             sessionStorage.setItem("topic1Visited", "unvisited");
             sessionStorage.setItem("topic2Visited", "unvisited");
             sessionStorage.setItem("topic3Visited", "unvisited");
+            sessionStorage.setItem("topic4Visited", "unvisited");
+            sessionStorage.setItem("topic5Visited", "unvisited");
 
         }
 	}
@@ -106,15 +108,29 @@ function visitTopic3()
     checkAllVisited();
 }
 
+function visitTopic4()
+{
+    sessionStorage.setItem( "topic4Visited", "visited" );
+    checkAllVisited();
+}
+
+function visitTopic5()
+{
+    sessionStorage.setItem( "topic5Visited", "visited" );
+    checkAllVisited();
+}
+
 
 
 function checkAllVisited(){
     var t1 = sessionStorage.getItem("topic1Visited");
     var t2 = sessionStorage.getItem("topic2Visited");
     var t3 = sessionStorage.getItem("topic3Visited");
+    var t4 = sessionStorage.getItem("topic4Visited");
+    var t5 = sessionStorage.getItem("topic5Visited");
 
 
-    if(t2 =="visited" && t3 == "visited"){
+    if(t2 =="visited" && t3 == "visited" && t4 == "visited" && t5 == "visited"){
         document.getElementById("content-frame").contentWindow.document.getElementById("quiz-link").style.display="block";
 
     }

@@ -32,6 +32,17 @@ audio
 }
 
 #leo-quote{
-	padding-top: 150px;
+	padding-left: 10px;
+	padding-right: 10px;
+
 }
 
+#navbar-logo{
+	height: 50px;
+}
+
+#results1, #results2, #results3{
+	display: none;
+	border: 1px solid black;
+	padding: 10px;
+}

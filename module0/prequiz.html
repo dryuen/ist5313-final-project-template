@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Mod0|Pre-Quiz </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css">
+    <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+
+    <!--- link your other script files here that are specific to this HTML page here --->
+</head>
+
+<body onload="javascript:parent.visitTopic3();">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <img id="navbar-logo" src="images/svg35.svg">
+            </div>
+
+            <ul class="nav navbar-nav pull-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Overview <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="topic-1.html">Welcome</a></li>
+                        <li><a href="objectives.html">Objectives</a></li>
+                        <li class="active"><a href="prequiz.html">Pre-Assessment</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="letting-go.html">Inspiration</a></li>
+                <li><a href="review.html">Review</a></li>
+                <li><a id="quiz-link" href="assessment.html">Assessment</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="col-sm-3">
+            <div class="row">
+                <p>audio here</p>
+                <p>captions here</p>
+            </div>
+        </div>
+
+        <div class="col-sm-9">
+            <div class="row">
+                <div id="results1">
+                    <h5>Score: Less than 5</h5>
+                    <p>Wow! You are on the right track to learning the value of life. You are certainly intentional with your purchases and have your financial priorities in order. Is not based on accumulation of items but the experience in life that matters most. Our program may give you helpful hints to continue your day to day lifestyle.</p>
+                </div>
+
+                <div id="results2">
+                    <h5>Score: Between 5 and 10</h5>
+                    <p>You selected to participate in this survey for a reason. Ask yourself what why? You selected answers that makes you a perfect candidate for participating in our course. While, no training can fully magically convert you to a minimalist lifestyle this is a good start on your journey to a healthier, organized, purposefully lifestyle. </p>
+                </div>
+
+                <div id="results3">
+                    <h5>Score: Over 10</h5>
+                    <p>A minimalist lifestyle is not for everyone. But in this hectic world, many of us feel that call — to consume less, to spend less, to need less in order to live a truly healthier happier lifestyle.You're by no means a hoarder, but image what you can do with less stuff. Our program, geared to all age groups, can help you to imagine a world where you can find a balance and purpose. While, no training can fully magically convert you to a minimalist lifestyle this is a good start on your journey to a healthier, organized, purposefully lifestyle.</p>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <h4>Pre Assessment </h4>
+                <p>Are you ready to take this course on how you can be Miminially U? Do you have to much stuff? Do you stress about finances? Do you eat the wrong foods? Do you let other things take control of your life?<br><br>Complete our assessment to find out what aspects of your life are affecting your well-being. We have partner with XYZ company to offer you a proven assessment to identifying your needs to  start a journey of minimalism. </p>
+            </div>
+
+            <div class="row">
+                <form id="quizpre" name="quizpre" onsubmit="javascript: processQuiz(); return false;">
+
+                    <div class="form-group"> <!-- Question 1!-->
+                        <label for="question1" class="control-label">1. How often do you buy new clothes?</label>
+                        <div class="radio">
+                            <label><input type="radio" id="question1" name="question1" value="0" >When I have a specific event coming up.</label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question1" name="question1" value="1">Whenever I see sale items!</label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question1"  name="question1" value="3">Whenever I feel like it, clothes are my life.</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group"> <!-- Question 2!-->
+                        <label for="question2" class="control-label">2.When is the last time you decorated your home?</label>
+                        <div class="radio">
+                            <label><input type="radio" id="question2" name="question2" value="0" >
+                                I've tried to keep it simple. I only refresh my look once in a while.
+                            </label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question2" name="question2" value="1">
+                                I'm not doing much now, I prefer to spend my money on other things.
+                            </label>
+                        </div>
+
+                        <div class="radio">
+                            <label>
+                                <input type="radio" id="question2"  name="question2" value="3">
+                                I love to decroate for anything and my style reflects my constant ideas!
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group"> <!-- Question 3!-->
+                        <label for="question3" class="control-label">3. How easy is it for you to get rid of things?</label>
+                        <div class="radio">
+                            <label><input type="radio" id="question3" name="question3" value="0" >Very easy, I try to throw things out often</label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question3" name="question3" value="1">It depends on the memories, so not often enough</label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question3" name="question3" value="2">I love my junk. Why would I throw things out?</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group"> <!-- Question 4!-->
+                        <label for="question4" class="control-label">4. How many pairs of shoes do you own?</label>
+                        <div class="radio">
+                            <label><input type="radio" id="question4" name="question4" value="0" >Less than 10 pairs</label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question4" name="question4" value="1">More than 10 but
+                                less than 30</label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question4" name="question4" value="3">Way more than 30
+                                pairs</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group"> <!-- Question 5!-->
+                        <label for="question5" class="control-label">5. How much money do you spend on unnecessary items monthly??</label>
+                        <div class="radio">
+                            <label><input type="radio" id="question5" name="question5" value="0" >I spend less than a $50 on unnecessary items.                            </label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question5" name="question5" value="1">I spend more than $50 but less than $100 on unnecessary items.</label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question5" name="question5" value="2">I spend more than $100 on unnecessary items.</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group"> <!-- Question 6!-->
+                        <label for="question6" class="control-label">6. How often do you eat fruits and vegetables?</label>
+                        <div class="radio">
+                            <label><input type="radio" id="question6" name="question6" value="0" >I eat them daily.</label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question6" name="question6" value="1">I eat them a few times a week</label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question6" name="question6" value="2">I almost never eat them.</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group"> <!-- Question 7!-->
+                        <label for="question7" class="control-label">7. How do you manage stress?</label>
+                        <div class="radio">
+                            <label><input type="radio" id="question7" name="question7" value="0" >I plan ahead and decide which tasks I need to do first</label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question7" name="question7" value="2">I go shopping</label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question7" name="question7" value="2">I start eating unhealthy food.</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group"> <!-- Question 8!-->
+                        <label for="question8" class="control-label">8. How well do you sleep?</label>
+                        <div class="radio">
+                            <label><input type="radio" id="question8" name="question8" value="0" >Great, I sleep like a log.</label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question8" name="question8" value="1">Not so great, I toss and turn.</label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question8" name="question8" value="2">It depends on my schedule, which changes often.</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group"> <!-- Question 9!-->
+                        <label for="question9" class="control-label">9. Which statement best describes your spending?</label>
+                        <div class="radio">
+                            <label><input type="radio" id="question9" name="question9" value="0" > “I bought 1 pair of new running shoes that will enhance and improve the quality of my runs. They were expensive. They are my only pair of running shoes.”</label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question9" name="question9" value="2">“I bought 3 new pairs of shoes on sale at half price. All the shoes are average quality but they were cheap.”</label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question9" name="question9" value="3">“I bought them to go with my outfit. The shoes are popular in color and design. I have seen several people wear them.”</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group"> <!-- Question 10!-->
+                        <label for="question10" class="control-label">10. Which is most important to you?</label>
+                        <div class="radio">
+                            <label><input type="radio" id="question10" name="question10" value="0" >Becoming debt, stress, and clutter free.</label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question10" name="question10" value="2">Slightly changing my ways for personal reasons.</label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question10" name="question10" value="3">My way is perfect, there is nothing I need to change.</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group"> <!-- Question 11!-->
+                        <label for="question11" class="control-label">11. Which best describes your view of a minimalist lifestyle?</label>
+                        <div class="radio">
+                            <label><input type="radio" id="question11" name="question11" value="0" >Life fulfilled not with things but with meaning and purpose.
+                            </label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question11" name="question11" value="2">Thrifty people who carefully spend money and goods.</label>
+                        </div>
+
+                        <div class="radio">
+                            <label><input type="radio" id="question11" name="question11" value="3">Lifestyle geared towards the millennial generation.</label>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group"> <!-- Submit button !-->
+                        <button class="btn btn-primary " name="submit" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="scripts/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="scripts/quizpre.js"></script>
+
+</body>
+</html>

@@ -9,18 +9,25 @@
     <!--- link your other script files here that are specific to this HTML page here --->
 </head>
 
-<body onload="javascript:parent.visitTopic3();">
+<body onload="javascript:parent.visitTopic5();">
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">
-                    <img alt="Brand" src="images/lotus35.png">
-                </a>
+                <img id="navbar-logo" alt="Brand" src="images/svg35.svg">
             </div>
 
             <ul class="nav navbar-nav pull-right">
-                <li><a href="topic-1.html">Welcome<span class="sr-only">(current)</span></a></li>
-                <li><a href="letting-go.html">The Art of Letting Go</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Overview <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="active"><a href="topic-1.html">Welcome</a></li>
+                        <li><a href="objectives.html">Objectives</a></li>
+                        <li><a href="prequiz.html">Pre-Assessment</a></li>
+                    </ul>
+                </li>
+
+
+                <li><a href="letting-go.html">Inspiration</a></li>
                 <li class="active"><a href="review.html">Review</a></li>
                 <li><a id="quiz-link" href="assessment.html">Assessment</a></li>
             </ul>
@@ -41,11 +48,11 @@
                 <p>drag and drop activity</p>
             </div>
 
-            <div class="pull-right">
-                <a href="assessment.html"><button>Next</button></a>
-            </div>
         </div>
-
     </div>
+
+    <script src="scripts/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </body>
 </html>

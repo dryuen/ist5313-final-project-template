@@ -9,18 +9,24 @@
         <!--- link your other script files here that are specific to this HTML page here --->
     </head>
 
-    <body onload="javascript:parent.visitTopic2();">
+    <body onload="javascript:parent.visitTopic4();">
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">
-                        <img alt="Brand" src="images/lotus35.png">
-                    </a>
+                    <img id="navbar-logo" alt="Brand" src="images/svg35.svg">
                 </div>
 
                 <ul class="nav navbar-nav pull-right">
-                    <li><a href="topic-1.html">Welcome<span class="sr-only">(current)</span></a></li>
-                    <li class="active"><a href="letting-go.html">The Art of Letting Go</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Overview <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="active"><a href="topic-1.html">Welcome</a></li>
+                            <li><a href="objectives.html">Objectives</a></li>
+                            <li><a href="prequiz.html">Pre-Assessment</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="active"><a href="letting-go.html">Inspiration</a></li>
                     <li><a href="review.html">Review</a></li>
                     <li><a id="quiz-link" href="assessment.html">Assessment</a></li>
                 </ul>
@@ -37,15 +43,27 @@
 
             <div class="col-sm-9">
                 <div class="row">
-                    <h4>The Art of Letting Go</h4>
-                    <iframe class="center-block" width="560" height="315" src="https://www.youtube.com/embed/w7rewjFNiys" frameborder="0" allowfullscreen></iframe>
+                    <h4>Inspiration</h4>
+                    <p class="text-center"> Ted Talk: The Art of Letting Go</p>
+                    <iframe class="center-block" width="460" height="215" src="https://www.youtube.com/embed/w7rewjFNiys" frameborder="0" allowfullscreen></iframe>
                 </div>
 
-                <div class="pull-right">
-                    <a href="review.html"><button>Next</button></a>
+                <div class="row">
+                    <h4>Blogs to Check Out</h4>
+                    <ul>
+                        <li><a href="https://minimalmillennial.com/">Minimal Millennial</a></li>
+                        <li><a href="https://www.theminimalists.com/start/">The Minimalists</a></li>
+                        <li><a href="https://www.becomingminimalist.com/">Becoming Minimalists</a></li>
+                        <li><a href="https://bemorewithless.com/defining-minimalism/">Be More With Less</a></li>
+                        <li><a href="https://zenhabits.net/">Zen Habits</a></li>
+                    </ul>
                 </div>
+
+
             </div>
-
         </div>
+        <script src="scripts/jquery-2.2.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
     </body>
 </html>
