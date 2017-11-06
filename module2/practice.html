@@ -6,16 +6,17 @@
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
 		<link href="styles/drag-and-drop-styles.css" rel="stylesheet" type="text/css"/>
 		<script language="javascript" src="scripts/scripts.js"></script>
+
 		<script language="javascript" src="scripts/drag-and-drop.js"></script>
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
-	<body onload="javascript:parent.visitPage4()">
+	<body onload="">
 		<div id="top">
 		<header>
 			<!--- put your course header here, it could be a graphic header or text heading --->
 			<h1><img src="images/corner-logo2.png" alt="Al-Zebra logo" title="Al-Zebra logo" 
-			style="float:auto"/> Module 2: Using Graphs to Solve Systems of Equations</h1>
+			style="float:auto" id="header-logo"/> Module 2: Using Graphs to Solve Systems of Equations</h1>
 		</header>
 		</div>
 		
@@ -81,19 +82,19 @@
 				     	<div id="db1" value="1" class="draggerbay" 
 				     		ondrop="return dropDragger( event )"
 				     		ondragover="return false"
-				     		ondragenter="return enterDragger( event )"><p><img src="images/practice-g3.jpg" alt="A picture of a graph" title="A picture of a graph"/></p></div><br/>                        
+				     		ondragenter="return enterDragger( event )"><p><img value="1" src="images/practice-g3.jpg" alt="A picture of a graph" title="A picture of a graph"/></p></div><br/>                        
 				 		<div id="db2" value="0" class="draggerbay"
 				     		ondrop="return dropDragger( event )"
 				     		ondragover="return false"
-				     		ondragenter="return enterDragger( event )"><p><img src="images/practice-g4.jpg" alt="A picture of a graph" title="A picture of a graph"/></p></div><br/> 
+				     		ondragenter="return enterDragger( event )"><p><img value="0" src="images/practice-g4.jpg" alt="A picture of a graph" title="A picture of a graph"/></p></div><br/> 
 				     	<div id="db3" value="3" class="draggerbay" 
 				     		ondrop="return dropDragger( event )"
 				     		ondragover="return false"
-				     		ondragenter="return enterDragger( event )"><p><img src="images/practice-g2.jpg" alt="A picture of a graph" title="A picture of a graph"/></p></div><br/>                        
+				     		ondragenter="return enterDragger( event )"><p><img value="3" src="images/practice-g2.jpg" alt="A picture of a graph" title="A picture of a graph"/></p></div><br/>                        
 				 		<div id="db4" value="2" class="draggerbay"
 				     		ondrop="return dropDragger( event )"
 				     		ondragover="return false"
-				     		ondragenter="return enterDragger( event )"><p><img src="images/practice-g1.jpg" alt="A picture of a graph" title="A picture of a graph"/></p></div><br/> 
+				     		ondragenter="return enterDragger( event )"><p><img value="2" src="images/practice-g1.jpg" alt="A picture of a graph" title="A picture of a graph"/></p></div><br/> 
 				</div>
 				
 				
@@ -113,7 +114,11 @@
    					</div>
    					<div style="clear:both;"></div>
     				<div id="contentDiv">
-         			<div id="myContent" style="display: none;">Audio media file goes here.</div>
+         			<div id="myContent" style="display: none;">
+         				<audio controls>
+  							<source src="audio/mod-2-practice.mp3" type="audio/mp3">
+  						</audio>
+         			</div>
     				</div>
     				
     				<br/>
@@ -125,7 +130,7 @@
    					<div style="clear:both;"></div>
     				<div id="contentDiv2">
          			<div id="myContent2" style="display: none;">
-         			<p>Practice using graphs to solve systems of equations.</p>
+         			<p>Practice using graphs to solve systems of equations..</p>
          			<p>Drag and drop activity. Match each equation with its corresponding graph.
          			Then check your answer to see how you did by clicking the "Submit Your Answer"
          			button on the bottom of this page.</p>

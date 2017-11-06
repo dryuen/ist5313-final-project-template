@@ -7,12 +7,12 @@
 
 .dragger
 {
-	border: solid thin #000000;
+	border: solid #000000;
 	background: #999999;
 	border-radius: 15px;
 	text-align: center;
-	height: 275px;
-	width: 275px;
+	height: 165px;
+	width: 90px;
 	vertical-align: center;
 	cursor: move;
 	position: relative;
@@ -26,10 +26,10 @@
 
 .draggerbay
 {
-	border: dashed thin #000000;
+	border: dashed #000000;
 	border-radius: 15px;
-	height: 275px;
-	width: 275px;
+	height: 165px;
+	width: 90px;
 	text-align: center;
 	background: #ccccee;
 }
