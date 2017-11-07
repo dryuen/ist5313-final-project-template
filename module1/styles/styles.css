@@ -78,3 +78,11 @@ audio
 #quiz-link{
 	display: none;
 }
+
+#navbar-logo{
+	height: 50px;
+}
+
+#video{
+	border: 1px solid black;
+}

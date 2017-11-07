@@ -9,12 +9,12 @@ function processQuiz()
 
     var counter = 0;		// This variable keeps track of the number of correct answers
 
-    if( answer1 == 0 )
+    if( answer1 == 2 )
     {
         counter = counter + 1;
     }
 
-    if( answer2 == 2 )
+    if( answer2 == 1 )
     {
         counter = counter + 1;
     }
@@ -31,7 +31,7 @@ function processQuiz()
     var grade = (percentage * 100);
 
     if(grade < 70) {
-        alert( "Your score is " + grade + "%. You must score a 70% or higher to continue" );
+        alert( "Your score is " + (grade.toFixed(2)) + "%. You must score a 70% or higher to continue" );
     } else{
         alert( "Your score is " + grade + "%. Congratulations!" );
         $("#certificate-link").css("display", "block");
