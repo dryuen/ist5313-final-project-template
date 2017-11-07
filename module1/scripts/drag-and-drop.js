@@ -31,12 +31,12 @@ function processForm()
 	
 	if( bCorrect )
 	{
-		document.getElementById( "response" ).innerHTML = "Correct!";
+		document.getElementById( "response" ).innerHTML = "Right on zebra!";
 	}
 	else
 	{
 		// link back to the same page.
-		document.getElementById( "response" ).innerHTML = "Incorrect!  <a href='practice.html'>click here to try again</a>";
+		document.getElementById( "response" ).innerHTML = "Incorrect!  <a href='practice.html'>Click here to give it another try.</a>";
 	}
 }
 
@@ -74,7 +74,8 @@ function dropDragger( evt )
 		aDraggerBays[ nDraggerBayIndex ] = nDraggerIndex; 
 		
 		// replace the HTML of the dragger bay with the dragger (the HTML)
-		evt.target.innerHTML = "<div class='dragger'>" + oCurrentDragger.innerHTML + "</div>";
+		//evt.target.innerHTML = "<div class='dragger'>" + oCurrentDragger.innerHTML + "</div>";
+		evt.target.src = oCurrentDragger.src;
 		
 		evt.target.style.border = "none";
 		oCurrentDragger.style.display = "none";
