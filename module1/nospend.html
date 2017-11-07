@@ -8,15 +8,12 @@
 
     <!--- link your other script files here that are specific to this HTML page here --->
 </head>
-<body onload="javascript:parent.visitTopic5();">
+<body onload="javascript:parent.visitTopic7();">
 
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">
-                    <img alt="Brand" src="images/lotus35.png">
-                </a>
-
+                <img src="images/svg35.svg" id="navbar-logo">
             </div>
 
             <ul class="nav navbar-nav pull-right">
@@ -30,7 +27,15 @@
                     </ul>
                 </li>
 
-                <li><a href="budgeting.html">Budgeting 101</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Budgeting <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="budgeting.html">Budgeting 101</a></li>
+                        <li><a href="budgeting-plan.html">Budgeting Plan of Action</a></li>
+                        <li><a href="reduce-spending.html">Reduce Spending</a></li>
+                    </ul>
+                </li>
+
                 <li class="active"><a href="nospend.html">No Spend Challenge</a></li>
                 <li><a href="additionalresources.html">Additional Resources</a></li>
                 <li><a href="review.html">Review</a></li>
@@ -62,12 +67,27 @@
                     remind yourself of your commitment. Post it on social media if you would like another way to keep yourself
                     accountable and encourage friends to do it with you as well! It is easier to commit to it with a friend!</p>
 
+                <p>Sample Expenses: </p>
+                <ul>
+                    <li>Eating out</li>
+                    <li>Starbucks/Dunkn Donuts</li>
+                    <li>Hobbies (like golf)</li>
+                    <li>New Clothing</li>
+                    <li>Entertainment like movie tickets or video games</li>
+                    <li>Toys</li>
+                    <li>Alcohol</li>
+                    <li>Lottery Tickets</li>
+                    <li>Home Decor</li>
+                </ul>
+
+                <p><a href="files/noSpend.pdf" download>Download the No Spend Tracker here</a></p>
+
             </div>
 
         </div>
 
     </div>
-    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="scripts/jquery-2.2.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </body>

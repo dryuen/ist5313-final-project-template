@@ -13,9 +13,7 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">
-                    <img alt="Brand" src="images/lotus35.png">
-                </a>
+                <img src="images/svg35.svg" id="navbar-logo">
             </div>
 
             <ul class="nav navbar-nav pull-right">
@@ -27,7 +25,16 @@
                         <li><a href="objectives1.html">Objectives</a></li>
                     </ul>
                 </li>
-                <li><a href="budgeting.html">Budgeting 101</a></li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Budgeting <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="budgeting.html">Budgeting 101</a></li>
+                        <li><a href="budgeting-plan.html">Budgeting Plan of Action</a></li>
+                        <li><a href="reduce-spending.html">Reduce Spending</a></li>
+                    </ul>
+                </li>
+
                 <li><a href="nospend.html">No Spend Challenge</a></li>
                 <li><a href="additionalresources.html">Additional Resources</a></li>
                 <li><a href="review.html">Review</a></li>
@@ -55,53 +62,102 @@
                 <form id="quiz1" name="quiz1" onsubmit="javascript: processQuiz(); return false;">
 
                     <div class="form-group"> <!-- Question 1!-->
-                        <label for="question1" class="control-label">1. What is this course about?</label>
+                        <label for="question1" class="control-label">1. What percentage of the American
+                            population is in debt?</label>
                         <div class="radio">
-                            <label><input type="radio" id="question1" name="question1" value="0" >Changing your life</label>
+                            <label><input type="radio" id="question1" name="question1" value="0" >10%</label>
                         </div>
 
                         <div class="radio">
-                            <label><input type="radio" id="question1" name="question1" value="1">Improving your math skills</label>
+                            <label><input type="radio" id="question1" name="question1" value="1">50%</label>
                         </div>
 
                         <div class="radio">
-                            <label><input type="radio" id="question1"  name="question1" value="2">Learning another language</label>
+                            <label><input type="radio" id="question1"  name="question1" value="2">80%</label>
                         </div>
                     </div>
 
                     <div class="form-group"> <!-- Question 2!-->
-                        <label for="question2" class="control-label">2. What topics will be covered in this course?</label>
+                        <label for="question2" class="control-label">2. What is the most common type of debt in America                      ?</label>
                         <div class="radio">
-                            <label><input type="radio" id="question2" name="question2" value="0" >
-                                Decluttering your environment, Finding a job, being a better friend
+                            <label><input type="radio" id="question2" name="question2" value="0" >Car Debt
                             </label>
                         </div>
 
                         <div class="radio">
-                            <label><input type="radio" id="question2" name="question2" value="1">
-                                Fixing your resume, Becoming a runner, Adopting a pet
-                            </label>
+                            <label><input type="radio" id="question2" name="question2" value="1">Mortgage Debt</label>
                         </div>
 
                         <div class="radio">
                             <label>
-                                <input type="radio" id="question2"  name="question2" value="2">
-                                Reducing debt, Decluttering your life, Improving your health
+                                <input type="radio" id="question2"  name="question2" value="2">School Debt
                             </label>
                         </div>
                     </div>
 
                     <div class="form-group"> <!-- Question 3!-->
-                        <label for="question3" class="control-label">3. In order to move on, this quiz must be completed</label>
+                        <label for="question3" class="control-label">3. Which of the following is
+                            <strong>not</strong> a smart way to stay on debt.</label>
                         <div class="radio">
-                            <label><input type="radio" id="3" name="question3" value="0" >True</label>
+                            <label><input type="radio" id="question3" name="question3" value="0" >Delay paying off credit card debts</label>
                         </div>
 
                         <div class="radio">
-                            <label><input type="radio" id="question3" name="question3" value="1">False</label>
+                            <label><input type="radio" id="question3" name="question3" value="1">Keeping a planner with grocery lists</label>
+                        </div>
+
+
+                        <div class="radio">
+                            <label><input type="radio" id="question3" name="question3" value="2">Using cash</label>
                         </div>
 
                     </div>
+
+                    <!--<div class="form-group"> &lt;!&ndash; Question 4!&ndash;&gt;-->
+                        <!--<label for="question4" class="control-label">2. What topics will be covered in this-->
+                            <!--course?</label>-->
+                        <!--<div class="radio">-->
+                            <!--<label><input type="radio" id="question4" name="question4" value="0" >-->
+                                <!--Decluttering your environment, Finding a job, being a better friend-->
+                            <!--</label>-->
+                        <!--</div>-->
+
+                        <!--<div class="radio">-->
+                            <!--<label><input type="radio" id="question4" name="question4" value="1">-->
+                                <!--Fixing your resume, Becoming a runner, Adopting a pet-->
+                            <!--</label>-->
+                        <!--</div>-->
+
+                        <!--<div class="radio">-->
+                            <!--<label>-->
+                                <!--<input type="radio" id="question4"  name="question4" value="2">-->
+                                <!--Reducing debt, Decluttering your life, Improving your health-->
+                            <!--</label>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                    <!--<div class="form-group"> &lt;!&ndash; Question 5!&ndash;&gt;-->
+                        <!--<label for="question5" class="control-label">2. What topics will be covered in this-->
+                            <!--course?</label>-->
+                        <!--<div class="radio">-->
+                            <!--<label><input type="radio" id="question5" name="question5" value="0" >-->
+                                <!--Decluttering your environment, Finding a job, being a better friend-->
+                            <!--</label>-->
+                        <!--</div>-->
+
+                        <!--<div class="radio">-->
+                            <!--<label><input type="radio" id="question5" name="question5" value="1">-->
+                                <!--Fixing your resume, Becoming a runner, Adopting a pet-->
+                            <!--</label>-->
+                        <!--</div>-->
+
+                        <!--<div class="radio">-->
+                            <!--<label>-->
+                                <!--<input type="radio" id="question5"  name="question5" value="2">-->
+                                <!--Reducing debt, Decluttering your life, Improving your health-->
+                            <!--</label>-->
+                        <!--</div>-->
+                    <!--</div>-->
 
                     <div class="form-group"> <!-- Submit button !-->
                         <button class="btn btn-primary " name="submit" type="submit">Submit</button>
@@ -117,7 +173,7 @@
 
     </div>
 
-    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="scripts/jquery-2.2.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="scripts/quiz1.js"></script>
 
