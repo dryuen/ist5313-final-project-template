@@ -25,6 +25,11 @@ h2
 	border-radius: 25px;
 }
 
+#start
+{
+	text-align: center;
+}
+
 body
 {
 	margin: 0px;
@@ -203,6 +208,11 @@ a:hover
 	background-color: #ddd;
 	color: black;
 	float: right;
+}
+
+.moodle
+{
+	float: right;	
 }
 
 footer
