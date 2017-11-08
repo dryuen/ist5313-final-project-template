@@ -1,4 +1,4 @@
-var images = ["images/slide5.jpg", "images/slide6.jpg", "images/slide7.jpg"] ;
+var images = ["images/minimalSVG.svg", "images/starSVG.svg", "images/slowdownSVG.svg"] ;
 
 var heading = ["Living With Less","Mentally Declutter","Slow Down Your Pace"] ;
  
