@@ -34,6 +34,12 @@ function startCourse()
             sessionStorage.setItem("topic4Visited", "unvisited");
             sessionStorage.setItem("topic5Visited", "unvisited");
             sessionStorage.setItem("topic6Visited", "unvisited");
+            sessionStorage.setItem("topic7Visited", "unvisited");
+            sessionStorage.setItem("topic8Visited", "unvisited");
+            sessionStorage.setItem("topic9Visited", "unvisited");
+            sessionStorage.setItem("topic10Visited", "unvisited");
+
+
         }
 	}
 	
@@ -123,6 +129,26 @@ function visitTopic6()
     sessionStorage.setItem( "topic6Visited", "visited" );
     checkAllVisited();
 }
+function visitTopic7()
+{
+    sessionStorage.setItem( "topic7Visited", "visited" );
+    checkAllVisited();
+}
+function visitTopic8()
+{
+    sessionStorage.setItem( "topic8Visited", "visited" );
+    checkAllVisited();
+}
+function visitTopic9()
+{
+    sessionStorage.setItem( "topic9Visited", "visited" );
+    checkAllVisited();
+}
+function visitTopic10()
+{
+    sessionStorage.setItem( "topic10Visited", "visited" );
+    checkAllVisited();
+}
 
 
 
@@ -133,10 +159,14 @@ function checkAllVisited(){
     var t4 = sessionStorage.getItem("topic4Visited");
     var t5 = sessionStorage.getItem("topic5Visited");
     var t6 = sessionStorage.getItem("topic6Visited");
+    var t7 = sessionStorage.getItem("topic7Visited");
+    var t8 = sessionStorage.getItem("topic8Visited");
+    var t9 = sessionStorage.getItem("topic9Visited");
+    var t10 = sessionStorage.getItem("topic10Visited");
 
-    if(t2 =="visited" && t3 == "visited" && t4 == "visited" && t5 == "visited" && t6 == "visited"){
+    if(t2 =="visited" && t3 == "visited" && t4 == "visited" && t5 == "visited" && t6 == "visited" && t7 == "visited"
+        && t8 == "visited" && t9 == "visited" && t10 == "visited"){
         document.getElementById("content-frame").contentWindow.document.getElementById("quiz-link").style.display="block";
-        document.getElementById("content-frame").contentWindow.document.getElementById("quiz-button").style.display="block";
 
     }
 }
