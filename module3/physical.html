@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8"/>
     <title>physical health</title>
-    <script language="javascript" src="scripts/slideshow.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css">
     <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
 
@@ -61,20 +60,28 @@
                     Guide to Physical Health will improve your health while saving
                     precious time and even money.
                 </p>
-         <h5><The Minimalist Guide to Physical Health></h5>
-        <div id="heading">
-       <h6> Take Advantage of Local Parks</h6>    
-        </div>
-       <img src="images/slide1.jpg" id="slideshow" />
-       <br/>
-        <a href="#" onclick="changeImage(-1); return false;">Previous</a><br/>
-       <a href="#" onclick="changeImage(1); return false;">Next</a>    
-           
 
+                <h5><The Minimalist Guide to Physical Health></h5>
+                <img src="images/slide1.jpg" id="slideshow" />
+                <h6 id="heading">Take Advantage of Local Parks</h6>
+
+                <br>
+
+                <div class="col-sm-2 col-sm-offset-2">
+                    <a href="#" class="btn btn-block" role="button" onclick="changeImage(-1); return false;">Previous
+                    </a>
+                </div>
+
+                <div class="col-sm-2">
+                    <a href="#" class="btn btn-block" role="button" onclick="changeImage(1); return false;"">Next</a>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="scripts/jquery-2.2.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script language="javascript" src="scripts/physical-slideshow.js"></script>
 
 </body>
 </html>
