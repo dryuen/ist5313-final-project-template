@@ -9,23 +9,25 @@ function showText( number )
 	
 	if( number == 1 )
 	{
-		document.getElementById( "output-text" ).innerHTML = "le chat";
+		document.getElementById( "output-text" ).innerHTML = "Shar-dun-nay";
 	}
 	else if( number == 2 )
 	{
-		document.getElementById( "output-text" ).innerHTML = "le cheval";
+		document.getElementById( "output-text" ).innerHTML = "Saw-vin-yawn Blonk";
 	}
 	else if( number == 3 )
 	{
-		document.getElementById( "output-text" ).innerHTML = "le chien";
+		document.getElementById( "output-text" ).innerHTML = "Pee-no Gree";
 	}
 	else if( number == 4 )
 	{
-		document.getElementById( "output-text" ).innerHTML = "l'oiseau";
+		document.getElementById( "output-text" ).innerHTML = "Rees-ling";
 	}
+	
 }
 
 function hideOutput()
 {
 	document.getElementById( "output-box" ).style.display = "none";
 }
+
