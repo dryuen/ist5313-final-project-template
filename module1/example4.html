@@ -5,6 +5,8 @@
 		<title>Example 4</title>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
 		<script language="javascript" src="scripts/scripts.js"></script>
+		<link href="styles/hot-spots-styles.css" rel="stylesheet" type="text/css"/>
+		<script language="javascript" src="scripts/hot-spots4.js"></script>
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
 	</head>	
@@ -54,9 +56,79 @@
 					<p>Now try another one. Remember, you can click on the tips
 					for guidance if you need it.</p>
 					
-					<img src="images/table_example4.jpg" alt="example 4 using a table" title="example 4 using a table"/>
-					<br/><br/><br/>
+					
 				
+				<div class="example2-container">
+				y<sub>1</sub>=-3x-2<br/>
+				y<sub>2</sub>=2x-2<br/>
+				</div>
+				
+				<table>
+				<tr>
+				<th>x</th>
+				<th>y<sub>1</sub></th>
+				<th>y<sub>2</sub></th>
+				</tr>
+				
+				<tr>
+					<td><div id="hotspots">
+					<div class="column">
+					 	<div id="hs1" class="hotspot" 
+				     		onmouseover="javascript:showText( 1 )"
+				     		onmouseout="javascript:hideOutput()"><p>-3</p></div></td>
+					<td><input type="text"></td>
+					<td><input type="text"></td>
+				</tr>
+				
+				<tr>
+					<td><div id="hotspots">
+					<div class="column">
+					 	<div id="hs2" class="hotspot" 
+				     		onmouseover="javascript:showText( 2 )"
+				     		onmouseout="javascript:hideOutput()"><p>-2</p></div></td>
+					<td><input type="text"></td>
+					<td><input type="text"></td>
+				</tr>
+				
+				<tr>
+					<td><div id="hotspots">
+					<div class="column">
+					 	<div id="hs3" class="hotspot" 
+				     		onmouseover="javascript:showText( 3 )"
+				     		onmouseout="javascript:hideOutput()"><p>-1</p></div></td>
+					<td><input type="text"></td>
+					<td><input type="text"></td>
+				</tr>
+				
+				<tr>
+					<td><div id="hotspots">
+					<div class="column">
+					 	<div id="hs4" class="hotspot" 
+				     		onmouseover="javascript:showText( 4 )"
+				     		onmouseout="javascript:hideOutput()"><p>0</p></div></td>
+					<td><input type="text"></td>
+					<td><input type="text"></td>
+				</tr>
+				
+				<tr>
+					<td><div id="hotspots">
+					<div class="column">
+					 	<div id="hs5" class="hotspot" 
+				     		onmouseover="javascript:showText( 5 )"
+				     		onmouseout="javascript:hideOutput()"><p>1</p></div></td>
+					<td><input type="text"></td>
+					<td><input type="text"></td>
+				</tr>
+				</table>
+				<br/>				
+				<section>
+				<div id="output">
+					<div id="output-box">
+						<p id="output-text">asdf</p>
+					</div>
+				</div>
+            </section>
+            
 				</article>
 			</div>
 			<div id="aside-info">
