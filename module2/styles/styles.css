@@ -79,3 +79,7 @@ audio
 #quiz-link, #quiz-button{
 	display: none;
 }
+
+#navbar-logo{
+	height: 50px;
+}
