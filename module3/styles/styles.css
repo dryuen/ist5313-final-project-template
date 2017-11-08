@@ -1,13 +1,27 @@
-header
+/*header
 {
 	background: #9b9b9b;
-}
+}*/
 
-h1
+/*h1
 {
 	font-size: 30px;
 	text-align: left;
 	border-top: double 5px #000080;
+	border-bottom: double 5px #000080;
+}*/
+
+.banner
+{
+	width: 100%;
+	display: block;
+	padding-bottom: 15px;
+}
+
+.banner > .banner-image
+{
+	width: 100%;
+	display: block;
 	border-bottom: double 5px #000080;
 }
 
@@ -103,7 +117,7 @@ aside
 	right: 10px;
 	width: 300px;
 	display: block;
-	top: 130px;
+	top: 141px;
 }
 
 #aside-title-audio
