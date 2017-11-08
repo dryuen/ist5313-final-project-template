@@ -1,6 +1,5 @@
-var images = ["images/slide1.jpg", "images/slide2.jpg", "images/slide3.png", "images/slide4.jpg";
- 
- var heading = ["Take Advantage of Local Parks","GO Hiking","Ride a Bike","Push-up and Pull-ups","The Fourth Stage: Adult Butterfly"] ;
+var images = ["images/slide1.jpg", "images/slide2.jpg", "images/slide3.png", "images/slide4.jpg"] ;
+ var heading = ["Take Advantage of Local Parks","GO Hiking","Ride a Bike","Push-up and Pull-ups"] ;
  
  var imageNumber = 0;
  var imageLength = images.length - 1;
