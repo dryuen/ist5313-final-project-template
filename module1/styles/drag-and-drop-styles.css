@@ -11,7 +11,7 @@
 	background: #999999;
 	border-radius: 15px;
 	text-align: center;
-	height: 100px;
+	height: 105px;
 	width: 270px;
 	vertical-align: center;
 	cursor: move;
@@ -28,7 +28,7 @@
 {
 	border: dashed #000000;
 	border-radius: 15px;
-	height: 100px;
+	height: 105px;
 	width: 270px;
 	text-align: center;
 	background: #ccccee;
