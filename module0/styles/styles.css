@@ -2,7 +2,7 @@ body
 {
 	margin: 0px;
 	padding: 0px;
-	font-size: 12px;
+	font-size: 13px;
 	font-family: Arial;
 }
 
@@ -47,3 +47,21 @@ audio
 	padding: 10px;
 }
 
+#caption{
+	background-color: rgba(172, 219, 201, 0.18);
+
+	height: 600px;
+}
+
+.form-group{
+	padding: 8px;
+}
+
+.form-group > label{
+	font-weight: bold;
+}
+
+#caption-text{
+	margin-top: 20px;
+	background-color: ;
+}

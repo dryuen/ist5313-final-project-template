@@ -34,7 +34,7 @@
         </nav>
 
         <div class="container">
-            <div class="col-sm-3">
+            <div class="col-sm-3" id="caption">
                 <div class="row">
                     <p>audio here</p>
                     <p>captions here</p>
@@ -42,72 +42,76 @@
             </div>
 
             <div class="col-sm-9">
-                <div class="row">
-                    <h4>Assessment</h4>
-                    <p>You will complete the following multiple choice quiz. In order to move on, you must pass the assessment</p>
+                <div class="col-sm-11">
+                    <div class="row text-center">
+                        <a href="certificate.html"><h5 id="certificate-link" style="display: none;">Click here for your certificate</h5></a>
+                    </div>
+
+                    <div class="row">
+                        <h4>Assessment</h4>
+                        <p>You will complete the following multiple choice quiz. In order to receive your certificate, you must pass the assessment with a 70% or higher.</p>
+                    </div>
+
+                    <div class="row">
+                        <form id="quiz0" name="quiz0" onsubmit="javascript: processQuiz(); return false;">
+
+                            <div class="form-group"> <!-- Question 1!-->
+                                <label for="question1" class="control-label">1. What is this course about?</label>
+                                <div class="radio">
+                                    <label><input type="radio" id="question1" name="question1" value="0" >Changing your life</label>
+                                </div>
+
+                                <div class="radio">
+                                    <label><input type="radio" id="question1" name="question1" value="1">Improving your math skills</label>
+                                </div>
+
+                                <div class="radio">
+                                    <label><input type="radio" id="question1"  name="question1" value="2">Learning another language</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group"> <!-- Question 2!-->
+                                <label for="question2" class="control-label">2. What topics will be covered in this course?</label>
+                                <div class="radio">
+                                    <label><input type="radio" id="question2" name="question2" value="0" >
+                                        Decluttering your environment, Finding a job, being a better friend
+                                    </label>
+                                </div>
+
+                                <div class="radio">
+                                    <label><input type="radio" id="question2" name="question2" value="1">
+                                        Fixing your resume, Becoming a runner, Adopting a pet
+                                    </label>
+                                </div>
+
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" id="question2"  name="question2" value="2">
+                                        Reducing debt, Decluttering your life, Improving your health
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form-group"> <!-- Question 3!-->
+                                <label for="question3" class="control-label">3. In order to move on, this quiz must be completed</label>
+                                <div class="radio">
+                                    <label><input type="radio" id="3" name="question3" value="0" >True</label>
+                                </div>
+
+                                <div class="radio">
+                                    <label><input type="radio" id="question3" name="question3" value="1">False</label>
+                                </div>
+
+                            </div>
+
+                            <div class="form-group"> <!-- Submit button !-->
+                                <button class="btn btn-primary " name="submit" type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
 
-                <div class="row">
-                    <form id="quiz0" name="quiz0" onsubmit="javascript: processQuiz(); return false;">
 
-                        <div class="form-group"> <!-- Question 1!-->
-                            <label for="question1" class="control-label">1. What is this course about?</label>
-                            <div class="radio">
-                                <label><input type="radio" id="question1" name="question1" value="0" >Changing your life</label>
-                            </div>
-
-                            <div class="radio">
-                                <label><input type="radio" id="question1" name="question1" value="1">Improving your math skills</label>
-                            </div>
-
-                            <div class="radio">
-                                <label><input type="radio" id="question1"  name="question1" value="2">Learning another language</label>
-                            </div>
-                        </div>
-
-                        <div class="form-group"> <!-- Question 2!-->
-                            <label for="question2" class="control-label">2. What topics will be covered in this course?</label>
-                            <div class="radio">
-                                <label><input type="radio" id="question2" name="question2" value="0" >
-                                    Decluttering your environment, Finding a job, being a better friend
-                                </label>
-                            </div>
-
-                            <div class="radio">
-                                <label><input type="radio" id="question2" name="question2" value="1">
-                                    Fixing your resume, Becoming a runner, Adopting a pet
-                                </label>
-                            </div>
-
-                            <div class="radio">
-                                <label>
-                                    <input type="radio" id="question2"  name="question2" value="2">
-                                    Reducing debt, Decluttering your life, Improving your health
-                                </label>
-                            </div>
-                        </div>
-
-                        <div class="form-group"> <!-- Question 3!-->
-                            <label for="question3" class="control-label">3. In order to move on, this quiz must be completed</label>
-                            <div class="radio">
-                                <label><input type="radio" id="3" name="question3" value="0" >True</label>
-                            </div>
-
-                            <div class="radio">
-                                <label><input type="radio" id="question3" name="question3" value="1">False</label>
-                            </div>
-
-                        </div>
-
-                        <div class="form-group"> <!-- Submit button !-->
-                            <button class="btn btn-primary " name="submit" type="submit">Submit</button>
-                        </div>
-                    </form>
-                </div>
-
-                <div class="row text-center">
-                    <a href="certificate.html"><h5 id="certificate-link" style="display: none;">Click here for your certificate</h5></a>
-                </div>
 
             </div>
         </div>
