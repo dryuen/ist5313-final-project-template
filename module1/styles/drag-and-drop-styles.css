@@ -2,7 +2,7 @@
 {
 	display: table-cell;
 	padding: 30px;
-	width: 200px;
+	width: 275px;
 }
 
 .dragger
@@ -11,8 +11,8 @@
 	background: #999999;
 	border-radius: 15px;
 	text-align: center;
-	height: 165px;
-	width: 90px;
+	height: 100px;
+	width: 270px;
 	vertical-align: center;
 	cursor: move;
 	position: relative;
@@ -28,8 +28,8 @@
 {
 	border: dashed #000000;
 	border-radius: 15px;
-	height: 165px;
-	width: 90px;
+	height: 100px;
+	width: 270px;
 	text-align: center;
 	background: #ccccee;
 }
