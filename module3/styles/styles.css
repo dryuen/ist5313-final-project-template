@@ -56,17 +56,17 @@ body
 #main-info
 {
 	
-	width: 700px;
+	width: 600px;
 	margin: auto;
 	display: block;
 }
 
 #aside-info
 {
-	float: left;
-	width: 300px;
+	float: center;
+	width: 190px;
 	vertical-align: top;
-	padding-left: 10px;
+	padding-left: 0px;
 	overflow: auto;
 }
 	
@@ -75,16 +75,19 @@ body
 
 	display: table-cell;
 	background: #EAEff9;
+	float: left;
+	margin-left: 40px;
 }
 
 #navigation
 {
 	background: #c0c0c0;	
-	width: 110px;
+	width: 51px;
 	display: table-cell;
 	text-align: left;
 	vertical-align: top;
-	padding: 10px;	
+	padding: 0px;
+	float: left;	
 }
 
 .navigation-text
@@ -105,7 +108,7 @@ body
 {
 	background: #dddddd;	
 	padding: 5px;
-	width: 886px;
+	width: 600px;
 	float: left;
 	height: 20px;
 	font-size: 16px;
@@ -113,9 +116,9 @@ body
 
 aside
 {
-	position: absolute;
+	float: left;
 	right: 10px;
-	width: 300px;
+	width: 190px;
 	display: block;
 	top: 141px;
 }
@@ -123,7 +126,7 @@ aside
 #aside-title-audio
 {
 	background: #666666;
-	width: 300px;
+	width: 190px;
 	font-size: 14px;
 	font-weight: bold;
 	color: white;
@@ -146,7 +149,8 @@ aside
 
 audio
 {
-	width: auto;
+	width: 170px;
+	border-radius: 15px;
 }
 
 ul 
@@ -154,7 +158,7 @@ ul
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 110px;
+    width: 90px;
     background-color: #c0c0c0;
     border: none;
     height: 100%;
@@ -174,6 +178,7 @@ li a
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
+    font-size: 12px;
 }
 
 li:last-child 
@@ -231,7 +236,9 @@ a:hover
 
 footer
 {
-	text-align: center;
+	text-align: left;
+	margin: 265px;
+	clear: both;
 }
 
 .round 
@@ -248,7 +255,7 @@ footer
 #headerDiv, #contentDiv 
 {
 	float: left;
-	width: 290px;
+	width: 190px;
 }
 #titleText 
 {
@@ -267,17 +274,20 @@ footer
 {
 	background-color: #808080;
 	color: #9EB6FF;
+	border-radius: 15px
 }
 
 #contentDiv 
 {
 	background-color: #6a84bf;
+	border-radius: 15px;
 }
 
 #myContent 
 {
 	margin: 5px 10px;
 	color: white;
+	border-radius: 15px;
 }
 
 #headerDiv a 
@@ -295,7 +305,8 @@ footer
 #headerDiv2, #contentDiv2
 {
 	float: left;
-	width: 290px;
+	width: 190px;
+	border-radius: 15px;
 }
 
 #titleText2 
@@ -316,11 +327,13 @@ footer
 {
 	background-color: #808080;
 	color: #9EB6FF;
+	border-radius: 15px;
 }
 
 #contentDiv2 
 {
 	background-color: #6a84bf;
+	border-radius: 15px;
 }
 
 #myContent2 
@@ -353,7 +366,7 @@ td
 table
 {
 	position: relative;
-	left: 30px;
+	left: 50px;
 	border-collapse: collapse;
 }
 
@@ -361,6 +374,7 @@ table
 {
 	float:left;
 	padding-top: 20px;
+	padding-left: 20px;
 	font-weight: bold;
 }
 
@@ -379,6 +393,15 @@ video
 img
 {
 	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#column2
+{
+	display: table-cell;
+	padding: 55px;
+	width: 200px;
 	margin-left: auto;
 	margin-right: auto;
 }

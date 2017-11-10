@@ -8,11 +8,11 @@
 .hotspot
 {
 	border: solid thin #000000;
+	border-radius: 15px;
 	background: #999999;
-	
 	text-align: center;
 	height: 60px;
-	width: 225px;
+	width: 175px;
 	vertical-align: center;
 	position: relative;
 }
@@ -25,10 +25,11 @@
 #output-box
 {
 	border: dashed thin #000000;
+	border-radius: 15px;
 	height: 100px;
-	width: 740px;
+	width: 570px;
 	text-align: center;
 	background: #6a84bf;
-	
+	margin-left: 10px;
 	display: none;
 }
