@@ -4,7 +4,8 @@
 		<meta charset="utf-8"/>
 		<title>Example 2</title>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
-		<script language="javascript" src="scripts/scripts.js"></script>
+<!-- 		<script language="javascript" src="scripts/scripts.js"></script>		-->
+		<script language="javascript" src="scripts/drops.js"></script>
 		
 	</head>
 	
@@ -59,7 +60,7 @@
 		<br>
 		
 		<p><form action="drop down menu">
-		<select name="menu">
+		<select onchange="javascript:goFirst()" id="xfirst">
 		<option value=" 0 "></option>
 		<option value=" 1 ">2</option>
 		<option value=" 2 ">4</option>
@@ -69,7 +70,7 @@
 		</form></p>
 		<br>
 	<p><form action="drop down menu">
-		 6x - 2y = <select name="menu">
+		 6x - 2y = <select onchange="javascript:goSecond()" id="xsecond" disabled>
 		<option value=" 0 "></option>
 		<option value=" 1 ">12</option>
 		<option value=" 2 ">14</option>
@@ -86,7 +87,7 @@
 		</form></p>
 	
 	<p><form action="drop down menu">
-		 x = <select name="menu">
+		 x = <select onchange="javascript:goThird()" id="xthird" disabled>
 		<option value=" 0 "></option>
 		<option value=" 1 ">2</option>
 		<option value=" 2 ">4</option>
@@ -105,7 +106,7 @@
 		<br>
 		
 		<p><form action="drop down menu">
-		<select name="menu">
+		<select onchange="javascript:goFourth()" id="yfirst" disabled>
 		<option value=" 0 "></option>
 		<option value=" 1 ">6</option>
 		<option value=" 2 ">9</option>
@@ -130,7 +131,7 @@
 	
 		<p>
 		<form action="drop down menu">
-		 y = <select name="menu">
+		 y = <select onchange="javascript:goFifth()" id="ysecond" disabled>
 		<option value=" 0 "></option>
 		<option value=" 1 ">2</option>
 		<option value=" 2 ">4</option>
