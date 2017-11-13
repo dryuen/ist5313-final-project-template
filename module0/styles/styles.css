@@ -16,7 +16,7 @@ h1
 
 h2
 {
-	text-align: left;
+	text-align: center;
 }
 
 #main-info
@@ -73,7 +73,7 @@ a:hover
 	display: table;
 	width: 150px;
 	text-align: left;
-	
+	padding: 10px;
 }
 
 
@@ -93,6 +93,7 @@ a:hover
 #content-frame
 {
 	border: none;
+	
 }
 	
 #transcript
