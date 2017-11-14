@@ -79,7 +79,7 @@ a:hover
 	display: table;
 	width: 90px;
 	text-align: left;
-	padding: 5px;
+	padding: 10px;
 	
 }
 
@@ -110,6 +110,7 @@ a:hover
 	width: 150px;
 	padding: 15px;
 }
+
 
 audio
 {
