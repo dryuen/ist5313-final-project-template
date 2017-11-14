@@ -2,7 +2,7 @@
 {
 	display: table-cell;
 	padding: 50px;
-	width: 150px;
+	width: 100px;
 }
 
 .dragger
@@ -58,33 +58,37 @@ h1
 
 h2
 {
-	text-align: center;
+	text-align: left;
 }
 
 #main-info
 {
 	float: left;
-	width: 627px;
+	width: 900px;
+	height: 675px;
 }
 
 #aside-info
 {
 	float: left;
-	width: 300px;
+	width: 100px;
 	vertical-align: top;
-	padding-left: 10px;
+	padding-left: 0px;
+	
 }
 	
 #main-content
 {
-	height: 368px;
-	padding: 10px;
-	margin: 10px;
+	height: 675px;
+	padding: 0px;
+	margin: 0px;
+	
 }
 #main-panel
 {
 	background: white;
 	display: table-cell;
+	width: 600px;
 	
 }
 
@@ -92,16 +96,18 @@ h2
 {
 	background: #e4d1d1;
 	display: table;
-	text-align: center;
-	width: 1200px;
+	text-align: left;
+	width: 900px;
+	border-radius: 25px;
 }
 
 a
 {
 	text-decoration: none;
 	color: #cc8033;
-	font-size: 18px;
+	font-size: 12px;
 	text-align: center;
+	
 }
 
 a:hover
@@ -111,25 +117,25 @@ a:hover
 
 #navigation
 {
-	background: #e4d1d1;	 
+	background: #e4d1d1;	 
 	display: table;
-	width: 150px;
+	width: 70px;
 	text-align: left;
+	padding: 10px;
 	
 }
 
 
 #aside-title-audio
 {
-	width: 300px;
+	width: 160px;
 	text-align: center;
-	font-size: 14px;
+	font-size: 12px;
 	background: #e4d1d1;
-	font-size: 18px;
 	font-family:georgia;
 	font-weight: bold;
 	color: #cc8033;
-	padding: 5px;
+	padding: 0px;
 }
 
 #content-frame
@@ -139,12 +145,14 @@ a:hover
 	
 #transcript
 {
-	color: green;
+	color: #996666;
 	font-size: 12px;
 	overflow: auto;
-	height: 321px;
-	width: 233px;
+	height: 200px;
+	width: 150px;
+	padding: 15px;
 }
+
 
 audio
 {
