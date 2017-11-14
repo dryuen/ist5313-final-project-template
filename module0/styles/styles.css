@@ -29,7 +29,7 @@ h2
 #aside-info
 {
 	float: left;
-	width: 100px;
+	width: 120px;
 	vertical-align: top;
 	padding-left: 0px;
 	
@@ -86,7 +86,7 @@ a:hover
 
 #aside-title-audio
 {
-	width: 160px;
+	width: 140px;
 	text-align: center;
 	font-size: 12px;
 	background: #e4d1d1;
@@ -95,6 +95,8 @@ a:hover
 	color: #cc8033;
 	padding: 0px;
 }
+
+
 
 #content-frame
 {
@@ -107,8 +109,9 @@ a:hover
 	font-size: 12px;
 	overflow: auto;
 	height: 200px;
-	width: 150px;
-	padding: 15px;
+	width: 140px;
+	padding: 10px;
+	
 }
 
 
@@ -116,3 +119,8 @@ audio
 {
 	width: 250px;
 }
+
+
+
+    
+    
