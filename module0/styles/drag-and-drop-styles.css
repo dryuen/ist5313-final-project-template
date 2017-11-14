@@ -58,7 +58,8 @@ h1
 
 h2
 {
-	text-align: left;
+	text-align: center;
+	font-size: 18px;
 }
 
 #main-info
@@ -88,7 +89,7 @@ h2
 {
 	background: white;
 	display: table-cell;
-	width: 600px;
+	width: 500px;
 	
 }
 
