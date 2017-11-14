@@ -46,7 +46,7 @@ h2
 {
 	background: white;
 	display: table-cell;
-	width: 400px;
+	width: 600px;
 	
 }
 
@@ -86,7 +86,7 @@ a:hover
 
 #aside-title-audio
 {
-	width: 90px;
+	width: 160px;
 	text-align: center;
 	font-size: 12px;
 	background: #e4d1d1;
@@ -106,8 +106,9 @@ a:hover
 	color: #996666;
 	font-size: 12px;
 	overflow: auto;
-	height: 321px;
-	width: 233px;
+	height: 200px;
+	width: 150px;
+	padding: 15px;
 }
 
 audio
