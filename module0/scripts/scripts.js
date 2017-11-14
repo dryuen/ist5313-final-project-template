@@ -1,4 +1,28 @@
+function processQuiz()
+{
+	var answer 1 = docunment.forms.quiz1.questions1. value;
+	var answer 2 = docunment.forms.quiz1.questions2. value;
+	var answer 3 = docunment.forms.quiz1.questions3. value;
+	
+	var counter = 0;
+	
+	if( answer 1 == 0 )
+	{
+		counter = counter + 1;
+	}
+	
+	if( answer 2 == 2 )
+	{
+		counter = counter + 1;
+	}	
+	
+	if( answer 3 == 0 )
+	{
+		counter = counter + 1;
+	}	
+}
 
+alert ( "You got " + counter + " questions correct!");
 
 
 
