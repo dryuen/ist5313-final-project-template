@@ -3,7 +3,7 @@ body
 	background: white;
 	margin: 0px;
 	padding: 0px;
-	font-size: 12px;
+	font-size: 14px;
 	font-family: Georgia;
 }
 
@@ -17,6 +17,7 @@ h1
 h2
 {
 	text-align: left;
+	padding: 15px;
 }
 
 #main-info
