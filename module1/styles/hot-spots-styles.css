@@ -29,7 +29,5 @@
 	text-align: center;
 	background: #ccccee;
 	display: none;
-	float:right;
-	position: relative;
-	top: -330px;
+	margin: auto;
 }
