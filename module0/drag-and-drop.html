@@ -9,84 +9,78 @@
 	</head>
 	  
     <body>
-        <img src="images/heading1.png" alt="____" 
-            			title="WineTech Training System"/>
-            <div id="main-content">
-			
-			<div id="main-info">
-			
-            			<div id="main-layout">
+        <header>
+       	 	<img src="images/heading1.png" alt="____" title="WineTech Training System"/>
+		</header>
+        <div id="main-layout">
       		<div id="navigation">
             		<nav>
-            				
-           			<a href="index.html" class="navlink"></a></br></br>
-					<a href="topic-1.html" class="navlink">WineTech</a></br></br>
-					<a href="topic-2.html" class="navlink">Introduction<a></br></br>
-					<a href="topic-3.html" class="navlink">Types of Wine</a></br></br>
-					<a href="topic-4.html" class="navlink">Serving Ware</a></br></br>
-					<a href="topic-5.html" class="navlink">Storage</a></br></br>
-					<a href="topic-6.html" class="navlink">Food Pairings</a></br></br>
-					<a class="active" href="drag-and-drop.html" class="navlink">Activity</a></br></br>
-					<a href="topic-7.html" class="navlink">Quiz</a></br></br>
-					<a href="topic-8.html" class="navlink">Certification</a></br>
-			
+           			<!-- <a href="index.html" class="navlink"></a><br/><br/>  -->
+					<a href="topic-1.html" class="navlink">WineTech</a><br/><br/>
+					<a href="topic-2.html" class="navlink">Introduction<a><br/><br/>
+					<a href="topic-3.html" class="navlink">Types of Wine</a><br/><br/>
+					<a href="topic-4.html" class="navlink">Serving Ware</a><br/><br/>
+					<a href="topic-5.html" class="navlink">Storage</a><br/><br/>
+					<a href="topic-6.html" class="navlink">Food Pairings</a><br/><br/>
+					<a class="active" href="drag-and-drop.html" class="navlink">Activity</a><br/><br/>
+					<a href="topic-7.html" class="navlink">Quiz</a><br/><br/>
+					<a href="topic-8.html" class="navlink">Certification</a><br/>
              	</nav>
-             	
      		</div>
        		<div id="main-panel">
        			<article>
        			<h2>Activity</h2>
    		
-   			<section>
-         		<form name="dd1" onsubmit="javascript:processForm(); return false;">  
-				<p>Match the title to its correct pronunciation to learn how to pronounce name of each wine.</p>
-				
-				<div class="column">
-						<h3>Wine Name</h3>
-					 	<div id="d1" value="3" class="dragger" draggable="true"
-				     		ondragstart="return startDrag( event )"
-				     		ondragend="return endDrag( event )"><p>Chardonnay</p></div><br/>  
-				     	<div id="d2" value="2" class="dragger" draggable="true"
-				     		ondragstart="return startDrag( event )"
-				     		ondragend="return endDrag( event )"><p>Sauvignon Blanc</p></div><br/>                        
-				 		<div id="d3" value="0" class="dragger" draggable="true"
-				     		ondragstart="return startDrag( event )"
-				     		ondragend="return endDrag( event )"><p>Pinot Gris</p></div><br/>  
-					 	<div id="d4" value="1" class="dragger" draggable="true"
-				     		ondragstart="return startDrag( event )"
-				     		ondragend="return endDrag( event )"><p>Riesling</p></div><br/>  
-				</div>
-				
-				    
-				<div class="column">
-						<h3>Pronunciation</h3>
-				     	<div id="db1" value="0" class="draggerbay" 
-				     		ondrop="return dropDragger( event )"
-				     		ondragover="return false"
-				     		ondragenter="return enterDragger( event )"><p>Pee-no Gree</p></div><br/>                        
-				 		<div id="db2" value="1" class="draggerbay"
-				     		ondrop="return dropDragger( event )"
-				     		ondragover="return false"
-				     		ondragenter="return enterDragger( event )"><p>Rees-ling</p></div><br/>  
-					 	<div id="db3" value="2" class="draggerbay"
-				     		ondrop="return dropDragger( event )"
-				     		ondragover="return false"
-				     		ondragenter="return enterDragger( event )"><p>Saw-vin-yawn Blonk</p></div><br/> 
-					 	<div id="db4" value="3" class="draggerbay"
-				     		ondrop="return dropDragger( event )"
-				     		ondragover="return false"
-				     		ondragenter="return enterDragger( event )"><p>Shar-dun-nay</p></div><br/>  
-				</div>
-				<p id="response">&nbsp;</p>
-				<input type="submit" name="button" value="Submit Your Answer"/><br/>
-				</form>
-            </section>
+	   			<section>
+	         		<form name="dd1" onsubmit="javascript:processForm(); return false;">  
+					<p>Match the title to its correct pronunciation to learn how to pronounce name of each wine.</p>
+					
+					<div class="column">
+							<h3>Wine Name</h3>
+						 	<div id="d1" value="3" class="dragger" draggable="true"
+					     		ondragstart="return startDrag( event )"
+					     		ondragend="return endDrag( event )"><p>Chardonnay</p></div><br/>  
+					     	<div id="d2" value="2" class="dragger" draggable="true"
+					     		ondragstart="return startDrag( event )"
+					     		ondragend="return endDrag( event )"><p>Sauvignon Blanc</p></div><br/>                        
+					 		<div id="d3" value="0" class="dragger" draggable="true"
+					     		ondragstart="return startDrag( event )"
+					     		ondragend="return endDrag( event )"><p>Pinot Gris</p></div><br/>  
+						 	<div id="d4" value="1" class="dragger" draggable="true"
+					     		ondragstart="return startDrag( event )"
+					     		ondragend="return endDrag( event )"><p>Riesling</p></div><br/>  
+					</div>
+					
+					    
+					<div class="column">
+							<h3>Pronunciation</h3>
+					     	<div id="db1" value="0" class="draggerbay" 
+					     		ondrop="return dropDragger( event )"
+					     		ondragover="return false"
+					     		ondragenter="return enterDragger( event )"><p>Pee-no Gree</p></div><br/>                        
+					 		<div id="db2" value="1" class="draggerbay"
+					     		ondrop="return dropDragger( event )"
+					     		ondragover="return false"
+					     		ondragenter="return enterDragger( event )"><p>Rees-ling</p></div><br/>  
+						 	<div id="db3" value="2" class="draggerbay"
+					     		ondrop="return dropDragger( event )"
+					     		ondragover="return false"
+					     		ondragenter="return enterDragger( event )"><p>Saw-vin-yawn Blonk</p></div><br/> 
+						 	<div id="db4" value="3" class="draggerbay"
+					     		ondrop="return dropDragger( event )"
+					     		ondragover="return false"
+					     		ondragenter="return enterDragger( event )"><p>Shar-dun-nay</p></div><br/>  
+					</div>
+					<p id="response">&nbsp;</p>
+					<input type="submit" name="button" value="Submit Your Answer"/><br/>
+					</form>
+	            </section>
    			
        			</article>
       		</div>
       		
 			
-        <div id="aside-info">
+        		<div id="aside-info">
 				<aside>
 					<header>
 						<p id="aside-title-audio">Audio</p>
@@ -102,9 +96,7 @@
 					Drag the wine name to its correct pronunciation. When you are finished, click submit.  
 				</div>
 					</aside>
-		</div>
-		</div>
-		</div>
+			</div>
 		</div>
 		
         

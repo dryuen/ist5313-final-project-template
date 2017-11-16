@@ -1,8 +1,10 @@
 .column
 {
 	display: table-cell;
-	padding: 50px;
-	width: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 0px;
+	width: 175px;
 }
 
 .dragger
@@ -11,7 +13,7 @@
 	background: #e4d1d1;
 	text-align: center;
 	height: 50px;
-	width: 150px;
+	width: 175px;
 	vertical-align: center;
 	cursor: move;
 	position: relative;
@@ -28,7 +30,7 @@
 {
 	border: dashed thin #000000;
 	height: 50px;
-	width: 150px;
+	width: 175px;
 	text-align: center;
 	background: #cc8033;
 	font-weight: bold;
