@@ -8,7 +8,7 @@
 .dragger
 {
 	border: solid thin #000000;
-	background: #999999;
+	background: #e4d1d1;
 	
 	text-align: center;
 	height: 50px;
@@ -30,7 +30,7 @@
 	height: 50px;
 	width: 150px;
 	text-align: center;
-	background: #ccccee;
+	background: #996666;
 }
 
 [draggable=true] 
