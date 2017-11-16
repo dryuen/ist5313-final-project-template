@@ -50,13 +50,14 @@
 					<p>y<sub>1</sub>=x+1</p>
 					<p>y<sub>2</sub>=-<sup>1</sup>/<sub>2</sub>x-2</p>
 					
-					<p> What is the y-intercept of y<sub>1</sub>? <input type="text"> </p>
-					<p> What is the slope of y<sub>1</sub>? <input type="text"> </p>
+					<form id="slope" name="slope" action="javascript:updateEquation()">
+					<p> What is the y-intercept of y<sub>1</sub>? <input type="text" id="y1" name="y1"> </p>
+					<p> What is the slope of y<sub>1</sub>? <input type="text" id="slope1" name="slope1"> </p>
 					</br>
-					<p> What is the y-intercept of y<sub>2</sub>? <input type="text"> </p>
-					<p> What is the slope of y<sub>2</sub>? <input type="text"> </p>
-					
-					
+					<p> What is the y-intercept of y<sub>2</sub>? <input type="text" id="y2" name="y2"> </p>
+					<p> What is the slope of y<sub>2</sub>? <input type="text" id="slope2" name="slope2"> </p>
+					<input type="submit">
+					</form>
 					 <canvas id="myCanvas" width="578" height="300"></canvas>
     <script>
       function Graph(config) {
@@ -224,13 +225,33 @@
       input boxes for slope and y-intercept so that the user would be "creating" the graph themselves?
       */
       
-      myGraph.drawEquation(function(x) {
+     /* myGraph.drawEquation(function(x) {
         return -.5 * x - 2;
       }, 'blue', 3);
 
       myGraph.drawEquation(function(x) {
         return 1 * x + 1;
-      }, 'red', 3);
+      }, 'red', 3);*/
+      
+      function updateEquation()
+      {
+		var y1 = document.forms.slope.y1.value;
+		var slope1 = document.forms.slope.slope1.value;
+		var y2 = document.forms.slope.y2.value;
+		var slope2 = document.forms.slope.slope2.value;
+		// check for the range
+		
+		//alert( y1 + ", " + slope1 + ", " + y2 + ", " + slope2 );
+		
+
+	      myGraph.drawEquation( function(x) {
+	        return slope1 * x - y1;
+	      }, 'blue', 3 );
+
+	      myGraph.drawEquation( function(x) {
+	        return slope2 * x - y2;
+	      }, 'red', 3 );
+      }
 
     </script>
     
