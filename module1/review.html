@@ -5,6 +5,8 @@
     <title>Page title here</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css">
     <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/drag-and-drop-styles.css" rel="stylesheet" type="text/css"/>
+
 
     <!--- link your other script files here that are specific to this HTML page here --->
 </head>
@@ -72,7 +74,53 @@
             <div class="col-sm-11">
                 <div class="row">
                     <h4>Review</h4>
-                    <p>drag & drop or hot spot</p>
+
+                    <form name="dd1" onsubmit="javascript:processForm(); return false;">
+                        <p>You wrote these 4 items into your notebook this morning. Determine whether each item is essential or non-essential</p>
+
+                        <div class="col-sm-4 col-sm-offset-2">
+                            <h6>Items</h6>
+                            <div id="d1" value="3" class="dragger" draggable="true"
+                                 ondragstart="return startDrag( event )"
+                                 ondragend="return endDrag( event )"><p>New Xbox game.</p></div><br/>
+                            <div id="d2" value="2" class="dragger" draggable="true"
+                                 ondragstart="return startDrag( event )"
+                                 ondragend="return endDrag( event )"><p>Gas for my car.</p></div><br/>
+                            <div id="d3" value="0" class="dragger" draggable="true"
+                                 ondragstart="return startDrag( event )"
+                                 ondragend="return endDrag( event )"><p>Subscription to new magazine</p></div><br/>
+                            <div id="d4" value="1" class="dragger" draggable="true"
+                                 ondragstart="return startDrag( event )"
+                                 ondragend="return endDrag( event )"><p>School supplies</p></div><br/>
+                        </div>
+
+
+                        <div class="col-sm-4">
+                            <h6>Dragger Bays</h6>
+                            <div id="db1" value="0" class="draggerbay"
+                                 ondrop="return dropDragger( event )"
+                                 ondragover="return false"
+                                 ondragenter="return enterDragger( event )"><p>Essential</p></div><br/>
+                            <div id="db2" value="1" class="draggerbay"
+                                 ondrop="return dropDragger( event )"
+                                 ondragover="return false"
+                                 ondragenter="return enterDragger( event )"><p>Essential</p></div><br/>
+                            <div id="db3" value="2" class="draggerbay"
+                                 ondrop="return dropDragger( event )"
+                                 ondragover="return false"
+                                 ondragenter="return enterDragger( event )"><p>Non-essential </p></div><br/>
+                            <div id="db4" value="3" class="draggerbay"
+                                 ondrop="return dropDragger( event )"
+                                 ondragover="return false"
+                                 ondragenter="return enterDragger( event )"><p>Non-essential</p></div><br/>
+                        </div>
+
+
+                        <input type="submit" name="button" value="Submit Your Answer"/><br/>
+                    </form>
+                        <p id="response">&nbsp;</p>
+
+
                 </div>
             </div>
         </div>
@@ -81,6 +129,8 @@
 
     <script src="scripts/jquery-2.2.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script language="javascript" src="scripts/drag-and-drop.js"></script>
+
 
 </body>
 </html>
