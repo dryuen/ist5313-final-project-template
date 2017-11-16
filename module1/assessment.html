@@ -45,14 +45,27 @@
     </nav>
 
     <div class="container">
-        <div class="col-sm-3">
+        <div class="col-sm-3" id="caption">
+
             <div class="row">
-                <p>audio here</p>
-                <p>This assesment will test your knowledge of Module 1. You must make a 70% or higher before moving on. Once you have achieved a passing score you will have access to your certificate of completion.</p>
+                <div class="col-sm-10 col-sm-offset-1">
+                    <p id="caption-text">CAPTIONS HERE</p>
+                </div>
             </div>
+
+            <hr>
+
+            <div class="row text-center">
+                <audio controls>
+                    <source src="" type="audio/mpeg"/>
+                </audio>
+
+            </div>
+
         </div>
 
         <div class="col-sm-9">
+            <div class="col-sm-11">
             <div class="row">
                 <h4>Assessment</h4>
                 <p>You will complete the following multiple choice quiz. In order to move on, you must pass the assessment</p>
@@ -78,7 +91,7 @@
                     </div>
 
                     <div class="form-group"> <!-- Question 2!-->
-                        <label for="question2" class="control-label">2. What is the most common type of debt in America                      ?</label>
+                        <label for="question2" class="control-label">2. What is the most common type of debt in America?</label>
                         <div class="radio">
                             <label><input type="radio" id="question2" name="question2" value="0" >Car Debt
                             </label>
@@ -169,6 +182,7 @@
                 <a href="certificate.html"><h5 id="certificate-link" style="display: none;">Click here for your certificate</h5></a>
             </div>
 
+        </div>
         </div>
 
     </div>
