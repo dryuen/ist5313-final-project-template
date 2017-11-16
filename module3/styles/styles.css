@@ -341,6 +341,9 @@ footer
 {
 	margin: 5px 10px;
 	color: white;
+	max-height: 350px;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 #headerDiv2 a 
