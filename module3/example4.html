@@ -4,7 +4,7 @@
 		<meta charset="utf-8"/>
 		<title>Example 4</title>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
-		<script language="javascript" src="scripts/scripts.js"></script>
+		<script language="javascript" src="scripts/drops2.js"></script>
 		
 	</head>
 	
@@ -48,7 +48,100 @@
 					
 					<p>Now try another one.</p>
 				
-				<form action="/action_page.php">
+				
+<section>
+		<div id="column2">
+		<p><strong>Solve for X.</strong></p>
+		<p>
+		&nbsp;3x + 2y = 10
+		<br>
+		-2x + 4y = -4</p>
+		<br>
+		
+		<p><form action="drop down menu">
+		<select onchange="javascript:goFirst()" id="xfirst">
+		<option value=" 0 "></option>
+		<option value=" 1 ">2</option>
+		<option value=" 2 ">-4</option>
+		<option value=" 3 ">-2</option>	
+		</select> (3x - y = 7)<br>
+		&nbsp; &nbsp; &nbsp; &nbsp; -2x + 2y = -2
+		</form></p>
+		<br>
+	<p><form action="drop down menu">
+		-6x - 4y = <select onchange="javascript:goSecond()" id="xsecond" disabled>
+		<option value=" 0 "></option>
+		<option value=" 1 ">-20</option>
+		<option value=" 2 ">20</option>
+		<option value=" 3 ">-10</option>	
+		</select><br>
+		<u>-2x + 4y = -4</u>
+		<br>
+	-8x&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;= 12
+	<br>
+	<br>
+	<u>-8x</u> = <u>12</u><br>
+	-8&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;-8		
+		</form></p>
+	
+	<p><form action="drop down menu">
+		 x = <select onchange="javascript:goThird()" id="xthird" disabled>
+		<option value=" 0 "></option>
+		<option value=" 1 ">2</option>
+		<option value=" 2 ">4</option>
+		<option value=" 3 ">3</option>	
+		</select>
+		</form></p>
+		</div>
+		
+		
+		<div id="column2">
+		<p><strong>Now solve for Y.</strong></p>
+		<p>
+		3(3) + 2y = 10
+		<br>
+		</p>
+		<br>
+		
+		<p><form action="drop down menu">
+		<select onchange="javascript:goFourth()" id="yfirst" disabled>
+		<option value=" 0 "></option>
+		<option value=" 1 ">6</option>
+		<option value=" 2 ">9</option>
+		<option value=" 3 ">0</option>	
+		</select> + 2y = 10<br>
+		
+		</form></p>
+		<br>
+	<p>
+		<u>9</u> + 2y =<u> 10 </u>
+		
+		<br>
+	<u>-9&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;-9</u>
+	<br>
+	2y&nbsp; &nbsp; &nbsp;= &nbsp; &nbsp; 1
+	<br>
+	<br>
+	<u>2y </u>&nbsp; = &nbsp;<u> 1</u><br>
+	2&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;2
+		
+		</p>
+	
+		<p>
+		<form action="drop down menu">
+		 y = <select onchange="javascript:goFifth()" id="ysecond" disabled>
+		<option value=" 0 "></option>
+		<option value=" 1 ">1/2</option>
+		<option value=" 2 ">2</option>
+		<option value=" 3 ">3</option>	
+		</select>
+		</form>
+		</p>
+		</div>
+	</section>				
+				
+				
+	<!-- 			<form action="/action_page.php">
   					-3 x - 4 y = -7 <br/> <br/>
   					2 x + 8 y = -6 <br/> <br/> <br/> <br/>
   					
@@ -83,7 +176,7 @@
   					
   			
 		</form>
-		
+		-->
 		<br/>
 		
 		</article>

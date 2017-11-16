@@ -1,6 +1,6 @@
 function goFirst()
 {
-	if( document.getElementById( "xfirst" ).value == 1 )
+	if( document.getElementById( "xfirst" ).value == 3 )
 	{
 		// enable the second <select>
 		document.getElementById( "xsecond" ).disabled = "";
@@ -15,7 +15,7 @@ function goFirst()
 
 function goSecond()
 {
-	if( document.getElementById( "xsecond" ).value == 2 )
+	if( document.getElementById( "xsecond" ).value == 1 )
 	{
 		// enable the second <select>
 		document.getElementById( "xthird" ).disabled = "";
@@ -61,7 +61,7 @@ function goFifth()
 	}
 	// you can add an else statement to alert them that they are wrong
 	{
-		alert( "Great Job, continue to Example 3!" );
+		alert( "Great Job, continue to Example 4!" );
 	}
 }
 
