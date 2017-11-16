@@ -2,110 +2,19 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
-		<title>Graphs</title>
-		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
-		<script language="javascript" src="scripts/scripts.js"></script>
+		<title>123</title>
+		<script src="scripts/scorm-api-wrapper.js"></script>
+		<script src="scripts/sessionstorage.1.4.js"></script>
+		<script src="scripts/scripts.js"></script>
 		
+		<!--- link your other script files here --->
+		
+		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
 	</head>	
 	
-	<body>
-		
-		<header>
-						
-			<div class="banner">
-				<img class="banner-image" src="images/module-banner2.jpg">
-			</div>
-			
-		</header>
-				
-		<section id="main-layout">
-		<div id="navigation">
-			<nav>
-				
-			<ul>
-  				<li><a class="active" href="index.html">Welcome</a></li>
-  				<li><a href="intro.html">Introduction</a></li>
-  				<li><a href="instructor-review.html">Review 1</a></li>
-  				<li><a href="practice.html">Practice</a></li>
-  				<li><a href="example1.html">Example 1</a></li>
-  				<li><a href="example2.html">Example 2</a></li>
-  				<li><a href="example3.html">Example 3</a></li>
-  				<li><a href="example4.html">Example 4</a></li>
-  				<li><a href="review.html">Review 2</a></li>
-  				<li><a href="reference.html">References</a></li>
-  				<li><a href="quiz.html" id="quiz-link">Quiz</a></li>
-  				<li><a href="certificate.html">Certificate</a></li>
-  			</ul>
-			</nav>
-		</div>
-		</section>
-		
-		<section id="main-content" class="round">
-		
-			<article id="main-info">
-									
-					<h2>Welcome to Module 2!</h2>
-					
-					<img src="images/alzebra_logo2.jpg" alt="Al-zebra logo" title="Al-zebra logo"/>
-					
-					<p>In this module, you will learn how to use graphs to solve systems of equations.</p>
-					
-					<p>As a reminder, you can use the navigation buttons on the bottom of the page to proceed. You can
-					also use the left navigation panel to jump to a specific page within this module.</p>
-					
-					<p>Also, <strong>you must view the entire module prior to taking the quiz.
-					</strong></p>
-										
-			</article>
-				
-				<div id="sub-navigation">
-					<nav>
-						<a href="intro.html" class="next">Next &raquo;</a>
-					</nav>
-				</div>
-				
-			</section>	
-				
-			<section id="aside-info">
-				<aside>
-				 				  			 
-				 	<div id="headerDiv">
-         			<div id="titleText">Audio</div><a id="myHeader" 
-         			href="javascript:toggle2('myContent','myHeader');" >Expand</a>
-   					</div>
-   					<div style="clear:both;"></div>
-    				<div id="contentDiv">
-         			<div id="myContent" style="display: none;">
-         				<audio controls>
-  							<source src="audio/mod-2-index.mp3" type="audio/mp3">
-  						</audio>
-         			</div>
-    				</div>
-    					
-    				<br/>
-								 		
-				 	<div id="headerDiv2">
-         			<div id="titleText2">Captions</div><a id="myHeader2" 
-         			href="javascript:toggle2('myContent2','myHeader2');" >Expand</a>
-   					</div>
-   					<div style="clear:both;"></div>
-    				<div id="contentDiv2">
-         			<div id="myContent2" style="display: none;">
-         			Welcome to Module 2!  In this module, you will learn how to use graphs to solve systems 
-         			of equations. As a reminder, you can use the navigation buttons on the bottom of the page to proceed. 
-         			You can also use the left navigation panel to jump to a specific page within this module. 
-         			Also, you must view the entire module prior to taking the quiz.</div>
-    				</div>
-		
-				 </aside>		 
-			</section>
-		
-			
-		<div id="bottom">
-	 		<footer>
-	 		<p>Training provided by Al-Zebra, Inc.</p>
-	 		</footer>
-	 	</div>
-
+	<body onload="javascript:startCourse()" onunload="javascript:finishCourse()">
+		<!--- replace topic-1.html with the first page of your course --->
+		<iframe src="welcome.html" name="main" width="900" height="675" id="content-frame">
+		</iframe> 
 	</body>
 </html>
