@@ -55,7 +55,7 @@ function goFifth()
 	if( document.getElementById( "ysecond" ).value == 1 )
 	{
 		// enable the second <select>
-		document.getElementById( "ysecond" ).disabled = "";
+		document.getElementById( "ysecond" ).disabled = "disabled";
 		// disable the first <select> (totally optional)
 		document.getElementById( "yfirst" ).disabled = "disabled";
 	}
