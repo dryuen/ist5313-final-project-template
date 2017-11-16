@@ -55,13 +55,14 @@ function goFifth()
 	if( document.getElementById( "ysecond" ).value == 2 )
 	{
 		// enable the second <select>
-		document.getElementById( "ysecond" ).disabled = "disabled";
+	//	document.getElementById( "ysecond" ).disabled = "";
 		// disable the first <select> (totally optional)
-		document.getElementById( "yfirst" ).disabled = "disabled";
+		document.getElementById( "ysecond" ).disabled = "disabled";
 	}
 	// you can add an else statement to alert them that they are wrong
-	{
-		alert( "Great Job, continue to Review 2!" );
-	}
+//	{
+//		alert( "Great Job, continue to Review 2!" );
+//	}     
+	
 }
 
