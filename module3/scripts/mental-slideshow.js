@@ -1,4 +1,4 @@
-var images = ["images/minimalSVG.svg", "images/starSVG.svg", "images/slowdown.jpg"] ;
+var images = ["images/minimalSVG.svg", "images/starSVG.svg", "images/starSVG.svg"] ;
 
 var heading = ["Living With Less","Mentally Declutter","Slow Down Your Pace"] ;
 
@@ -19,6 +19,6 @@ var imageNumber = 0;
 	 
 	 document.getElementById("slideshow").src = images[imageNumber];
      document.getElementById("heading").innerHTML = heading[imageNumber];
-     document.getElementById("caption").innerHTML = caption[imageNumber];
+     document.getElementById("slideshow-caption").innerHTML = caption[imageNumber];
      return false;
  }
