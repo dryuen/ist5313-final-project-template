@@ -2,14 +2,15 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
-		<title>Certificate (1 of 3)</title>
+		<title>Tables</title>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
 		<script language="javascript" src="scripts/scripts.js"></script>
-				
-	</head>	
-	<body>
 		
-		<header>
+	</head>	
+	
+	<body>
+	
+		<header style="margin: 0 auto; width=100%">
 						
 			<div class="banner">
 				<img class="banner-image" src="images/module-banner1.jpg">
@@ -17,12 +18,12 @@
 			
 		</header>
 				
-		<section id="main-layout">
+		<section id="main-layout">		
 		<div id="navigation">
 			<nav>
 				
 			<ul>
-  				<li><a href="welcome.html">Welcome</a></li>
+  				<li><a class="active" href="welcome.html">Welcome</a></li>
   				<li><a href="intro.html">Introduction</a></li>
   				<li><a href="instructor-review.html">Review 1</a></li>
   				<li><a href="practice.html">Practice</a></li>
@@ -32,38 +33,42 @@
   				<li><a href="example4.html">Example 4</a></li>
   				<li><a href="review.html">Review 2</a></li>
   				<li><a href="reference.html">References</a></li>
-  				<li><a href="quiz.html">Quiz</a></li>
-  				<li><a class="active" href="certificate.html">Certificate</a></li>
+  				<li><a href="quiz.html" id="quiz-link">Quiz</a></li>
+  				<li><a href="certificate.html">Certificate</a></li>
   			</ul>
 			</nav>
 		</div>
 		</section>
 		
 		<section id="main-content" class="round">
-	
-			<article id="main-info">
 					
-					<h2>Module 1 Certificate</h2>
+				<article id="main-info">
 					
-					<p>Congratulations! Please print out a copy of the certificate
-					for your records.</p>
+					<h2>Welcome to Module 1!</h2>
 					
-					<img src="images/certificate.jpg" alt="Module 1 Certificate" title="Module 1 Certificate"/>	
-					<br/>
+					<img src="images/alzebra_logo1.jpg" alt="Al-zebra logo" title="Al-zebra logo"/>
 					
-					<p>When you are ready, proceed to the next module.</p>
-															
+					<p>In this module, you will learn how to use tables to solve systems of equations.</p>
+					
+					<p>You can use the navigation buttons on the bottom of the page to proceed. You can
+					also use the left navigation panel to jump to a specific page within this module.</p>
+					
+					<p><strong>Please note that you must view the entire module prior to taking the quiz.
+					</strong></p>
+								
 				</article>
 				
 				<div id="sub-navigation">
 					<nav>
-						<!-- sub navigation goes here -->
+						<a href="intro.html" class="next">Next &raquo;</a>
 					</nav>
 				</div>
+				
 			</section>
 			
-			<section id="aside-info">
+	  		<section id="aside-info">
 				 <aside>
+				 				  			 
 				 	<div id="headerDiv">
          			<div id="titleText">Audio</div><a id="myHeader" 
          			href="javascript:toggle2('myContent','myHeader');" >Expand</a>
@@ -72,7 +77,7 @@
     				<div id="contentDiv">
          			<div id="myContent" style="display: none;">
          				<audio controls>
-  							<source src="audio/mod-1-cert.mp3" type="audio/mp3">
+  							<source src="audio/mod-1-index.mp3" type="audio/mp3">
   						</audio>
          			</div>
     				</div>
@@ -86,20 +91,22 @@
    					<div style="clear:both;"></div>
     				<div id="contentDiv2">
          			<div id="myContent2" style="display: none;">
-         			<p>Module 1 certificate.  Congratulations! Please print out a copy of
-         			the certificate for your records. When you are ready, proceed to the 
-         			next module</p>      			
-         			</div>
-         			</div>
-         			
-		 		 </aside>
-			</section>
+         			Welcome to Module 1! In this module, you will learn how to use tables to solve systems 
+         			of equations.You can use the navigation buttons on the bottom of the page to proceed. 
+         			You can also use the left navigation panel to jump to a specific page within this module. 
+         			Please note that you must view the entire module prior to taking the quiz.</div>
+    				</div>
 		
-		
-		<div id="bottom">
-	 		<footer>
-	 		<p>Training provided by Al-Zebra, Inc.</p>
-	 		</footer>
+				 </aside>
+			 </section>
+					 
+		 
+	<div id="bottom">
+	 	<footer>
+	 	<p>Training provided by Al-Zebra, Inc.</p>
+	 	</footer>
 	 </div>
+			
+		
 	</body>
 </html>
