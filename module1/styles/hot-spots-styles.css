@@ -21,6 +21,7 @@
 	font-weight: bold;
 }
 
+
 #output-box
 {
 	border: dashed thin #000000;
@@ -29,5 +30,5 @@
 	text-align: center;
 	background: #ccccee;
 	display: none;
-	margin: auto;
+	margin: auto;	
 }
