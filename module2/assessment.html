@@ -21,7 +21,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Overview <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="topic-1.html">Welcome</a></li>
-                        <li><a href="questions.html">Module Outline</a></li>
+                        <li><a href="outline.html">Module Outline</a></li>
 						<li><a href="objectives.html">Objectives</a></li>
                     </ul>
                 </li>
@@ -45,14 +45,27 @@
     </nav>
 
     <div class="container">
-        <div class="col-sm-3">
+        <div class="col-sm-3" id="caption">
+
             <div class="row">
-                <p>audio here</p>
-                <p>captions here</p>
+                <div class="col-sm-10 col-sm-offset-1">
+                    <p id="caption-text">CAPTIONS HERE</p>
+                </div>
             </div>
+
+            <hr>
+
+            <div class="row text-center">
+                <audio controls>
+                    <source src="" type="audio/mpeg"/>
+                </audio>
+
+            </div>
+
         </div>
 
         <div class="col-sm-9">
+            <div class="col-sm-11">
             <div class="row">
                 <h4>Assessment</h4>
                 <p>You will complete the following multiple choice quiz. In order to move on, you must pass the assessment</p>
@@ -156,7 +169,7 @@
             <div class="row text-center">
                 <a href="certificate.html"><h5 id="certificate-link" style="display: none;">Click here for your certificate</h5></a>
             </div>
-
+            </div>
         </div>
     </div>
 
