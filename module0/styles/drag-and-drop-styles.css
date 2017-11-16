@@ -16,6 +16,7 @@
 	cursor: move;
 	position: relative;
 	ghosting: true;
+	border-radius: 15px 50px;
 }
 
 .dragger p
@@ -29,7 +30,9 @@
 	height: 50px;
 	width: 150px;
 	text-align: center;
-	background: #996666;
+	background: #cc8033;
+	font-weight: bold;
+	border-radius: 15px 50px;
 }
 
 [draggable=true] 
