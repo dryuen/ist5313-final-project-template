@@ -8,13 +8,14 @@
 .hotspot
 {
 	border: solid thin #000000;
-	background: #999999;
+	background: #cc8033;
 	
 	text-align: center;
 	height: 50px;
 	width: 150px;
 	vertical-align: center;
 	position: relative;
+	border-radius: 15px 50px;
 }
 
 .hotspot p
@@ -28,7 +29,7 @@
 	height: 100px;
 	width: 700px;
 	text-align: center;
-	background: #ccccee;
-	
+	background: #e4d1d1;
+	border-radius: 15px 50px;
 	display: none;
 }

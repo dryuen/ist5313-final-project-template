@@ -30,7 +30,7 @@ h2
 #aside-info
 {
 	float: left;
-	width: 120px;
+	width: 150px;
 	vertical-align: top;
 	padding-left: 0px;
 	
@@ -78,23 +78,23 @@ a:hover
 {
 	background: #e4d1d1;	 
 	display: table;
-	width: 90px;
+	width: 140px;
 	text-align: left;
-	padding: 200px;
+	padding: 10px;
 	
 }
 
 
 #aside-title-audio
 {
-	width: 140px;
+	width: 120px;
 	text-align: center;
 	font-size: 12px;
 	background: #e4d1d1;
 	font-family:georgia;
 	font-weight: bold;
 	color: #cc8033;
-	padding: 100px;
+	padding: 10px;
 
 }
 
