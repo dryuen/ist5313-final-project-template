@@ -73,6 +73,8 @@ a
 {
 	background-color: #996666;
 	color: white;
+	border-radius: 25px;
+	padding: 5px;
 }
 
 a:hover
