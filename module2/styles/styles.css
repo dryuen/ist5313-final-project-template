@@ -30,7 +30,7 @@ h2
 #aside-info
 {
 	float: left;
-	width: 120px;
+	width: 140px;
 	vertical-align: top;
 	padding-left: 0px;
 	
@@ -86,7 +86,7 @@ a:hover
 {
 	background: #e4d1d1;	 
 	display: table;
-	width: 90px;
+	width: 140px;
 	text-align: left;
 	padding: 10px;
 	

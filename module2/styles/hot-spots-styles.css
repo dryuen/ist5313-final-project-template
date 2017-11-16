@@ -8,13 +8,14 @@
 .hotspot
 {
 	border: solid thin #000000;
-	background: #999999;
+	background: #cc8033;
 	
 	text-align: center;
 	height: 50px;
 	width: 150px;
 	vertical-align: center;
 	position: relative;
+	border-radius: 15px 50px;
 }
 
 .hotspot p
@@ -26,9 +27,142 @@
 {
 	border: dashed thin #000000;
 	height: 100px;
-	width: 700px;
+	width: 675px;
 	text-align: center;
-	background: #ccccee;
-	
+	background: #e4d1d1;
+	border-radius: 15px 50px;
 	display: none;
 }
+
+body
+{
+	background: white;
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	font-family: Georgia;
+}
+
+h1
+{
+	font-size: 35px;
+	color: #cc8033;
+	text-align: left;
+}
+
+h2
+{
+	text-align: left;
+	padding: 15px;
+}
+
+#main-info
+{
+	float: left;
+	width: 900px;
+	height: 675px;
+}
+
+#aside-info
+{
+	float: left;
+	width: 140px;
+	vertical-align: top;
+	padding-left: 0px;
+	
+}
+	
+#main-content
+{
+	height: 675px;
+	padding: 0px;
+	margin: 0px;
+	
+}
+#main-panel
+{
+	background: white;
+	display: table-cell;
+	width: 600px;
+	
+}
+
+#main-layout
+{
+	background: #e4d1d1;
+	display: table;
+	text-align: left;
+	width: 900px;
+	border-radius: 25px;
+}
+
+.active 
+{
+	background-color: #996666;
+	color: white;
+	border-radius: 25px;
+	padding: 5px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #cc8033;
+	font-size: 16px;
+	text-align: center;
+	
+}
+
+a:hover
+{
+	color: #996666;
+}
+
+#navigation
+{
+	background: #e4d1d1;	 
+	display: table;
+	width: 140px;
+	text-align: left;
+	padding: 10px;
+	
+}
+
+
+#aside-title-audio
+{
+	width: 140px;
+	text-align: center;
+	font-size: 12px;
+	background: #e4d1d1;
+	font-family:georgia;
+	font-weight: bold;
+	color: #cc8033;
+	padding: 0px;
+
+}
+
+
+
+#content-frame
+{
+	border: none;
+}
+	
+#transcript
+{
+	color: #996666;
+	font-size: 12px;
+	overflow: auto;
+	height: 200px;
+	width: 140px;
+	padding: 10px;
+	
+}
+
+
+audio
+{
+	width: 250px;
+}
+
