@@ -159,10 +159,7 @@
         unitsPerTick: 1
       });
 
-      /*Sarah- below are the two equations that you see displayed. The two important parts are the slope, the number
-      before multiplying by the x; and the y-intercept, the number added or subtracted. Is there a way to create two
-      input boxes for slope and y-intercept so that the user would be "creating" the graph themselves?
-      */
+      
       
      /* myGraph.drawEquation(function(x) {
         return -.5 * x - 2;
