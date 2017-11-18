@@ -353,7 +353,7 @@ footer
 	color: #FFFFFF;
 }
 
-td  
+/*td  
 {
 	border: 1px solid #000000;
 	border-collapse: collapse;
@@ -367,7 +367,7 @@ table
 	position: relative;
 	left: 50px;
 	border-collapse: collapse;
-}
+}*/
 
 .example2-container
 {
@@ -394,4 +394,14 @@ img
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+table, td
+{
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+	background: #c0c0c0;
+	text-align: center;
+	border-collapse: collapse;
 }
