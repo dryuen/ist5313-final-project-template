@@ -112,7 +112,7 @@ body
 aside
 {
 	float: left;
-	right: 0px;
+	right: 10px;
 	width: 190px;
 	display: block;
 	top: 141px;
@@ -146,7 +146,6 @@ audio
 {
 	width: 170px;
 	border-radius: 15px;
-	overflow: scroll;
 }
 
 ul 
