@@ -1,8 +1,8 @@
 body
 {
-	background: white;
+	background: #e4d1d1;
 	margin: 0px;
-	padding: 0px;
+	padding: 5px;
 	font-size: 14px;
 	font-family: Georgia;
 }
@@ -50,9 +50,10 @@ h2
 	background: white;
 	display: table-cell;
 	width: 600px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
 	vertical-align: top;
+	border-radius: 25px; 
 	
 }
 
@@ -93,7 +94,7 @@ a:hover
 	display: table;
 	width: 100px;
 	text-align: left;
-	padding: 10px;
+	padding: 20px;
 	vertical-align: top;
 	
 }
@@ -126,12 +127,17 @@ a:hover
 	overflow: auto;
 	height: 500px;
 	width: 140px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 
 audio
 {
 	width: 250px;
+}
+
+#border 
+{
+	border-bottom: thick double #996666;
 }
