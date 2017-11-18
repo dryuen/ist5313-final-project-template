@@ -2,7 +2,7 @@ body
 {
 	margin: 0px;
 	padding: 0px;
-	font-size: 12px;
+	font-size: 13px;
 	font-family: Arial;
 }
 
@@ -85,4 +85,13 @@ audio
 
 #video{
 	border: 1px solid black;
+}
+
+#caption{
+	background-color: rgba(172, 219, 201, 0.18);
+
+	height: 500px;
+}
+#caption-text{
+	margin-top: 20px;
 }

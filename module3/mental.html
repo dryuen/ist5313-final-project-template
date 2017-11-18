@@ -45,38 +45,56 @@
     </nav>
 
     <div class="container">
-        <div class="col-sm-3">
+        <div class="col-sm-3" id="caption">
             <div class="row">
-                <p>audio here</p>
-                <p>captions here</p>
+                <div class="col-sm-10 col-sm-offset-1">
+                    <p id="caption-text">In this module, you will learn how to live an holistic lifestyle and how to keep health physically, mentally and emotionally in a minimalist's lifestyle.</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row text-center">
+                <audio controls>
+                    <source src="" type="audio/mpeg"/>
+                </audio>
+            </div>
+
+
+            <div class="row text-center">
+                <a href="physical.html"><p><i>Up Next: Physical Health</i></p></a>
             </div>
         </div>
 
         <div class="col-sm-9">
-            <div class="row">
-                <h4>Mental Health </h4>
-                <p>Living with Less things, mentally declutter and slow down your pace are great ways to maintain mental health. </p> 
-
+            <div class="col-sm-11">
                 <div class="row">
-                    <div class="col-sm-8">
-                        <img src="images/minimalSVG.svg" id="slideshow" />
+                    <h4>Mental Health </h4>
+                    <p>Minimalist highly cherish the concepts of simplicity and necessity. These concepts can also be applied to mental health.Living with Less things, frequently do mental declutter and slow down your pace are great tips to maintain mental health.</p>
+                </div>
+
+                <div class="row text-center">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <img src="images/minimalSVG.svg"  id="slideshow" />
                         <h6 id="heading">Living with Less</h6>
+
+                       <div id="slideshow-caption">
+                           There are few obvious benefits for living with Less such as: a more organized household and more money to be found, but there are also a few deep, life-changing benefits such as: creating a calm, peaceful mind.
+                       </div>
+
+                        <br>
+
+                        <div class="col-sm-4 col-sm-offset-2">
+                            <a href="#" class="btn btn-block" role="button" onclick="changeImage(-1); return false;">Previous</a>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <a href="#" class="btn btn-block" role="button" onclick="changeImage(1); return false;">Next</a>
+                        </div>
                     </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-sm-2 col-sm-offset-2">
-                        <a href="#" class="btn btn-block" role="button" onclick="changeImage(-1); return false;">Previous
-                        </a>
-                    </div>
-                    <div class="col-sm-2">
-                        <a href="#" class="btn btn-block" role="button" onclick="changeImage(1); return false;"">Next</a>
-                    </div>
-                </div>
-
             </div>
         </div>
-
     </div>
 
 

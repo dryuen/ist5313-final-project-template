@@ -3,7 +3,7 @@ body
 {
 	margin: 0px;
 	padding: 0px;
-	font-size: 12px;
+	font-size: 1px;
 	font-family: Arial;
 }
 
@@ -88,3 +88,13 @@ audio
 	height: 100px;
 }
 
+#caption{
+	background-color: rgba(172, 219, 201, 0.18);
+
+	height: 600px;
+}
+
+
+#caption-text{
+	margin-top: 20px;
+}

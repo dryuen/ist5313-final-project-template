@@ -63,5 +63,8 @@ audio
 
 #caption-text{
 	margin-top: 20px;
-	background-color: ;
+}
+
+#overview-image{
+	height: 350px;
 }
