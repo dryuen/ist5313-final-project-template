@@ -14,6 +14,11 @@ h1
 	text-align: left;
 }
 
+footer
+{
+	text-align: center;
+}
+
 h2
 {
 	text-align: left;
@@ -90,7 +95,7 @@ a:hover
 
 #navigation
 {
-	background: #e4d1d1;	 
+	background: e4d1d1;	 
 	display: table;
 	width: 100px;
 	text-align: left;
