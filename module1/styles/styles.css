@@ -83,7 +83,7 @@ a
 {
 	text-decoration: none;
 	color: #cc8033;
-	font-size: 12px;
+	font-size: 14px;
 	text-align: center;
 	
 }
@@ -109,7 +109,7 @@ a:hover
 {
 	width: 140px;
 	text-align: center;
-	font-size: 12px;
+	font-size: 14px;
 	background: #e4d1d1;
 	font-family: Georgia;
 	font-weight: bold;
@@ -128,7 +128,7 @@ a:hover
 #transcript
 {
 	color: #996666;
-	font-size: 12px;
+	font-size: 14px;
 	overflow: auto;
 	height: 500px;
 	width: 140px;
