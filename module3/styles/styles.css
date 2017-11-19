@@ -1,8 +1,8 @@
 body
 {
-	background: white;
+	background: #e4d1d1;
 	margin: 0px;
-	padding: 0px;
+	padding: 5px;
 	font-size: 14px;
 	font-family: Georgia;
 }
@@ -14,22 +14,28 @@ h1
 	text-align: left;
 }
 
+footer
+{
+	text-align: center;
+}
+
 h2
 {
 	text-align: left;
-	padding: 15px;
+	padding-left: 15px;
+	margin-top: 0px;
 }
 
 #main-info
 {
 	float: left;
 	width: 900px;
-	height: 675px;
+	/*height: 675px;*/
 }
 
 #aside-info
 {
-	float: left;
+	display: table-cell;
 	width: 120px;
 	vertical-align: top;
 	padding-left: 0px;
@@ -38,9 +44,10 @@ h2
 	
 #main-content
 {
-	height: 675px;
+/*	height: 675px;
 	padding: 0px;
-	margin: 0px;
+	margin: 0px;*/
+	display: table;
 	
 }
 #main-panel
@@ -48,6 +55,10 @@ h2
 	background: white;
 	display: table-cell;
 	width: 600px;
+	padding-left: 30px;
+	padding-right: 30px;
+	vertical-align: top;
+	border-radius: 25px; 
 	
 }
 
@@ -60,21 +71,21 @@ h2
 	border-radius: 25px;
 }
 
-a
-{
-	text-decoration: none;
-	color: #cc8033;
-	font-size: 16px;
-	text-align: center;
-	
-}
-
 .active 
 {
 	background-color: #996666;
 	color: white;
 	border-radius: 25px;
 	padding: 5px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #cc8033;
+	font-size: 14px;
+	text-align: center;
+	
 }
 
 a:hover
@@ -84,11 +95,12 @@ a:hover
 
 #navigation
 {
-	background: #e4d1d1;	 
+	background: e4d1d1;	 
 	display: table;
-	width: 90px;
+	width: 100px;
 	text-align: left;
-	padding: 10px;
+	padding: 20px;
+	vertical-align: top;
 	
 }
 
@@ -97,9 +109,9 @@ a:hover
 {
 	width: 140px;
 	text-align: center;
-	font-size: 12px;
+	font-size: 14px;
 	background: #e4d1d1;
-	font-family:georgia;
+	font-family: Georgia;
 	font-weight: bold;
 	color: #cc8033;
 	padding: 0px;
@@ -116,16 +128,21 @@ a:hover
 #transcript
 {
 	color: #996666;
-	font-size: 12px;
+	font-size: 14px;
 	overflow: auto;
-	height: 200px;
+	height: 500px;
 	width: 140px;
-	padding: 10px;
-	
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 
 audio
 {
 	width: 250px;
+}
+
+#border 
+{
+	border-bottom: thick double #996666;
 }
