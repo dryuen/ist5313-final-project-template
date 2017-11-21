@@ -1,8 +1,8 @@
 function processQuiz()
 {
-	var answer 1 = docunment.forms.quiz1.questions1. value;
-	var answer 2 = docunment.forms.quiz1.questions2. value;
-	var answer 3 = docunment.forms.quiz1.questions3. value;
+	var answer 1 = docunment.forms.quiz1.questions1. value; 0
+	var answer 2 = docunment.forms.quiz1.questions2. value; 2
+	var answer 3 = docunment.forms.quiz1.questions3. value; 0
 	
 	var counter = 0;
 	
@@ -21,6 +21,9 @@ function processQuiz()
 		counter = counter + 1;
 	}	
 }
+
+var percentage = counter / 3;
+alert( "Your score is " + percentage + "%" );
 
 alert ( "You got " + counter + " questions correct!");
 
@@ -106,3 +109,33 @@ function finishCourse()
 	oScorm.save();
 	oScorm.quit();
 }
+
+function visitTopic1()
+{
+}
+sessionStorage.setItem( "topic1", "visited" );
+
+function visitTopic2()
+{
+}
+sessionStorage.setItem( "topic2", "visited" );
+
+function visitTopic3()
+{
+}
+sessionStorage.setItem( "topic3", "visited" );
+
+function visitTopic4()
+{
+}
+sessionStorage.setItem( "topic4", "visited" );
+
+function visitTopic5()
+{
+}
+sessionStorage.setItem( "topic5", "visited" );
+
+function visitTopic6()
+{
+}
+sessionStorage.setItem( "topic6", "visited" );
