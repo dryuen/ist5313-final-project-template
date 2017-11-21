@@ -42,49 +42,134 @@
 						</br><h2>Module 1 Quiz</h2>
 					</header>
 					
-		<form id="quiz1" action="javascript:processQuiz()">
+		<form id="quiz1" name="quiz1" action="javascript:processQuiz()">
 	
 	
 		<label for="question1">1. What is the name of this company?</label>
 		<br/>
 		
-		<input type="radio" id="question1" name="question1" value="0"/>
+		<input type="radio" id="question1" name="question1" value="0" required/>
 		WineCo<br/>
-		<input type="radio" id="question1" name="question1" value="1"/>
+		<input type="radio" id="question1" name="question1" value="1" required/>
 		TechWine<br/>
-		<input type="radio" id="question1" name="question1" value="2"/>
-		WineTech<br/><br/>
-		
-		<label for="question1">2. Where is the company based out?</label>
+		<input type="radio" id="question1" name="question1" value="2" required/>
+		WineTech<br/>
+		<input type="radio" id="question1" name="question1" value="3" required/>
+		WineOrg<br/>
 		<br/>
 		
-		<input type="radio" id="question1" name="question1" value="0"/>
+		<label for="question2">2.Where is the company based out of?</label>
+		<br/>
+		
+		<input type="radio" id="question2" name="question2" value="0" required/>
 		Napa Valley<br/>
-		<input type="radio" id="question1" name="question1" value="1"/>
+		<input type="radio" id="question2" name="question2" value="1" required/>
 		Sonoma Valley<br/>
-		<input type="radio" id="question1" name="question1" value="2"/>
-		The Valley<br/><br/>
-		
-		<label for="question1">3. What is the DSA Code of Ethics?</label>
+		<input type="radio" id="question2" name="question2" value="2" required/>
+		The Valley<br/>
+		<input type="radio" id="question2" name="question2" value="3" required/>
+		Rio Grande Valley<br/>
 		<br/>
 		
-		<input type="radio" id="question1" name="question1" value="0"/>
-		Ethical business standards for the direct selling channel and 
-		<br/>to the customers our member companies serve every day. <br/>
-		<input type="radio" id="question1" name="question1" value="1"/>
-		Guidelines to keep the consultant and client safe.<br/>
-		<input type="radio" id="question1" name="question1" value="2"/>
-		A bunch of boring policies. <br/><br/>
-		
-		<label for="question1">4. What year was the company "planted"?</label>
+		<label for="question3">3. What year was the company "planted"?</label>
 		<br/>
 		
-		<input type="radio" id="question1" name="question1" value="0"/>
-		1965<br/>
-		<input type="radio" id="question1" name="question1" value="1"/>
+		<input type="radio" id="question3" name="question3" value="0" required/>
+		1985<br/>
+		<input type="radio" id="question3" name="question3" value="1" required/>
 		1975<br/>
-		<input type="radio" id="question1" name="question1" value="2"/>
-		1995<br/><br/>
+		<input type="radio" id="question3" name="question3" value="1" required/>
+		1995<br/>
+		<input type="radio" id="question3" name="question3" value="3" required/>
+		1965<br/>
+		<br/>
+		
+		<label for="question4">4. What is the DSA Code of Ethics?</label>
+		<br/>
+		
+		<input type="radio" id="question4" name="question4" value="0" required/>
+		A bunch of boring policies.<br/>
+		<input type="radio" id="question4" name="question4" value="1" required/>
+		Guidelines to keep the consultant and client safe. <br/>
+		<input type="radio" id="question4" name="question4" value="2" required/>
+		Ethical business standards for the direct selling channel and to the<br/>
+		customers our member companies serve every day. <br/>
+		<input type="radio" id="question4" name="question4" value="3" required/>
+		Moral principles that govern a person's or group's behavior.<br/>
+		<br/>
+		
+		<label for="question5">5. Is a WineTech Consultant allowed to serve clients under 21?</label>
+		<br/>
+		
+		<input type="radio" id="question5" name="question5" value="0" required/>
+		Yes<br/>
+		<input type="radio" id="question5" name="question5" value="1" required/>
+		No<br/>
+		<br/>
+		
+		
+		<label for="question6">6. What is the vision of WineTech?</label>
+		<br/>
+		
+		<input type="radio" id="question6" name="question6" value="0" required/>
+		To make a lot of money.<br/>
+		<input type="radio" id="question6" name="question6" value="1" required/>
+		To share the wine lifestyle with the community.<br/>
+		<input type="radio" id="question6" name="question6" value="2" required/>
+		To show off the wine consultant's wine expertise.<br/>
+		<input type="radio" id="question6" name="question6" value="3" required/>
+		We just like wine. <br/>
+		<br/>
+		
+		<label for="question7">7. Will the wine consultant know EVERYTHING after the module?</label>
+		<br/>
+		
+		<input type="radio" id="question7" name="question7" value="0" required/>
+		Yes, I'm sommelier status<br/>
+		<input type="radio" id="question7" name="question7" value="1" required/>
+		I'm not sure.<br/>
+		<input type="radio" id="question7" name="question7" value="2" required/>
+		Somewhat<br/>
+		<input type="radio" id="question7" name="question7" value="3" required/>
+		No, I'll need to experience and taste on my own too.<br/>
+		<br/>
+		
+		<label for="question8">8. How will the Wine Consultant market the wine?</label>
+		<br/>
+		
+		<input type="radio" id="question8" name="question8" value="0" required/>
+		With cunning wit<br/>
+		<input type="radio" id="question8" name="question8" value="1" required/>
+		With knowledge<br/>
+		<input type="radio" id="question8" name="question8" value="2" required/>
+		With science<br/>
+		<input type="radio" id="question8" name="question8" value="3" required/>
+		By sharing personal story, knowledge and experiences, and engaging with<br/>
+		the audience<br/>
+		<br/>
+		
+		<label for="question9">9. How many pours of a certain wine can a guest receive from a WineTech consultant?</label>
+		<br/>
+		
+		
+		<input type="radio" id="question9" name="question9" value="0" required/>
+		However many they want.<br/>
+		<input type="radio" id="question9" name="question9" value="1" required/>
+		5 1oz. pours<br/>
+		<input type="radio" id="question9" name="question9" value="2" required/>
+		10 1oz. pours<br/>
+		<input type="radio" id="question9" name="question9" value="3" required/>
+		1 1oz. pours<br/>
+		<br/>
+		
+		<label for="question10">10. Can a WineTech Consultant give away a free gift to anyone?</label>
+		<br/>
+		
+		<input type="radio" id="question10" name="question10" value="0" required/>
+		Yes<br/>
+		<input type="radio" id="question10" name="question10" value="1" required/>
+		No<br/>
+		<br/><br/>
 		
 		<input type="submit" value="Submit Answers"/>
 		
