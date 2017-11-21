@@ -1,15 +1,15 @@
 function processQuiz()
 {
-	var answer 1 = docunment.forms.quiz1.questions1. value; 3
-	var answer 2 = docunment.forms.quiz1.questions2. value; 1
-	var answer 3 = docunment.forms.quiz1.questions3. value; 3
-	var answer 4 = docunment.forms.quiz1.questions4. value; 3
-	var answer 5 = docunment.forms.quiz1.questions5. value; 1
-	var answer 6 = docunment.forms.quiz1.questions6. value; 2
-	var answer 7 = docunment.forms.quiz1.questions7. value; 3
-	var answer 8 = docunment.forms.quiz1.questions8. value; 2
-	var answer 9 = docunment.forms.quiz1.questions9. value; 0
-	var answer 10 = docunment.forms.quiz1.questions10. value; 1
+	var answer 1 = docunment.forms.quiz1.question1. value; 
+	var answer 2 = docunment.forms.quiz1.question2. value; 
+	var answer 3 = docunment.forms.quiz1.question3. value; 
+	var answer 4 = docunment.forms.quiz1.question4. value; 
+	var answer 5 = docunment.forms.quiz1.question5. value; 
+	var answer 6 = docunment.forms.quiz1.question6. value; 
+	var answer 7 = docunment.forms.quiz1.question7. value; 
+	var answer 8 = docunment.forms.quiz1.question8. value; 
+	var answer 9 = docunment.forms.quiz1.question9. value; 
+	var answer 10 = docunment.forms.quiz1.question10. value; 
 	
 	var counter = 0;
 	
