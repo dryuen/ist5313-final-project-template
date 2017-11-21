@@ -1,33 +1,77 @@
 function processQuiz()
 {
-	var answer 1 = docunment.forms.quiz1.questions1. value; 0
-	var answer 2 = docunment.forms.quiz1.questions2. value; 2
-	var answer 3 = docunment.forms.quiz1.questions3. value; 0
+	var answer 1 = docunment.forms.quiz1.questions1. value; 3
+	var answer 2 = docunment.forms.quiz1.questions2. value; 1
+	var answer 3 = docunment.forms.quiz1.questions3. value; 3
+	var answer 4 = docunment.forms.quiz1.questions4. value; 3
+	var answer 5 = docunment.forms.quiz1.questions5. value; 1
+	var answer 6 = docunment.forms.quiz1.questions6. value; 2
+	var answer 7 = docunment.forms.quiz1.questions7. value; 3
+	var answer 8 = docunment.forms.quiz1.questions8. value; 2
+	var answer 9 = docunment.forms.quiz1.questions9. value; 0
+	var answer 10 = docunment.forms.quiz1.questions10. value; 1
 	
 	var counter = 0;
 	
-	if( answer 1 == 0 )
+	if( answer 1 == 3 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer 2 == 2 )
+	if( answer 2 == 1 )
 	{
 		counter = counter + 1;
 	}	
 	
-	if( answer 3 == 0 )
+	if( answer 3 == 3 )
+	{
+		counter = counter + 1;
+	}
+	
+	if( answer 4 == 3 )
+	{
+		counter = counter + 1;
+	}
+	
+	if( answer 5 == 1 )
 	{
 		counter = counter + 1;
 	}	
+	
+	if( answer 6 == 2 )
+	{
+		counter = counter + 1;
+	}
+	
+	if( answer 7 == 3 )
+	{
+		counter = counter + 1;
+	}
+	
+	if( answer 8 == 2 )
+	{
+		counter = counter + 1;
+	}	
+	
+	if( answer 9 == 0 )
+	{
+		counter = counter + 1;
+	}
+	
+	if( answer 10 == 1 )
+	{
+		counter = counter + 1;
+	}
+	
 }
 
-var percentage = counter / 3;
+var percentage = counter / 10;
 alert( "Your score is " + percentage + "%" );
 
 alert ( "You got " + counter + " questions correct!");
 
-
+sessionStorage.setItem( "somekey", "topic7" );
+var value = sessionStorage.getItem( "topic7" );
 
 // this file holds any scripts that have to do with communicating with the learning management system (LMS)
 
@@ -109,6 +153,15 @@ function finishCourse()
 	oScorm.save();
 	oScorm.quit();
 }
+
+
+var visitTopic1 = 0;
+var visitTopic2 = 0;
+var visitTopic3 = 0;
+var visitTopic4 = 0;
+var visitTopic5 = 0;
+var visitTopic6 = 0;
+
 
 function visitTopic1()
 {
