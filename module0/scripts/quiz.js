@@ -1,3 +1,5 @@
+
+
 function processQuiz()
 {
 	var answer 1 = docunment.forms.quiz1.question1. value; 
@@ -70,5 +72,5 @@ alert( "Your score is " + percentage + "%" );
 
 alert ( "You got " + counter + " questions correct!");
 
-sessionStorage.setItem( "somekey", "topic7" );
-var value = sessionStorage.getItem( "topic7" );
+sessionStorage.setItem( "somekey", "topic-7" );
+var value = sessionStorage.getItem( "topic-7" );
