@@ -1,74 +1,80 @@
 function processQuiz()
 {
-	var answer 1 = docunment.forms.quiz1.question1. value; 
-	var answer 2 = docunment.forms.quiz1.question2. value; 
-	var answer 3 = docunment.forms.quiz1.question3. value; 
-	var answer 4 = docunment.forms.quiz1.question4. value; 
-	var answer 5 = docunment.forms.quiz1.question5. value; 
-	var answer 6 = docunment.forms.quiz1.question6. value; 
-	var answer 7 = docunment.forms.quiz1.question7. value; 
-	var answer 8 = docunment.forms.quiz1.question8. value; 
-	var answer 9 = docunment.forms.quiz1.question9. value; 
-	var answer 10 = docunment.forms.quiz1.question10. value; 
+	var answer1 = document.forms.quiz1.question1. value; 
+	var answer2 = document.forms.quiz1.question2. value; 
+	var answer3 = document.forms.quiz1.question3. value; 
+	var answer4 = document.forms.quiz1.question4. value; 
+	var answer5 = document.forms.quiz1.question5. value; 
+	var answer6 = document.forms.quiz1.question6. value; 
+	var answer7 = document.forms.quiz1.question7. value; 
+	var answer8 = document.forms.quiz1.question8. value; 
+	var answer9 = document.forms.quiz1.question9. value; 
+	var answer10 = document.forms.quiz1.question10. value; 
 	
 	var counter = 0;
 	
-	if( answer 1 == 2 )
+	if( answer1 == 2 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer 2 == 1 )
+	if( answer2 == 1 )
 	{
 		counter = counter + 1;
 	}	
 	
-	if( answer 3 == 2 )
+	if( answer3 == 2 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer 4 == 2 )
+	if( answer4 == 2 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer 5 == 1 )
+	if( answer5 == 1 )
 	{
 		counter = counter + 1;
 	}	
 	
-	if( answer 6 == 1 )
+	if( answer6 == 1 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer 7 == 3 )
+	if( answer7 == 3 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer 8 == 3 )
+	if( answer8 == 3 )
 	{
 		counter = counter + 1;
 	}	
 	
-	if( answer 9 == 3 )
+	if( answer9 == 3 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer 10 == 1 )
+	if( answer10 == 1 )
 	{
 		counter = counter + 1;
 	}
 	
+	alert( "You got " + counter + " questions correct!" );
+
+    var percentage = counter / 10;
+
+    var grade = (percentage * 100);
+
+    if(grade < 70) {
+        alert( "Your score is " + (grade.toFixed(2)) + "%. You must score a 70% or higher to continue" );
+    } else{
+        alert( "Your score is " + grade + "%. Congratulations!" );
+        $("#certificate-link").css("display", "block");
+    }
+
+
 }
-
-var percentage = counter / 10;
-alert( "Your score is " + percentage + "%" );
-
-alert ( "You got " + counter + " questions correct!");
-
-sessionStorage.setItem( "somekey", "topic7" );
-var value = sessionStorage.getItem( "topic7" );
