@@ -13,67 +13,71 @@ function processQuiz()
 	var answer9 = document.forms.quiz1.question9. value; 
 	var answer10 = document.forms.quiz1.question10. value; 
 	
-	var counter = 0;
+	var counter = 0; // This variable keeps track of the number of correct answers
 	
-	if( answer 1 == 3 )
+	if( answer1 == 3 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer 2 == 1 )
+	if( answer2 == 1 )
 	{
 		counter = counter + 1;
 	}	
 	
-	if( answer 3 == 3 )
+	if( answer3 == 3 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer 4 == 3 )
+	if( answer4 == 3 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer 5 == 1 )
+	if( answer5 == 1 )
 	{
 		counter = counter + 1;
 	}	
 	
-	if( answer 6 == 2 )
+	if( answer6 == 2 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer 7 == 3 )
+	if( answer7 == 3 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer 8 == 2 )
+	if( answer8 == 2 )
 	{
 		counter = counter + 1;
 	}	
 	
-	if( answer 9 == 0 )
+	if( answer9 == 0 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer 10 == 1 )
+	if( answer10 == 1 )
 	{
 		counter = counter + 1;
 	}
 	
-alert ( "You got " + counter + " questions correct!");
 	
-var percentage = counter / 10;
-var grade = (percentage * 100);
+    alert( "You got " + counter + " questions correct!" );
 
+    var percentage = counter / 10;
 
-alert( "Your score is " + percentage + "%" );
+    var grade = (percentage * 100);
 
-
+    if(grade < 70) {
+        alert( "Your score is " + (grade.toFixed(2)) + "%. You must score a 70% or higher to continue" );
+    } else{
+        alert( "Your score is " + grade + "%. Congratulations!" );
+        $("#certificate-link").css("display", "block");
+    }
 
 
 }
