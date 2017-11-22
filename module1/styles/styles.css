@@ -146,3 +146,8 @@ audio
 {
 	border-bottom: thick double #996666;
 }
+
+#quiz-link
+{
+	display: none;
+}

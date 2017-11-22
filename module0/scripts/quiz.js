@@ -1,5 +1,3 @@
-
-
 function processQuiz()
 {
 	var answer1 = document.forms.quiz1.question1. value; 
