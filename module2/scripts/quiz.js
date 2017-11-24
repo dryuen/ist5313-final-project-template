@@ -18,47 +18,47 @@ function processQuiz()
 		counter = counter + 1;
 	}
 	
-	if( answer2 == 1 )
+	if( answer2 == 2 )
 	{
 		counter = counter + 1;
 	}	
 	
-	if( answer3 == 3 )
+	if( answer3 == 1 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer4 == 3 )
+	if( answer4 == 0 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer5 == 1 )
+	if( answer5 == 0 )
 	{
 		counter = counter + 1;
 	}	
 	
-	if( answer6 == 2 )
+	if( answer6 == 1 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer7 == 3 )
+	if( answer7 == 2 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer8 == 2 )
+	if( answer8 == 3 )
 	{
 		counter = counter + 1;
 	}	
 	
-	if( answer9 == 0 )
+	if( answer9 == 1 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer10 == 1 )
+	if( answer10 == 2 )
 	{
 		counter = counter + 1;
 	}
@@ -70,9 +70,15 @@ function processQuiz()
 
     var grade = (percentage * 100);
 
-    if(grade < 70) {
+    if(grade < 70) 
+    
+    {
         alert( "Your score is " + (grade.toFixed(2)) + "%. You must score a 70% or higher to continue" );
-    } else{
+    } 
+    
+    else{
         alert( "Your score is " + grade + "%. Congratulations!" );
         $("#certificate-link").css("display", "block");
     }
+    
+}

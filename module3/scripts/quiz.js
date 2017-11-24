@@ -13,17 +13,17 @@ function processQuiz()
 	
 	var counter = 0; // This variable keeps track of the number of correct answers
 	
-	if( answer1 == 3 )
+	if( answer1 == 2 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer2 == 1 )
+	if( answer2 == 0 )
 	{
 		counter = counter + 1;
 	}	
 	
-	if( answer3 == 3 )
+	if( answer3 == 1 )
 	{
 		counter = counter + 1;
 	}
@@ -33,32 +33,32 @@ function processQuiz()
 		counter = counter + 1;
 	}
 	
-	if( answer5 == 1 )
+	if( answer5 == 2 )
 	{
 		counter = counter + 1;
 	}	
 	
-	if( answer6 == 2 )
+	if( answer6 == 1 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer7 == 3 )
+	if( answer7 == 1 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer8 == 2 )
+	if( answer8 == 0 )
 	{
 		counter = counter + 1;
 	}	
 	
-	if( answer9 == 0 )
+	if( answer9 == 2 )
 	{
 		counter = counter + 1;
 	}
 	
-	if( answer10 == 1 )
+	if( answer10 == 3 )
 	{
 		counter = counter + 1;
 	}
@@ -76,3 +76,4 @@ function processQuiz()
         alert( "Your score is " + grade + "%. Congratulations!" );
         $("#certificate-link").css("display", "block");
     }
+}

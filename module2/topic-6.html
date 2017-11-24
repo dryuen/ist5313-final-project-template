@@ -8,6 +8,8 @@
 		<a href="#" onclick="javascript:processQuiz()">
 		
 		<!--- link your other script files here that are specific to this HTML page here --->
+	
+	
 	</head>	
 	<body>
 	<img src="images/heading2.png" alt="WineTech" 
@@ -38,45 +40,150 @@
       	<div id="main-panel">
        			<article>
        			
-       			</br><h2>Module 2 Quiz</h2>
+       			<br/><h2>Module 2 Quiz</h2>
  						
- 		<form id="quiz1" action="javascript:processQuiz()">
+ 		<p>Click the right answer.</p>
+ 						
+ 		<form id="quiz1" name="quiz1" action="javascript:processQuiz()">
 	
-	
-		<label for="question1">1. What does IST stand for?</label>
-		<br/>
-		
-		<input type="radio" id="question1" name="question1" value="0"/>
-		Instructional Technology<br/>
-		<input type="radio" id="question1" name="question1" value="1"/>
-		Interdiscplinary Science and Technology<br/>
-		<input type="radio" id="question1" name="question1" value="2"/>
-		I seek Therapy<br/><br/>
-		
-		<label for="question1">2. Who is your favorite IST professor?</label>
-		<br/>
-		
-		<input type="radio" id="question1" name="question1" value="0"/>
-		Fies<br/>
-		<input type="radio" id="question1" name="question1" value="1"/>
-		Marone<br/>
-		<input type="radio" id="question1" name="question1" value="2"/>
-		Yuen<br/><br/>
-		
-		<label for="question1">3. What does EDGE stand for in EDGE Center?</label>
-		<br/>
-		
-		<input type="radio" id="question1" name="question1" value="0"/>
-		Engaging Digital Generations Everywhere<br/>
-		<input type="radio" id="question1" name="question1" value="1"/>
-		Educating, Digital, Gaming, Engaging<br/>
-		<input type="radio" id="question1" name="question1" value="2"/>
-		EDucating GEneration-z<br/><br/>
-		
-		<input type="submit" value="Submit Answers"/>
-		
-	</form> 	
 
+		<label for="question1">1. What are the important items to take notice of the wine?</label>
+		<br/>
+		
+		<input type="radio" id="question1" name="question1" value="0" required/>
+		Appearance<br/>
+		<input type="radio" id="question1" name="question1" value="1" required/>
+		Smell<br/>
+		<input type="radio" id="question1" name="question1" value="2" required/>
+		Taste<br/>
+		<input type="radio" id="question1" name="question1" value="3" required/>
+		All of the above<br/>
+		<br/>
+		
+		<label for="question2">2. It is okay to spit out or swallow each sample?</label>
+		<br/>
+		
+		<input type="radio" id="question2" name="question2" value="0" required/>
+		You must spit out each taste.<br/>
+		<input type="radio" id="question2" name="question2" value="1" required/>
+		It is okay to swallow each sample.<br/>
+		<input type="radio" id="question2" name="question2" value="2" required/>
+		Either is acceptable<br/>
+		<input type="radio" id="question2" name="question2" value="3" required/>
+		See what every other taster is doing. <br/>
+		<br/>
+		
+		<label for="question3">3. Why should you hold the glass by the stem?</label>
+		<br/>
+		
+		<input type="radio" id="question3" name="question3" value="0" required/>
+		It looks cooler.<br/>
+		<input type="radio" id="question3" name="question3" value="1" required/>
+		It reduces fingerprints and will not affect the temperature of the wine. <br/>
+		<input type="radio" id="question3" name="question3" value="1" required/>
+		It gives better balance.<br/>
+		<input type="radio" id="question3" name="question3" value="3" required/>
+		It feels better.<br/>
+		<br/>
+		
+		<label for="question4">4. When tasting wine, how many steps should you follow to enjoy the full experience?</label>
+		<br/>
+		
+		<input type="radio" id="question4" name="question4" value="0" required/>
+		4<br/>
+		<input type="radio" id="question4" name="question4" value="1" required/>
+		5<br/>
+		<input type="radio" id="question4" name="question4" value="2" required/>
+		6<br/>
+		<input type="radio" id="question4" name="question4" value="3" required/>
+		7<br/>
+		<br/>
+		
+		<label for="question5">5. What is <strong>NOT</strong> a responsibility of a host?</label>
+		<br/>
+		
+		<input type="radio" id="question5" name="question5" value="0" required/>
+		Forcing customers to try wines only you like.<br/>
+		<input type="radio" id="question5" name="question5" value="1" required/>
+		Greeting customers with respect<br/>
+		<input type="radio" id="question5" name="question5" value="2" required/>
+		Keeping the wine stocked in the tasting room.<br/>
+		<input type="radio" id="question5" name="question5" value="3" required/>
+		Setting and cleaning up.<br/>
+		<br/>
+		
+		<label for="question6">6. What do wine consultants know about the wine?</label>
+		<br/>
+		
+		<input type="radio" id="question6" name="question6" value="0" required/>
+		How far it has traveled<br/>
+		<input type="radio" id="question6" name="question6" value="1" required/>
+		Taste, age, and quality<br/>
+		<input type="radio" id="question6" name="question6" value="2" required/>
+		The ammount of grapes in it<br/>
+		<input type="radio" id="question6" name="question6" value="3" required/>
+		The bottling process<br/>
+		<br/>
+		
+		<label for="question7">7. Where is the best location to enjoy wine?</label>
+		<br/>
+		
+		<input type="radio" id="question7" name="question7" value="0" required/>
+		In the office<br/>
+		<input type="radio" id="question7" name="question7" value="1" required/>
+		In the hot sun<br/>
+		<input type="radio" id="question7" name="question7" value="2" required/>
+		Over a fine meal<br/>
+		<input type="radio" id="question7" name="question7" value="3" required/>
+		At the bus stop<br/>
+		<br/>
+		
+		<label for="question8">8. Who mainly hires wine consultants?</label>
+		<br/>
+		
+		<input type="radio" id="question8" name="question8" value="0" required/>
+		Advertising firms<br/>
+		<input type="radio" id="question8" name="question8" value="1" required/>
+		Construction companies<br/>
+		<input type="radio" id="question8" name="question8" value="2" required/>
+		IT shops<br/>
+		<input type="radio" id="question8" name="question8" value="3" required/>
+		Hotels and restaurants<br/>
+		<br/>
+		
+		<label for="question9">9. When you swirl the wine, more droplets on the glass reveal what?</label>
+		<br/>
+		
+		<input type="radio" id="question9" name="question9" value="0" required/>
+		Better taste<br/>
+		<input type="radio" id="question9" name="question9" value="1" required/>
+		Higher alcohol content<br/>
+		<input type="radio" id="question9" name="question9" value="2" required/>
+		Less consistency<br/>
+		<input type="radio" id="question9" name="question9" value="3" required/>
+		Specific region of origin<br/>
+		<br/>
+		
+		<label for="question10">10. What is the best way to smell the wine?</label>
+		<br/>
+		
+		<input type="radio" id="question10" name="question10" value="0" required/>
+		By swirling it more<br/>
+		<input type="radio" id="question10" name="question10" value="1" required/>
+		Holding it further away from the body<br/>
+		<input type="radio" id="question10" name="question10" value="2" required/>
+		Bring the glass up to the nose and take in the aroma<br/>
+		<input type="radio" id="question10" name="question10" value="3" required/>
+		Keep drinking more<br/>
+		<br/><br/>
+		
+		<input type="submit" value="Submit Answers"/>	
+
+
+
+ 		<div class="row text-center">
+                <a href="topic-7.html"> <h5 id="certificate" style="display: none; "Click on here for your certificate.</h5></a>
+         </div>
 
        			</article>
       		</div>
