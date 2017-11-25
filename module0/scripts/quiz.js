@@ -79,7 +79,7 @@ function processQuiz()
     
     {
         alert( "Your score is " + grade + "%. Congratulations!" );
-        $("#certificate-link").css("display", "block");
+        $("#certificate-link").css("display", "inline");
     }
 
 
