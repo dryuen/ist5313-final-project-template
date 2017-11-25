@@ -80,9 +80,22 @@ function initializeSCORM()
 
 // This function reports the score from the assessment to the LMS
 // This should only be called when the user submits the answers to the quiz
-function reportScores()
+function reportScores( score )
 {	
+	oScorm.set("cmi.core.score.raw", score );
+	oScorm.set("cmi.core.score.min", 0 );
+	oScorm.set("cmi.core.score.max", 100 );
+	
+	oScorm.set("cmi.core.score.lesson_status", "passed" );
+	
 	oScorm.save();
+}
+
+//This function adds the student's name to the certificate page.
+function visitCertificate()
+{
+	var learner_name = oScorm.get( "cmi.core.student_name" );
+	document.getElementById( "content-frame" ).contentWindow.document.getElementById( "user-name" ).innerHTML = learner_name;
 }
 
 // This function is called when the window is closed.  It saves and quits the course.
