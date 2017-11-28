@@ -111,6 +111,8 @@ function checkAllVisited()
 		&& t9 == "visited" && t10 == "visited" && t11 == "visited" && t12 == "visited" )
 	{
 		document.getElementById( "content-frame" ).contentWindow.document.getElementById( "quiz-link" ).style.display = "inline";
+		
+		document.getElementById( "content-frame" ).contentWindow.document.getElementById( "certificate-link" ).style.display = "inline";
 	}
 }
 

@@ -253,6 +253,11 @@ footer
 	display: none;
 }
 
+#certificate-link
+{
+	display: none;
+}
+
 #headerDiv, #contentDiv 
 {
 	float: left;
