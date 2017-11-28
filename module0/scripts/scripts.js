@@ -151,10 +151,9 @@ function checkAllVisited(){
     var t5 = sessionStorage.getItem("topic5Visited");
     var t6 = sessionStorage.getItem("topic6Visited");
  
-
-    if(t1 == "visited" $$ t2 =="visited" && t3 == "visited" && t4 == "visited" && t5 == "visited" && t6 == "visited")
+    if(t1 == "visited" && t2 =="visited" && t3 == "visited" && t4 == "visited" && t5 == "visited" && t6 == "visited")
     {
-        document.getElementById("content-frame").contentWindow.document.getElementById( "quiz-link" ).style.display="block";
+        document.getElementById("content-frame").contentWindow.document.getElementById( "quiz-link" ).style.display="inline";
         // document.getElementById("content-frame").contentWindow.document.getElementById("quiz-button").style.display="block";
     }
 }
