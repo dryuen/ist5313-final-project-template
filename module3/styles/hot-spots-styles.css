@@ -10,9 +10,9 @@
 	border: solid thin #000000;
 	background: #cc8033;
 	text-align: center;
-	height: 100px;
-	width: 215px;
-	vertical-align: center;
+	height: 70px;
+	width: 160px;
+	vertical-align: left;
 	position: relative;
 	border-radius: 15px 50px;
 }
@@ -20,6 +20,7 @@
 .hotspot p
 {
 	font-weight: bold;
+	font-size: 12px;
 }
 
 #output-box
@@ -31,4 +32,5 @@
 	background: #e4d1d1;
 	border-radius: 15px 50px;
 	display: none;
+	font-size: 18px;
 }
