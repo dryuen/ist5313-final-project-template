@@ -34,7 +34,7 @@ function hideOutput()
 	document.getElementById( "output-box" ).style.display = "none";
 }
 
-function goFirst()
+/*function goFirst()
 {
 	if( document.getElementById( "xfirst" ).value == 1 )
 	{
@@ -42,4 +42,4 @@ function goFirst()
 		document.getElementById( "xsecond" ).disabled = "";
 		// disable the first <select> (totally optional)
 		document.getElementById( "xfirst" ).disabled = "disabled";
-	}
+	}*/
