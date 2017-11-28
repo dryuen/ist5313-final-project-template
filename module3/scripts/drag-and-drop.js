@@ -36,7 +36,7 @@ function processForm()
 	else
 	{
 		// link back to the same page.
-		document.getElementById( "response" ).innerHTML = "Incorrect!  <a href='index.html'>click here to try again</a>";
+		document.getElementById( "response" ).innerHTML = "Incorrect!  <a href='practice.html'>click here to try again</a>";
 	}
 }
 
@@ -74,7 +74,8 @@ function dropDragger( evt )
 		aDraggerBays[ nDraggerBayIndex ] = nDraggerIndex; 
 		
 		// replace the HTML of the dragger bay with the dragger (the HTML)
-		evt.target.innerHTML = "<div class='dragger'>" + oCurrentDragger.innerHTML + "</div>";
+		//evt.target.innerHTML = "<div class='dragger'>" + oCurrentDragger.innerHTML + "</div>";
+		evt.target.src = oCurrentDragger.src;
 		
 		evt.target.style.border = "none";
 		oCurrentDragger.style.display = "none";
