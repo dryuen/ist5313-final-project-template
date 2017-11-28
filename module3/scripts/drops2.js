@@ -55,6 +55,7 @@ function goFifth()
 	if( document.getElementById( "ysecond" ).value == 2 )
 	{
 		// enable the second <select>
+		document.getElementById( "ythird" ).disabled = "";
 	//	document.getElementById( "ysecond" ).disabled = "";
 		// disable the first <select> (totally optional)
 		document.getElementById( "ysecond" ).disabled = "disabled";
@@ -66,3 +67,14 @@ function goFifth()
 	
 }
 
+function goSixth()
+{
+	if( document.getElementById( "ythird" ).value == 3 )
+	{
+		// disable the first <select> (totally optional)
+		document.getElementById( "ythird" ).disabled = "disabled";
+	}
+	// you can add an else statement to alert them that they are wrong
+	
+	
+}
