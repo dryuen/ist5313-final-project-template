@@ -78,42 +78,42 @@
                     <form name="dd1" onsubmit="javascript:processForm(); return false;">
                         <p>Match the question with its correct question.</p>
 
-                        <div class="column">
-                                <h3>Question</h3>
-                                <div id="d1" value="3" class="dragger" draggable="true"
-                                    ondragstart="return startDrag( event )"
-                                    ondragend="return endDrag( event )"><p>What do people who live a holistic lifestyle often eat?</p></div><br/>
-                                <div id="d2" value="2" class="dragger" draggable="true"
-                                    ondragstart="return startDrag( event )"
-                                    ondragend="return endDrag( event )"><p>How do you keep mental health in a minimalist way?</p></div><br/>
-                                <div id="d3" value="0" class="dragger" draggable="true"
-                                    ondragstart="return startDrag( event )"
-                                    ondragend="return endDrag( event )"><p> What tips will minimalists use to keep physical health?</p></div><br/>
-                                <div id="d4" value="1" class="dragger" draggable="true"
-                                    ondragstart="return startDrag( event )"
-                                    ondragend="return endDrag( event )"><p>How can you keep emotional health in a minimalist way?</p></div><br/>
-                        </div>
-
-
-                        <div class="column">
-                                <h3>Answer</h3>
-                                <div id="db1" value="0" class="draggerbay"
-                                    ondrop="return dropDragger( event )"
-                                    ondragover="return false"
-                                    ondragenter="return enterDragger( event )"><p>Go hiking, ride a bike, exercise and take advantage of local parks.</p></div><br/>
-                                <div id="db2" value="1" class="draggerbay"
-                                    ondrop="return dropDragger( event )"
-                                    ondragover="return false"
-                                    ondragenter="return enterDragger( event )"><p>Simplify your daily routine by eliminating bad relationships and focusing on good habits.</p></div><br/>
-                                <div id="db3" value="2" class="draggerbay"
-                                    ondrop="return dropDragger( event )"
-                                    ondragover="return false"
-                                    ondragenter="return enterDragger( event )"><p>Frequently perform a mental declutter - live with less and slow down your pace. </p></div><br/>
-                                <div id="db4" value="3" class="draggerbay"
-                                    ondrop="return dropDragger( event )"
-                                    ondragover="return false"
-                                    ondragenter="return enterDragger( event )"><p>Organic food</p></div><br/>
-                        </div>
+                      	<div class="column">
+						<h3>Draggers</h3>
+					 	<div id="d1" value="3" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>What do people who live a holistic lifestyle often eat?</p></div><br/>  
+				     	<div id="d2" value="2" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>How can you keep emotional health in a minimalist way?</p></div><br/>                        
+				 		<div id="d3" value="0" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>What tips will minimalists use to keep physical health?</p></div><br/>  
+					 	<div id="d4" value="1" class="dragger" draggable="true"
+				     		ondragstart="return startDrag( event )"
+				     		ondragend="return endDrag( event )"><p>How do you keep mental health in a minimalist way?</p></div><br/>  
+				</div>
+				
+				    
+				<div class="column">
+						<h3>Dragger Bays</h3>
+				     	<div id="db1" value="0" class="draggerbay" 
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"><p>Move your body the way you like.</p></div><br/>                        
+				 		<div id="db2" value="1" class="draggerbay"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"><p>Frequently perform a mental declutter - live with less and slow down your pace. </p></div><br/>  
+					 	<div id="db3" value="2" class="draggerbay"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"><p>Simplify your daily routine by eliminating bad relationships. </p></div><br/> 
+					 	<div id="db4" value="3" class="draggerbay"
+				     		ondrop="return dropDragger( event )"
+				     		ondragover="return false"
+				     		ondragenter="return enterDragger( event )"><p>Organic food</p></div><br/>  
+				</div>
 
                         <p id="response">&nbsp;</p>
 
