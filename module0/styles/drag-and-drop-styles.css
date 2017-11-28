@@ -8,11 +8,11 @@
 .dragger
 {
 	border: solid thin #000000;
-	background: #DBECB2;
-	
+	background: #e6f2ff;
+
 	text-align: center;
-	height: 50px;
-	width: 150px;
+	height: 75px;
+	width: 200px;
 	vertical-align: center;
 	cursor: move;
 	position: relative;
@@ -27,10 +27,10 @@
 .draggerbay
 {
 	border: dashed thin #000000;
-	height: 50px;
-	width: 150px;
+	height: 75px;
+	width: 200px;
 	text-align: center;
-	background: #FDD2B5;
+	background:  #f2f2f2;
 }
 
 [draggable=true] 
