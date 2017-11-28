@@ -180,10 +180,10 @@
 		//alert( y1 + ", " + slope1 + ", " + y2 + ", " + slope2 );
 		
 	      myGraph.drawEquation( function(x) {
-	        return slope1 * x - y1;
+	        return slope1 * x - - y1;
 	      }, 'blue', 3 );
 
 	      myGraph.drawEquation( function(x) {
-	        return slope2 * x - y2;
+	        return slope2 * x - - y2;
 	      }, 'red', 3 );
       }
