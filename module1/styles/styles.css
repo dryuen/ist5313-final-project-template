@@ -103,7 +103,10 @@ body
 #sub-navigation
 {
 	background: #dddddd;	
-	padding: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	width: 580px;
 	float: left;
 	height: 20px;
