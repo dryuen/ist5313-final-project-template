@@ -46,6 +46,8 @@ function processQuiz()
         $("#certificate-link").css("display", "block");
     }
 
+    parent.reportScores(grade);
+
 
 }
 
