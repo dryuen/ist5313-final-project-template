@@ -91,7 +91,8 @@ function reportScores(score)
 
     }
 
-    oScorm.save();}
+    oScorm.save();
+}
 
 // This function is called when the window is closed.  It saves and quits the course.
 function finishCourse()
