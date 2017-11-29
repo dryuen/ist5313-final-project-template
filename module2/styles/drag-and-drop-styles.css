@@ -11,8 +11,8 @@
 	background: #999999;
 	border-radius: 15px;
 	text-align: center;
-	height: 175px;
-	width: 175px;
+	height: 125px;
+	width: 125px;
 	vertical-align: center;
 	cursor: move;
 	position: relative;
@@ -28,8 +28,8 @@
 {
 	border: dashed thin #000000;
 	border-radius: 15px;
-	height: 175px;
-	width: 175px;
+	height: 125px;
+	width: 125px;
 	text-align: center;
 	background: #ccccee;
 }
