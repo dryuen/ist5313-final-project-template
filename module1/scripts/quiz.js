@@ -11,7 +11,7 @@ function processQuiz()
 	var answer9 = document.forms.quiz1.question9. value; 
 	var answer10 = document.forms.quiz1.question10. value; 
 	
-	var counter = 0;
+	var counter = 0; // This variable keeps track of the number of correct answers
 	
 	if( answer1 == 2 )
 	{
@@ -64,30 +64,30 @@ function processQuiz()
 	}
 	
 
+	
+    alert( "You got " + counter + " questions correct!" );
 
-alert( "You got " + counter + " questions correct!" );
+    var percentage = counter / 10;
 
-var percentage = counter / 10;
+    var grade = (percentage * 100);
 
-var grade = (percentage * 100);
-
-if(grade < 70) 
-{
-    alert( "Your score is " + (grade.toFixed(2)) + "%. You must score a 70% or higher to continue" );
-} 
-
-else
-
-{
-    alert( "Your score is " + grade + "%. Congratulations!" );
-    //$("#certificate-link").css("display", "inline");
-    alert( document.getElementById( "content-frame" ) );
+    if(grade < 70) 
+    {
+        alert( "Your score is " + (grade.toFixed(2)) + "%. You must score a 70% or higher to continue" );
+    } 
     
-    //alert( document.getElementById( "content-frame" ).contentWindow.document.getElementById( "certificate-link" ) );
-    document.getElementById( "certificate-link" ).style.display = "inline";
-}
-
-parent.reportScores( grade.toFixed(2) );
+    else
+    
+    {
+        alert( "Your score is " + grade + "%. Congratulations!" );
+        //$("#certificate-link").css("display", "inline");
+        alert( document.getElementById( "content-frame" ) );
+        
+        //alert( document.getElementById( "content-frame" ).contentWindow.document.getElementById( "certificate-link" ) );
+        document.getElementById( "certificate-link" ).style.display = "inline";
+    }
+    
+    parent.reportScores( grade.toFixed(2) );
 
 
 }

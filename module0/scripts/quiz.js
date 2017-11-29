@@ -64,7 +64,8 @@ function processQuiz()
 	}
 	
 	
-    alert( "You got " + counter + " questions correct!" );
+   
+	alert( "You got " + counter + " questions correct!" );
 
     var percentage = counter / 10;
 
