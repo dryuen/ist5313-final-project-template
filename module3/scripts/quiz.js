@@ -70,10 +70,23 @@ function processQuiz()
 
     var grade = (percentage * 100);
 
-    if(grade < 70) {
+    if(grade < 70) 
+    {
         alert( "Your score is " + (grade.toFixed(2)) + "%. You must score a 70% or higher to continue" );
-    } else{
+    } 
+    
+    else
+    
+    {
         alert( "Your score is " + grade + "%. Congratulations!" );
-        $("#certificate-link").css("display", "block");
+        //$("#certificate-link").css("display", "inline");
+        alert( document.getElementById( "content-frame" ) );
+        
+        //alert( document.getElementById( "content-frame" ).contentWindow.document.getElementById( "certificate-link" ) );
+        document.getElementById( "certificate-link" ).style.display = "inline";
     }
+    
+    parent.reportScores( grade.toFixed(2) );
+
+
 }
