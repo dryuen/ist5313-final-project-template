@@ -9,19 +9,19 @@ function showText( number )
 	
 	if( number == 1 )
 	{
-		document.getElementById( "output-text" ).innerHTML = "le chat";
+		document.getElementById( "output-text" ).innerHTML = "un-essential";
 	}
 	else if( number == 2 )
 	{
-		document.getElementById( "output-text" ).innerHTML = "le cheval";
+		document.getElementById( "output-text" ).innerHTML = "essential";
 	}
 	else if( number == 3 )
 	{
-		document.getElementById( "output-text" ).innerHTML = "le chien";
+		document.getElementById( "output-text" ).innerHTML = "un-essential";
 	}
 	else if( number == 4 )
 	{
-		document.getElementById( "output-text" ).innerHTML = "l'oiseau";
+		document.getElementById( "output-text" ).innerHTML = "essential";
 	}
 }
 
