@@ -41,6 +41,7 @@ audio
 	height: 50px;
 }
 
+
 #results1, #results2, #results3{
 	display: none;
 	border: 1px solid black;
@@ -67,4 +68,14 @@ audio
 
 #overview-image{
 	height: 350px;
+}
+
+#certificate-logo{
+	height: 75px;
+}
+
+#htmlCertificate{
+	border: 1px solid black;
+	padding-top: 75px;
+	padding-bottom: 100px;
 }
