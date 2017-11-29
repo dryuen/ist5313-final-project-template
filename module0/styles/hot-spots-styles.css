@@ -11,10 +11,11 @@
 	background: #999999;
 	
 	text-align: center;
-	height: 50px;
+	height: 150px;
 	width: 150px;
 	vertical-align: center;
 	position: relative;
+	color: white;
 }
 
 .hotspot p
