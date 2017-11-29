@@ -101,6 +101,11 @@ function finishCourse()
 }
 
 
+function viewCertificate(){
+    var learnerName = oScorm.get("cmi.core.student_name");
+    document.getElementById("content-frame").contentWindow.document.getElementById("user-name").innerHTML = learnerName;
+}
+
 
 function visitTopic1()
 {
