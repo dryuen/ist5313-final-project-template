@@ -5,6 +5,9 @@
     <title>additional resources</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css">
     <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+
+    <script src="scripts/quiz3.js"></script>
+
 </head>
 <body>
 
@@ -73,53 +76,59 @@
                 </div>
 
                 <div class="row">
-                    <form id="quiz3" name="quiz3" onsubmit="javascript: processQuiz(); return false;">
+                    <form id="quiz3" name="quiz3" onsubmit="processQuiz(); return false;">
 
                         <div class="form-group"> <!-- Question 1!-->
-                            <label for="question1" class="control-label">1. What does people who live holistic lifestyle often eat?</label>
+                            <label for="question1" class="control-label">1. What do people who live a holistic lifestyle
+                                often eat?</label>
                             <div class="radio">
-                                <label><input type="radio" id="question1" name="question1" value="0" >organic food</label>
+                                <label><input type="radio" id="question1" name="question1" value="0" required >Organic
+                                    food</label>
                             </div>
 
                             <div class="radio">
-                                <label><input type="radio" id="question1" name="question1" value="1">processed food</label>
+                                <label><input type="radio" id="question1" name="question1" value="1" required>Processed
+                                    food</label>
                             </div>
 
                             <div class="radio">
-                                <label><input type="radio" id="question1"  name="question1" value="2">high fat, high sugar food</label>
+                                <label><input type="radio" id="question1"  name="question1" value="2" required>High
+                                    fat, high
+                                    sugar food</label>
                             </div>
                         </div>
 
                         <div class="form-group"> <!-- Question 2!-->
                             <label for="question2" class="control-label">2. What tips will minimalists use to keep physical health?</label>
                             <div class="radio">
-                                <label><input type="radio" id="question2" name="question2" value="0" >
-                                  sleep all day long without exercise
+                                <label><input type="radio" id="question2" name="question2" value="0" required >
+                                  Sleep all day long without exercise
                                 </label>
                             </div>
 
                             <div class="radio">
-                                <label><input type="radio" id="question2" name="question2" value="1">
-                                  stay in house all day long
+                                <label><input type="radio" id="question2" name="question2" value="1" required>
+                                  Stay in the house all day long
                                 </label>
                             </div>
 
                             <div class="radio">
                                 <label>
-                                    <input type="radio" id="question2"  name="question2" value="2">
-                                    go hiking; ride a bike;exercise and take advantage of local parks.
+                                    <input type="radio" id="question2"  name="question2" value="2" required>
+                                    Go hiking; Ride a bike;Exercise and take advantage of local parks.
                                 </label>
                             </div>
                         </div>
 
                         <div class="form-group"> <!-- Question 3!-->
-                            <label for="question3" class="control-label">3. How to keep emotional health in a minimalist way?</label>
+                            <label for="question3" class="control-label">3. How do you keep emotional health in a
+                                minimalist way?</label>
                             <div class="radio">
-                                <label><input type="radio" id="3" name="question3" value="0" >Simplify daily routine,get rid of bad relationship and focus on good habits.</label>
+                                <label><input type="radio" id="3" name="question3" value="0" required>Simplify daily routine,get rid of bad relationship and focus on good habits.</label>
                             </div>
 
                             <div class="radio">
-                                <label><input type="radio" id="question3" name="question3" value="1">busy with unnecessary things and let bad relationship bother your life.</label>
+                                <label><input type="radio" id="question3" name="question3" value="1" required>Busy with unnecessary things and let bad relationship bother your life.</label>
                             </div>
                         </div>
 
@@ -134,7 +143,6 @@
 
     <script src="scripts/jquery-2.2.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="scripts/quiz3.js"></script>
 
 </body>
 
