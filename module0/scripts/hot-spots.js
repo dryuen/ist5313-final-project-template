@@ -17,7 +17,7 @@ function showText( number )
 	}
 	else if( number == 3 )
 	{
-		document.getElementById( "output-text" ).innerHTML = "Minimalist Benefits";
+		document.getElementById( "output-text" ).innerHTML = "Benefit of minimalism";
 	}
 	else if( number == 4 )
 	{
