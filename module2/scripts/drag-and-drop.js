@@ -36,7 +36,7 @@ function processForm()
 	else
 	{
 		// link back to the same page.
-		document.getElementById( "response" ).innerHTML = "Incorrect! <a href='practice.html'>Click here to give it another try.</a>";
+		document.getElementById( "response" ).innerHTML = "Incorrect!  <a href='practice.html'>Click here to give it another try.</a>";
 	}
 }
 
