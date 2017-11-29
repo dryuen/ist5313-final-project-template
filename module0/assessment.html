@@ -7,9 +7,11 @@
         <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
 
         <!--- link your other script files here that are specific to this HTML page here --->
+        <script src="scripts/quiz0.js"></script>
+
     </head>
 
-    <body onload="javascript:parent.visitTopic6();">
+    <body>
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -69,64 +71,63 @@
                     </div>
 
                     <div class="row">
-                        <form id="quiz0" name="quiz0" onsubmit="javascript: processQuiz(); return false;">
+                        <form id="quiz0" name="quiz0" onsubmit="processQuiz(); return false;">
 
                             <div class="form-group"> <!-- Question 1!-->
                                 <label for="question1" class="control-label">1. What is this course about?</label>
                                 <div class="radio">
-                                    <label><input type="radio" id="question1" name="question1" value="0" >Changing your life</label>
+                                    <label><input type="radio" id="question1" name="question1" value="0" required >Changing your life</label>
                                 </div>
 
                                 <div class="radio">
-                                    <label><input type="radio" id="question1" name="question1" value="1">Improving your math skills</label>
+                                    <label><input type="radio" id="question1" name="question1" value="1" required>Improving your math skills</label>
                                 </div>
 
                                 <div class="radio">
-                                    <label><input type="radio" id="question1"  name="question1" value="2">Learning another language</label>
+                                    <label><input type="radio" id="question1"  name="question1" value="2" required>Learning another language</label>
                                 </div>
                             </div>
 
                             <div class="form-group"> <!-- Question 2!-->
                                 <label for="question2" class="control-label">2. What topics will be covered in this course?</label>
                                 <div class="radio">
-                                    <label><input type="radio" id="question2" name="question2" value="0" >
+                                    <label><input type="radio" id="question2" name="question2" value="0" required >
                                         Decluttering your environment, Finding a job, being a better friend
                                     </label>
                                 </div>
 
                                 <div class="radio">
-                                    <label><input type="radio" id="question2" name="question2" value="1">
+                                    <label><input type="radio" id="question2" name="question2" value="1" required>
                                         Fixing your resume, Becoming a runner, Adopting a pet
                                     </label>
                                 </div>
 
                                 <div class="radio">
                                     <label>
-                                        <input type="radio" id="question2"  name="question2" value="2">
+                                        <input type="radio" id="question2"  name="question2" value="2" required>
                                         Reducing debt, Decluttering your life, Improving your health
                                     </label>
                                 </div>
                             </div>
 
                             <div class="form-group"> <!-- Question 3!-->
-                                <label for="question3" class="control-label">3. In order to move on, this quiz must be completed</label>
+                                <label for="question3" class="control-label">3. In order to unlock the quiz, all sections of the module must be completed.</label>
                                 <div class="radio">
-                                    <label><input type="radio" id="question3" name="question3" value="0" >True</label>
+                                    <label><input type="radio" id="question3" name="question3" value="0" required >True</label>
                                 </div>
 
                                 <div class="radio">
-                                    <label><input type="radio" id="question3" name="question3" value="1">False</label>
+                                    <label><input type="radio" id="question3" name="question3" value="1" required>False</label>
                                 </div>
 
                             </div>
 
                             <div class="form-group"> <!-- Submit button !-->
-                                <button class="btn btn-primary " name="submit" type="submit">Submit</button>
+                                <button class="btn btn-primary" name="submit" type="submit">Submit</button>
                             </div>
                         </form>
                     </div>
                 </div>
-
 
 
             </div>
@@ -134,7 +135,6 @@
 
         <script src="scripts/jquery-2.2.4.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <script src="scripts/quiz0.js"></script>
     </body>
 </html>
 

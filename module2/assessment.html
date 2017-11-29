@@ -7,6 +7,8 @@
     <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
 
     <!--- link your other script files here that are specific to this HTML page here --->
+    <script src="scripts/quiz2.js"></script>
+
 </head>
 <body>
 
@@ -59,7 +61,10 @@
                 <audio controls>
                     <source src="audio/mod2quiz.mp3" type="audio/mpeg"/>
                 </audio>
+            </div>
 
+            <div class="row text-center">
+                <a href="certificate.html"><h5 id="certificate-link" style="display: none;">Click here for your certificate</h5></a>
             </div>
 
         </div>
@@ -72,47 +77,50 @@
             </div>
 
             <div class="row">
-                <form id="quiz2" name="quiz2" onsubmit="javascript: processQuiz(); return false;">
+                <form id="quiz2" name="quiz2" onsubmit="processQuiz(); return false;">
 
                     <div class="form-group"> <!-- Question 1!-->
                         <label for="question1" class="control-label">1. What is a myth about decluttering?</label>
                         <div class="radio">
-                            <label><input type="radio" id="question1" name="question1" value="0" >It will make your life easier.</label>
+                            <label><input type="radio" id="question1" name="question1" value="0" required >It will make your
+                                life easier.</label>
                         </div>
 
                         <div class="radio">
-                            <label><input type="radio" id="question1" name="question1" value="1">Getting rid of possessions will bring you joy.</label>
+                            <label><input type="radio" id="question1" name="question1" value="1" required>Getting rid of
+                                possessions will bring you joy.</label>
                         </div>
 
                         <div class="radio">
-                            <label><input type="radio" id="question1"  name="question1" value="2">It will happen overnight.</label>
+                            <label><input type="radio" id="question1"  name="question1" value="2" required>It will happen
+                                overnight.</label>
                         </div>
                     </div>
 
                     <div class="form-group"> <!-- Question 2!-->
                         <label for="question2" class="control-label">2. What are the three S’s when beginning a capsule wardrobe?</label>
                         <div class="radio">
-                            <label><input type="radio" id="question2" name="question2" value="0" >
+                            <label><input type="radio" id="question2" name="question2" value="0" required >
                                 Survey, Sort, Sell
                             </label>
                         </div>
 
                         <div class="radio">
-                            <label><input type="radio" id="question2" name="question2" value="1">
+                            <label><input type="radio" id="question2" name="question2" value="1" required>
                                 Scan, Sort, Select
                             </label>
                         </div>
 
                         <div class="radio">
                             <label>
-                                <input type="radio" id="question2"  name="question2" value="2">
+                                <input type="radio" id="question2"  name="question2" value="2" required>
                                 Scan, Sort, Sell
                             </label>
                         </div>
                         
                         <div class="radio">
                             <label>
-                                <input type="radio" id="question2"  name="question2" value="3">
+                                <input type="radio" id="question2"  name="question2" value="3" required>
                                 Survey, Sort, Sell
                             </label>
                         </div>
@@ -122,41 +130,43 @@
                     <div class="form-group"> <!-- Question 3!-->
                         <label for="question3" class="control-label">3. How often do you rotate your capsule wardrobe?</label>
                         <div class="radio">
-                            <label><input type="radio" id="3" name="question3" value="0" >Twice a year</label>
+                            <label><input type="radio" id="3" name="question3" value="0" required >Twice a year</label>
                         </div>
 
                         <div class="radio">
-                            <label><input type="radio" id="question3" name="question3" value="1">Every month</label>
+                            <label><input type="radio" id="question3" name="question3" value="1" required>Every month</label>
                         </div>
                         
                         <div class="radio">
-                            <label><input type="radio" id="question3" name="question3" value="2">Every 3 months</label>
+                            <label><input type="radio" id="question3" name="question3" value="2" required>Every 3 months</label>
                         </div>
                     </div>
 
                     <div class="form-group"> <!-- Question 4!-->
                         <label for="question4" class="control-label">4. What is the 12-12-12 challenge?</label>
                         <div class="radio">
-                            <label><input type="radio" id="question4" name="question4" value="0" >You meditate 12 times a day for 12 days.</label>
+                            <label><input type="radio" id="question4" name="question4" value="0" required >You meditate 12
+                                times a day for 12 days.</label>
                         </div>
 
                         <div class="radio">
-                            <label><input type="radio" id="question4" name="question4" value="1">You select 12 items to throw away, 12 things to donate, and 12 things to return to their proper home</label>
+                            <label><input type="radio" id="question4" name="question4" value="1" required>You select 12 items to throw away, 12 things to donate, and 12 things to return to their proper home</label>
                         </div>
 
                         <div class="radio">
-                            <label><input type="radio" id="question4" name="question4" value="2">You buy 12 things for 12 days for 12 months.</label>
+                            <label><input type="radio" id="question4" name="question4" value="2" required>You buy 12 things
+                                for 12 days for 12 months.</label>
                         </div>
                     </div>
 
                     <div class="form-group"> <!-- Question 5!-->
                         <label for="question5" class="control-label">5. Do possessions hide an underlying issue?</label>
                         <div class="radio">
-                            <label><input type="radio" id="question5" name="question5" value="0" >Yes</label>
+                            <label><input type="radio" id="question5" name="question5" value="0" required >Yes</label>
                         </div>
 
                         <div class="radio">
-                            <label><input type="radio" id="question5" name="question5" value="1">No</label>
+                            <label><input type="radio" id="question5" name="question5" value="1" required>No</label>
                         </div>
                     </div>
 
@@ -166,9 +176,9 @@
                 </form>
             </div>
 
-            <div class="row text-center">
-                <a href="certificate.html"><h5 id="certificate-link" style="display: none;">Click here for your certificate</h5></a>
-            </div>
+            <!--<div class="row text-center">-->
+                <!--<a href="certificate.html"><h5 id="certificate-link" style="display: none;">Click here for your certificate</h5></a>-->
+            <!--</div>-->
             </div>
         </div>
     </div>
@@ -177,7 +187,6 @@
 
     <script src="scripts/jquery-2.2.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="scripts/quiz2.js"></script>
 
 
 </body>

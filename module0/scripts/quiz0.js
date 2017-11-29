@@ -28,17 +28,16 @@ function processQuiz()
 
     var percentage = counter / 3;
 
-    var grade = percentage * 100;
+    var grade = (percentage * 100);
 
     if(grade < 70) {
-        alert( "Your score is " + grade + "%. You must score a 70% or higher to continue" );
+        alert( "Your score is " + (grade.toFixed(2)) + "%. You must score a 70% or higher to continue" );
     } else{
         alert( "Your score is " + grade + "%. Congratulations!" );
         $("#certificate-link").css("display", "block");
     }
 
     parent.reportScores(grade);
-
 
 }
 
