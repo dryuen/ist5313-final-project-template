@@ -7,28 +7,30 @@ function processQuiz()
 	var answer3 = document.forms.quiz1.question3.value;
 	var answer4 = document.forms.quiz1.question4.value;
 	
-	var counter = 0;
+	var score = 0;
 	
 	if( answer1 == 2)
 		{
-		counter = counter + 1;
+		score = score + 25;
 		}
 	
 	if( answer2 == 3)
 		{
-		counter = counter + 1;
+		score = score + 25;
 		}
 	
 	if( answer3 == 1)
 		{
-		counter = counter + 1;
+		score = score + 25;
 		}
 	
 	if( answer4 == 0)
 		{
-		counter = counter + 1;
+		score = score + 25;
 		}
 	
-	alert( "You got " + counter + " questions correct!")
+	alert( "You scored " + score )
+	
+	parent.reportScores ( score );
 	
 	}
