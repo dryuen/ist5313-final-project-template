@@ -90,13 +90,13 @@ function reportScores()
 	oScorm.save();
 }
 
-// function processQuiz()
-//{
-//	var score = 0
+/* function processQuiz()
+{
+	var score = 0
 	
-//	parent.reportScores ( score );
-//}
-
+	parent.reportScores ( score );
+}  */
+      
 // This function is called when the window is closed.  It saves and quits the course.
 function finishCourse()
 {
