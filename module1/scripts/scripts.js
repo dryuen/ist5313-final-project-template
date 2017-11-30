@@ -79,7 +79,7 @@ function initializeSCORM()
 
 // This function reports the score from the assessment to the LMS
 // This should only be called when the user submits the answers to the quiz
-function reportScores()
+/*function reportScores()
 {	
 	oScorm.set("cmi.core.score.raw", score );
 	oScorm.set("cmi.core.score.min", 0 );
@@ -88,7 +88,7 @@ function reportScores()
 	oScorm.set("cmi.core.lesson_status", "passed")
 	
 	oScorm.save();
-}
+}*/
 
 /* function processQuiz()
 {

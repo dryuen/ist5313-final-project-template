@@ -1,3 +1,23 @@
+function reportScores()
+{	
+	oScorm.set("cmi.core.score.raw", score );
+	oScorm.set("cmi.core.score.min", 0 );
+	oScorm.set("cmi.core.score.max", 100 );
+	
+	oScorm.set("cmi.core.lesson_status", "passed")
+	
+	oScorm.save();
+}
+
+
+
+
+
+
+
+
+
+
 function processQuiz()
 
 	{
