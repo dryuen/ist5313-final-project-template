@@ -89,6 +89,7 @@ function reportScores( score )
 	oScorm.set("cmi.core.lesson_status", "passed")
 	
 	oScorm.save();
+}	// you were missing the closing curly brace.
 
 // This function is called when the window is closed.  It saves and quits the course.
 function finishCourse()
