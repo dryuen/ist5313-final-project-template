@@ -86,8 +86,17 @@ function reportScores( score )
 	oScorm.set("cmi.core.score.max", 100 );
 	
 	// you need to check to see if score >= 70 to set this passed, otherwise it needs to be set to failed.
-	oScorm.set("cmi.core.lesson_status", "passed")
+	if ( score > 70 )
+	{
+	(oScorm.set("cmi.core.lesson_status", "passed"));
 	
+	}
+	else 
+	{
+	(oScorm.set("cmi.core.lesson_status", "failed"));
+	}
+	
+		
 	oScorm.save();
 }
 

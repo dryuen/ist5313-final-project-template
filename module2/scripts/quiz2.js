@@ -27,7 +27,7 @@ function processQuiz()
 		score = score + 25;
 	}
 
-	alert( "You scored " + score )
+	alert ("You scored " + score)
 	parent.reportScores ( score );
 	
 }
