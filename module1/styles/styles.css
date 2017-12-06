@@ -415,3 +415,19 @@ table, td
 	text-align: center;
 	border-collapse: collapse;
 }
+
+.container 
+{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#user-name
+{
+	position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
