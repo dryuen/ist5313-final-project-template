@@ -130,15 +130,15 @@ function checkAllVisited()
 		document.getElementById( "content-frame" ).contentWindow.document.getElementById( "certificate-link" ).style.display = "inline";
 	}
 	
-		
 	
-	function visitCertificate()
-	{
-		var learner_name = oScorm.get( "cmi.core.student_name ");
-		document.getElementById( "content-frame" ).contentWindow.document.getElementById( "user-name").innerHTML = learner_name;
-		}
+	
+}
 
-	
+
+function visitCertificate()
+{
+	var learner_name = oScorm.get( "cmi.core.student_name" );
+	document.getElementById( "content-frame" ).contentWindow.document.getElementById( "user-name" ).innerHTML = learner_name;
 }
 
 function toggle2(hideShowDiv, switchTextDiv) 
