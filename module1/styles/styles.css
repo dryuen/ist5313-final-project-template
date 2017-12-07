@@ -433,3 +433,13 @@ table, td
     font-weight: bold;
     font-size: 22px;
 }
+
+#date1
+{
+	position: absolute;
+    top: 80%;
+    left: 18%;
+    color: black;
+    font-weight: bold;
+    font-size: 8px;
+}
