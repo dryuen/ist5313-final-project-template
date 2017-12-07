@@ -48,6 +48,5 @@ function processQuiz()
 	alert( "You scored " + score )
 	parent.reportScores ( score );
 	
-
 	
 }
