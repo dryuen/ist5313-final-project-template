@@ -31,6 +31,7 @@ function processQuiz()
 		{
 		
 			document.getElementById( "certificate-link" ).style.display = "inline";
+			
 		}
 		
 		alert( "You scored " + score )
