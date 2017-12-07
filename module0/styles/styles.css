@@ -156,3 +156,12 @@ audio
 {
       display: none;
 }    
+
+#user-name
+{
+	position: absolute;
+	top: 380px;
+	left: 345px;
+	width: 400px;
+	height:	40px;
+}
