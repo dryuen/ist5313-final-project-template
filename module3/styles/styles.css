@@ -425,3 +425,13 @@ img
     font-weight: bold;
     font-size: 22px;
 }
+
+#date1
+{
+	position: absolute;
+    top: 87%;
+    left: 30%;
+    color: black;
+    font-weight: bold;
+    font-size: 8px;
+}
