@@ -1,19 +1,4 @@
-	/*
-	 
-	// this function can't be here. It is in the scripts.js
-	// oScorm is a variable that's only visibile in scripts.js
-	function reportScores()
-	{	
-		oScorm.set("cmi.core.score.raw", score );
-		oScorm.set("cmi.core.score.min", 0 );
-		oScorm.set("cmi.core.score.max", 100 );
-		
-		oScorm.set("cmi.core.lesson_status", "passed")
-		
-		oScorm.save();
-	}
-	
-	*/
+
 	
 	
 function processQuiz()
