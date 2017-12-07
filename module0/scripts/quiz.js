@@ -81,7 +81,7 @@ function processQuiz()
     {
         alert( "Your score is " + grade + "%. Congratulations!" );
         //$("#certificate-link").css("display", "inline");
-        alert( document.getElementById( "content-frame" ) );
+       
         
         //alert( document.getElementById( "content-frame" ).contentWindow.document.getElementById( "certificate-link" ) );
         document.getElementById( "certificate-link" ).style.display = "inline";
