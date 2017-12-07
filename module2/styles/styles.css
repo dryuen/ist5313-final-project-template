@@ -410,3 +410,14 @@ table, td
 	text-align: center;
 	border-collapse: collapse;
 }
+
+#user-name
+{
+	position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
