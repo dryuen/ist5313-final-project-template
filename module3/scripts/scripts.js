@@ -130,8 +130,7 @@ function checkAllVisited()
 		document.getElementById( "content-frame" ).contentWindow.document.getElementById( "certificate-link" ).style.display = "inline";
 	}
 	
-	
-	
+		
 	
 	function visitCertificate()
 	{

@@ -30,6 +30,14 @@ function processQuiz()
 		score = score + 25;
 	}
 
+	if( score >= 70)
+	{
+	
+		document.getElementById( "certificate-link" ).style.display = "inline";
+		
+	}
+	
+	
 	alert( "You scored " + score )
 	parent.reportScores ( score );
 	
