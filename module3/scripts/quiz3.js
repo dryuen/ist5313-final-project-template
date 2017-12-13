@@ -35,6 +35,8 @@ function processQuiz()
     {
         counter = counter + 1;
     }
+    
+
 
     var percentage = counter / 5;
 
