@@ -7,7 +7,7 @@
     <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
 
 </head>
-<body>
+<body onload="javascript:parent.viewCertificate();>
 
     <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -68,7 +68,11 @@
             <div class="col-sm-11">
                 <div class="row">
                     <h4>Certificate</h4>
-                      <img class="center-block" src="images/Module 3 certificate.png" alt="Orchestra" title="Orchestra" width="600" height="450"/>
+                      <img id="cert-mod3" class="center-block" src="images/certficate-mod3.svg"
+                           alt="Module 3 Certificate"
+                           title="Module 3 Certificate"/>
+                    <p id="student-name"></p>
+
                 </div>
             </div>
         </div>
