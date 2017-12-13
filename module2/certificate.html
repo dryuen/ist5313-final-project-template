@@ -8,7 +8,7 @@
 
     <!--- link your other script files here that are specific to this HTML page here --->
 </head>
-<body>
+<body onload="javascript:parent.viewCertificate();">
 
     <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -70,7 +70,10 @@
             <div class="col-sm-11">
                 <div class="row">
                     <h4>Certificate of Completion</h4>
-                    <img class="center-block" src="images/certificate.jpg" alt="Module 2 Certificate" title="Module 2 Certificate" width="600" height="450"/>
+                    <img id="cert-mod2" class="center-block" src="images/mod2-cert.svg" alt="Module 2 Certificate"
+                         title="Module 2 Certificate" />
+                    <p id="student-name"></p>
+
                 </div>
             </div>
         </div>
