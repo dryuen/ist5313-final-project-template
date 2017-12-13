@@ -6,6 +6,8 @@ function processQuiz()
     var answer1 = document.forms.quiz3.question1.value;
     var answer2 = document.forms.quiz3.question2.value;
     var answer3 = document.forms.quiz3.question3.value;
+    var answer4 = document.forms.quiz3.question4.value;
+    var answer5 = document.forms.quiz3.question5.value;
 
     var counter = 0;		// This variable keeps track of the number of correct answers
 
@@ -23,8 +25,18 @@ function processQuiz()
     {
         counter = counter + 1;
     }
+    
+    if( answer4 == 0 )
+    {
+        counter = counter + 1;
+    }
+    
+    if( answer5 == 2 )
+    {
+        counter = counter + 1;
+    }
 
-    var percentage = counter / 3;
+    var percentage = counter / 5;
 
     var grade = (percentage * 100);
 
