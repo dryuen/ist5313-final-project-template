@@ -86,7 +86,6 @@ function reportScores(score)
     oScorm.set("cmi.core.score.min", 0);
     oScorm.set("cmi.core.score.max", 100);
 
-    alert( "Reported " + score + " as your score." );
 
     if(score > 70){
         oScorm.set("cmi.core.lesson_status", "passed");
@@ -99,8 +98,8 @@ function reportScores(score)
 }
 
 function viewCertificate(){
-    var learnerName = oScorm.get("cmi.core.student_name");
-    document.getElementById("content-frame").contentWindow.document.getElementById("user-name").innerHTML = learnerName;
+    var studentName = oScorm.get("cmi.core.student_name");
+    document.getElementById("content-frame").contentWindow.document.getElementById("student-name").innerHTML = studentName;
 }
 
 // This function is called when the window is closed.  It saves and quits the course.
@@ -176,8 +175,8 @@ function checkAllVisited(){
 
 
 
-    if(t2 =="visited" && t3 == "visited" && t4 == "visited" && t5 == "visited" && t6 == "visited" && t7 == "visited" && t8 =="visited" && t9 == "visited"){
-        document.getElementById("content-frame").contentWindow.document.getElementById("quiz-link").style.display="block";
+    if(t2 =="visited" && t3 == "visited" && t4 == "visited" && t5 == "visited" && t6 == "visited" && t7 == "visited" ){
+        document.getElementById("content-frame").contentWindow.document.getElementById("quiz-link").style.display = "block";
 
     }
 }

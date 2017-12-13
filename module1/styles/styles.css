@@ -95,3 +95,17 @@ audio
 #caption-text{
 	margin-top: 20px;
 }
+
+#cert-mod1{
+	height: 450px;
+}
+
+#student-name {
+	z-index: 100;
+	position: absolute;
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+	left: 190px;
+	top: 225px;
+}
