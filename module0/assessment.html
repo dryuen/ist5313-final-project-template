@@ -8,6 +8,7 @@
 
         <!--- link your other script files here that are specific to this HTML page here --->
         <script src="scripts/quiz0.js"></script>
+        <script src="scripts/scripts.js"></script>
 
     </head>
 
@@ -53,19 +54,26 @@
                     </audio>
                 </div>
 
-                <div class="row text-center">
-                    <a href="certificate.html"><h5 id="certificate-link" style="display: none;">Click here for your certificate</h5></a>
-                </div>
-                
             </div>
 
             <div class="col-sm-9">
                 <div class="col-sm-11">
-                    <!--<div class="row text-center">-->
-                        <!--<a href="certificate.html"><h5 id="certificate-link" style="display: none;">Click here for your certificate</h5></a>-->
-                    <!--</div>-->
-
                     <div class="row">
+
+                        <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title">Results</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div id="certificate-link"></div>
+                                    </div>
+                                </div><!-- /.modal-content -->
+                            </div><!-- /.modal-dialog -->
+                        </div><!-- /.modal -->
+
                         <h4>Assessment</h4>
                         <p>You will complete the following multiple choice quiz. In order to receive your certificate, you must pass the assessment with a 70% or higher.</p>
                     </div>
